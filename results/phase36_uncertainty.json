@@ -1,0 +1,300 @@
+{
+  "phase": 36,
+  "name": "Software Uncertainty Principle",
+  "precision_data": [
+    {
+      "src": "def f(x, y): return x + y",
+      "exact_match": 0.0,
+      "change_radius": 0.2,
+      "uncertainty_product": 0.0
+    },
+    {
+      "src": "def f(x, y): return abs(x + y)",
+      "exact_match": 0.0,
+      "change_radius": 0.05,
+      "uncertainty_product": 0.0
+    },
+    {
+      "src": "def f(a, b): return a + b",
+      "exact_match": 0.0,
+      "change_radius": 0.1,
+      "uncertainty_product": 0.0
+    },
+    {
+      "src": "def f(a, b): return abs(a + b)",
+      "exact_match": 1.0,
+      "change_radius": 0.05,
+      "uncertainty_product": 0.05
+    },
+    {
+      "src": "def f(m, n): return m + n",
+      "exact_match": 1.0,
+      "change_radius": 0.1,
+      "uncertainty_product": 0.1
+    },
+    {
+      "src": "def f(m, n): return abs(m + n)",
+      "exact_match": 0.0,
+      "change_radius": 0.1,
+      "uncertainty_product": 0.0
+    },
+    {
+      "src": "def f(p, q): return p + q",
+      "exact_match": 0.0,
+      "change_radius": 0.1,
+      "uncertainty_product": 0.0
+    },
+    {
+      "src": "def f(p, q): return abs(p + q)",
+      "exact_match": 0.0,
+      "change_radius": 0.05,
+      "uncertainty_product": 0.0
+    },
+    {
+      "src": "def f(x, y): return x - y",
+      "exact_match": 0.0,
+      "change_radius": 0.2,
+      "uncertainty_product": 0.0
+    },
+    {
+      "src": "def f(x, y): return abs(x - y)",
+      "exact_match": 0.0,
+      "change_radius": 0.2,
+      "uncertainty_product": 0.0
+    },
+    {
+      "src": "def f(a, b): return a - b",
+      "exact_match": 1.0,
+      "change_radius": 0.1,
+      "uncertainty_product": 0.1
+    },
+    {
+      "src": "def f(a, b): return abs(a - b)",
+      "exact_match": 0.0,
+      "change_radius": 0.1,
+      "uncertainty_product": 0.0
+    },
+    {
+      "src": "def f(m, n): return m - n",
+      "exact_match": 0.0,
+      "change_radius": 0.2,
+      "uncertainty_product": 0.0
+    },
+    {
+      "src": "def f(m, n): return abs(m - n)",
+      "exact_match": 0.0,
+      "change_radius": 0.1,
+      "uncertainty_product": 0.0
+    },
+    {
+      "src": "def f(p, q): return p - q",
+      "exact_match": 0.0,
+      "change_radius": 0.1,
+      "uncertainty_product": 0.0
+    }
+  ],
+  "dim_sensitivity": [
+    0.8,
+    0.0,
+    0.0,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.2,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5,
+    0.0,
+    0.0,
+    0.4,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4,
+    0.2,
+    0.4,
+    0.0,
+    0.2,
+    0.4,
+    0.0,
+    0.0,
+    0.2,
+    0.4,
+    0.4,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4,
+    0.2,
+    0.0,
+    0.0,
+    0.4,
+    0.2,
+    0.0,
+    0.0,
+    0.4,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "dim_precision": [
+    0.08962838351726532,
+    0.14462944865226746,
+    0.044738538563251495,
+    0.13552583754062653,
+    0.09491174668073654,
+    0.0627530962228775,
+    0.07727304846048355,
+    0.12770329415798187,
+    0.10704874992370605,
+    0.05932604521512985,
+    0.08490084856748581,
+    0.16524216532707214,
+    0.05915544182062149,
+    0.03183303028345108,
+    0.10093925893306732,
+    0.08627203106880188,
+    0.04311205819249153,
+    0.11149035394191742,
+    0.07521628588438034,
+    0.10904443264007568,
+    0.04722561687231064,
+    0.15069599449634552,
+    0.09600619971752167,
+    0.12189660221338272,
+    0.07141151279211044,
+    0.14377672970294952,
+    0.14641118049621582,
+    0.1485065221786499,
+    0.16889826953411102,
+    0.1851474940776825,
+    0.07406432926654816,
+    0.11783508956432343,
+    0.1626327931880951,
+    0.06493310630321503,
+    0.05930808186531067,
+    0.11529944837093353,
+    0.07342340052127838,
+    0.14941447973251343,
+    0.05276204273104668,
+    0.11285404860973358,
+    0.06356166303157806,
+    0.03884318843483925,
+    0.13228462636470795,
+    0.14792443811893463,
+    0.17040881514549255,
+    0.07450531423091888,
+    0.1505780667066574,
+    0.06471557915210724,
+    0.11908338218927383,
+    0.09773804992437363,
+    0.13676925003528595,
+    0.15841136872768402,
+    0.10274751484394073,
+    0.11615423858165741,
+    0.07681254297494888,
+    0.06864689290523529,
+    0.19035300612449646,
+    0.06421750783920288,
+    0.03563592582941055,
+    0.14380016922950745,
+    0.11565933376550674,
+    0.06240652874112129,
+    0.04804845526814461,
+    0.02838633954524994
+  ],
+  "mean_uncertainty": 0.012890506559051574,
+  "top_sensitive_dims": [
+    0,
+    19,
+    60,
+    56,
+    37
+  ],
+  "curvature": [
+    {
+      "src": "def f(x, y): return x + y",
+      "local_stability": 0.0
+    },
+    {
+      "src": "def f(x, y): return abs(x + y)",
+      "local_stability": 0.05
+    },
+    {
+      "src": "def f(a, b): return a + b",
+      "local_stability": 0.0
+    },
+    {
+      "src": "def f(a, b): return abs(a + b)",
+      "local_stability": 0.05
+    },
+    {
+      "src": "def f(m, n): return m + n",
+      "local_stability": 0.05
+    },
+    {
+      "src": "def f(m, n): return abs(m + n)",
+      "local_stability": 0.0
+    },
+    {
+      "src": "def f(p, q): return p + q",
+      "local_stability": 0.0
+    },
+    {
+      "src": "def f(p, q): return abs(p + q)",
+      "local_stability": 0.0
+    },
+    {
+      "src": "def f(x, y): return x - y",
+      "local_stability": 0.05
+    },
+    {
+      "src": "def f(x, y): return abs(x - y)",
+      "local_stability": 0.05
+    },
+    {
+      "src": "def f(a, b): return a - b",
+      "local_stability": 0.05
+    },
+    {
+      "src": "def f(a, b): return abs(a - b)",
+      "local_stability": 0.15
+    },
+    {
+      "src": "def f(m, n): return m - n",
+      "local_stability": 0.05
+    },
+    {
+      "src": "def f(m, n): return abs(m - n)",
+      "local_stability": 0.15
+    },
+    {
+      "src": "def f(p, q): return p - q",
+      "local_stability": 0.1
+    }
+  ],
+  "elapsed": 113.5335419178009,
+  "timestamp": "2026-05-05T23:56:29"
+}

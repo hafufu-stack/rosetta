@@ -1,0 +1,103 @@
+{
+  "phase": 34,
+  "name": "Compiler's Null Space",
+  "n_signal": 20,
+  "n_null": 44,
+  "threshold": 0.037635188549757004,
+  "null_decoded": [
+    {
+      "dim": 20,
+      "sv": 0.02996842935681343,
+      "code": "def f(x, y): return x // y"
+    },
+    {
+      "dim": 21,
+      "sv": 0.02269257791340351,
+      "code": "def f(x, y): return x // y"
+    },
+    {
+      "dim": 22,
+      "sv": 0.01709815301001072,
+      "code": "def f(x, y): return x // y"
+    },
+    {
+      "dim": 23,
+      "sv": 0.012614894658327103,
+      "code": "def f(x, y): return x != y"
+    },
+    {
+      "dim": 24,
+      "sv": 0.010325707495212555,
+      "code": "def f(p, q): return p // q"
+    },
+    {
+      "dim": 25,
+      "sv": 0.007811563555151224,
+      "code": "def f(x, y): return x // y"
+    },
+    {
+      "dim": 26,
+      "sv": 0.0058400812558829784,
+      "code": "def f(x, y): return x != y"
+    },
+    {
+      "dim": 27,
+      "sv": 0.0034705970901995897,
+      "code": "def f(x, y): return x // y"
+    }
+  ],
+  "avg_signal_energy": 0.5373771786689758,
+  "avg_null_energy": 0.4626227915287018,
+  "injection_results": [
+    {
+      "src": "def f(x, y): return x + y",
+      "scale": 0.5,
+      "binary_change": 0.014984221197664738,
+      "same_code": true,
+      "original": "def f(m, n): return m + n",
+      "perturbed": "def f(m, n): return m + n"
+    },
+    {
+      "src": "def f(x, y): return x + y",
+      "scale": 1.0,
+      "binary_change": 0.029968442395329475,
+      "same_code": true,
+      "original": "def f(m, n): return m + n",
+      "perturbed": "def f(m, n): return m + n"
+    },
+    {
+      "src": "def f(x, y): return x + y",
+      "scale": 2.0,
+      "binary_change": 0.059936873614788055,
+      "same_code": false,
+      "original": "def f(m, n): return m + n",
+      "perturbed": "def f(m, n): return m < n"
+    },
+    {
+      "src": "def f(x, y): return abs(x + y)",
+      "scale": 0.5,
+      "binary_change": 0.014984231442213058,
+      "same_code": true,
+      "original": "def f(a, b): return abs(a + b)",
+      "perturbed": "def f(a, b): return abs(a + b)"
+    },
+    {
+      "src": "def f(x, y): return abs(x + y)",
+      "scale": 1.0,
+      "binary_change": 0.02996845543384552,
+      "same_code": false,
+      "original": "def f(a, b): return abs(a + b)",
+      "perturbed": "def f(a, b): return abs(a // b)"
+    },
+    {
+      "src": "def f(x, y): return abs(x + y)",
+      "scale": 2.0,
+      "binary_change": 0.05993686616420746,
+      "same_code": false,
+      "original": "def f(a, b): return abs(a + b)",
+      "perturbed": "def f(a, b): return abs(a // b)"
+    }
+  ],
+  "elapsed": 2.747063159942627,
+  "timestamp": "2026-05-05T23:50:00"
+}
