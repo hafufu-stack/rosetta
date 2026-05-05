@@ -1,0 +1,186 @@
+{
+  "phase": 33,
+  "name": "Compilation Eigenfunctions",
+  "eigenvalues": [
+    {
+      "real": 1.1521397829055786,
+      "imag": 0.0,
+      "mag": 1.1521397829055786
+    },
+    {
+      "real": 1.1113539934158325,
+      "imag": 0.0,
+      "mag": 1.1113539934158325
+    },
+    {
+      "real": 1.0216730833053589,
+      "imag": 0.0,
+      "mag": 1.0216730833053589
+    },
+    {
+      "real": 0.9247381091117859,
+      "imag": -0.18211083114147186,
+      "mag": 0.9424992799758911
+    },
+    {
+      "real": 0.9247381091117859,
+      "imag": 0.18211083114147186,
+      "mag": 0.9424992799758911
+    },
+    {
+      "real": 0.8693650364875793,
+      "imag": 0.0,
+      "mag": 0.8693650364875793
+    },
+    {
+      "real": 0.35422202944755554,
+      "imag": 0.0,
+      "mag": 0.35422202944755554
+    },
+    {
+      "real": 0.19934703409671783,
+      "imag": 0.0,
+      "mag": 0.19934703409671783
+    },
+    {
+      "real": 0.16020314395427704,
+      "imag": 0.09795805811882019,
+      "mag": 0.18777866661548615
+    },
+    {
+      "real": 0.16020314395427704,
+      "imag": -0.09795805811882019,
+      "mag": 0.18777866661548615
+    }
+  ],
+  "eigen_codes": [
+    {
+      "index": 0,
+      "eigenvalue_real": 1.1521397829055786,
+      "eigenvalue_imag": 0.0,
+      "eigenvalue_mag": 1.1521397829055786,
+      "decoded": "def f(a, b): return a ** b",
+      "nearest": "def f(x, y): return (x - y) / x",
+      "nearest_cos": 0.4365308880805969
+    },
+    {
+      "index": 1,
+      "eigenvalue_real": 1.1113539934158325,
+      "eigenvalue_imag": 0.0,
+      "eigenvalue_mag": 1.1113539934158325,
+      "decoded": "def f(a): return a * a",
+      "nearest": "def f(x): return x + 1",
+      "nearest_cos": 0.3159412741661072
+    },
+    {
+      "index": 2,
+      "eigenvalue_real": 1.0216730833053589,
+      "eigenvalue_imag": 0.0,
+      "eigenvalue_mag": 1.0216730833053589,
+      "decoded": "def f(x, y): return x // y",
+      "nearest": "def f(x, y): return x // y",
+      "nearest_cos": 0.20101284980773926
+    },
+    {
+      "index": 3,
+      "eigenvalue_real": 0.9247381091117859,
+      "eigenvalue_imag": -0.18211083114147186,
+      "eigenvalue_mag": 0.9424992799758911,
+      "decoded": "def f(text): return text.swapcase()",
+      "nearest": "def f(x): return x if x >= 0 else 0",
+      "nearest_cos": 0.2750329375267029
+    },
+    {
+      "index": 4,
+      "eigenvalue_real": 0.9247381091117859,
+      "eigenvalue_imag": 0.18211083114147186,
+      "eigenvalue_mag": 0.9424992799758911,
+      "decoded": "def f(text): return text.swapcase()",
+      "nearest": "def f(x): return x if x >= 0 else 0",
+      "nearest_cos": 0.2750329375267029
+    },
+    {
+      "index": 5,
+      "eigenvalue_real": 0.8693650364875793,
+      "eigenvalue_imag": 0.0,
+      "eigenvalue_mag": 0.8693650364875793,
+      "decoded": "def f(t): return t[::-1]",
+      "nearest": "def f(x, y): return x >= y",
+      "nearest_cos": 0.35398030281066895
+    },
+    {
+      "index": 6,
+      "eigenvalue_real": 0.35422202944755554,
+      "eigenvalue_imag": 0.0,
+      "eigenvalue_mag": 0.35422202944755554,
+      "decoded": "def f(a, b): return a > b",
+      "nearest": "def f(x, y): return x if x > y else y",
+      "nearest_cos": 0.17395128309726715
+    },
+    {
+      "index": 7,
+      "eigenvalue_real": 0.19934703409671783,
+      "eigenvalue_imag": 0.0,
+      "eigenvalue_mag": 0.19934703409671783,
+      "decoded": "def f(p, q): return p // q",
+      "nearest": "def f(x, y): return x + y",
+      "nearest_cos": 0.12625175714492798
+    },
+    {
+      "index": 8,
+      "eigenvalue_real": 0.16020314395427704,
+      "eigenvalue_imag": 0.09795805811882019,
+      "eigenvalue_mag": 0.18777866661548615,
+      "decoded": "def f(p, q): return p == q",
+      "nearest": "def f(s): return s[::-1]",
+      "nearest_cos": 0.08914005011320114
+    },
+    {
+      "index": 9,
+      "eigenvalue_real": 0.16020314395427704,
+      "eigenvalue_imag": -0.09795805811882019,
+      "eigenvalue_mag": 0.18777866661548615,
+      "decoded": "def f(p, q): return p == q",
+      "nearest": "def f(s): return s[::-1]",
+      "nearest_cos": 0.08914005011320114
+    }
+  ],
+  "most_invariant": [
+    {
+      "src": "def f(x, y): return abs(x * y)",
+      "score": 0.5826619863510132
+    },
+    {
+      "src": "def f(a, b): return abs(a * b)",
+      "score": 0.5826619863510132
+    },
+    {
+      "src": "def f(m, n): return abs(m * n)",
+      "score": 0.5826619863510132
+    },
+    {
+      "src": "def f(p, q): return abs(p * q)",
+      "score": 0.5826619863510132
+    },
+    {
+      "src": "def f(x, y): return (x * y) - x",
+      "score": 0.5338734984397888
+    }
+  ],
+  "least_invariant": [
+    {
+      "src": "def f(a, b): return a ** b",
+      "score": 0.2615141272544861
+    },
+    {
+      "src": "def f(m, n): return m ** n",
+      "score": 0.2615141272544861
+    },
+    {
+      "src": "def f(p, q): return p ** q",
+      "score": 0.2615141272544861
+    }
+  ],
+  "elapsed": 0.5516340732574463,
+  "timestamp": "2026-05-05T23:42:30"
+}

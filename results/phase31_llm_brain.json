@@ -1,0 +1,321 @@
+{
+  "phase": 31,
+  "name": "Decompiling the LLM Brain",
+  "n_prompts": 10,
+  "mind_reads": [
+    {
+      "prompt": "Calculate the sum of two numbers",
+      "decoded_mean": "def f(x): return -x",
+      "token_trajectory": [
+        {
+          "token": "Cal",
+          "code": "def f(p, q): return p and q"
+        },
+        {
+          "token": "cul",
+          "code": "def f(text): return text.swapcase()"
+        },
+        {
+          "token": "ate",
+          "code": "def f(n): return float(n)"
+        },
+        {
+          "token": "\u0120the",
+          "code": "def f(m, n): return m < n"
+        },
+        {
+          "token": "\u0120sum",
+          "code": "def f(w): return w.swapcase()"
+        },
+        {
+          "token": "\u0120of",
+          "code": "def f(a): return -a"
+        },
+        {
+          "token": "\u0120two",
+          "code": "def f(x, y): return x >= y"
+        },
+        {
+          "token": "\u0120numbers",
+          "code": "def f(a): return not a"
+        }
+      ]
+    },
+    {
+      "prompt": "Find the product of x and y",
+      "decoded_mean": "def f(t): return t[::-1]",
+      "token_trajectory": [
+        {
+          "token": "Find",
+          "code": "def f(text): return text.swapcase()"
+        },
+        {
+          "token": "\u0120the",
+          "code": "def f(a, b): return a == b"
+        },
+        {
+          "token": "\u0120product",
+          "code": "def f(a): return int(a)"
+        },
+        {
+          "token": "\u0120of",
+          "code": "def f(nums): return list(reversed(nums))"
+        },
+        {
+          "token": "\u0120x",
+          "code": "def f(v): return v * v * v"
+        },
+        {
+          "token": "\u0120and",
+          "code": "!!<![<[:o0022222oef(a, b): return w.strip()"
+        },
+        {
+          "token": "\u0120y",
+          "code": "def f(a): return a * a"
+        }
+      ]
+    },
+    {
+      "prompt": "Check if the first number is larger",
+      "decoded_mean": "def f(p, q): return p // q",
+      "token_trajectory": [
+        {
+          "token": "Check",
+          "code": "def f(text): return text.swapcase()"
+        },
+        {
+          "token": "\u0120if",
+          "code": "def f(a): return -a"
+        },
+        {
+          "token": "\u0120the",
+          "code": "def f(x, y): return x >= y"
+        },
+        {
+          "token": "\u0120first",
+          "code": "defdef(x, y): f(x): return p if p > 0 else -p"
+        },
+        {
+          "token": "\u0120number",
+          "code": "def f(x, y): return x != y"
+        },
+        {
+          "token": "\u0120is",
+          "code": "def f(a, b): return a == b"
+        },
+        {
+          "token": "\u0120larger",
+          "code": "def f(m, n): return m >= n"
+        }
+      ]
+    },
+    {
+      "prompt": "Get the absolute value",
+      "decoded_mean": "def f(a): return int(a)",
+      "token_trajectory": [
+        {
+          "token": "Get",
+          "code": "def f(text): return text.swapcase()"
+        },
+        {
+          "token": "\u0120the",
+          "code": "def f(a, b): return a < b"
+        },
+        {
+          "token": "\u0120absolute",
+          "code": "def f(p, q): return p // q"
+        },
+        {
+          "token": "\u0120value",
+          "code": "de return x > y"
+        }
+      ]
+    },
+    {
+      "prompt": "Subtract b from a",
+      "decoded_mean": "def f(p, q): return p // q",
+      "token_trajectory": [
+        {
+          "token": "Sub",
+          "code": "def f(p, q): return p or q"
+        },
+        {
+          "token": "t",
+          "code": "def f(a, b): return a == b"
+        },
+        {
+          "token": "ract",
+          "code": "def f(t): return t[::-1]"
+        },
+        {
+          "token": "\u0120b",
+          "code": "def f(a, b): return a * b"
+        },
+        {
+          "token": "\u0120from",
+          "code": "def f(p, q): return p // q"
+        },
+        {
+          "token": "\u0120a",
+          "code": "def f(x, y): return x % y"
+        }
+      ]
+    },
+    {
+      "prompt": "Compute the remainder of division",
+      "decoded_mean": "def f(a, b): return a * b",
+      "token_trajectory": [
+        {
+          "token": "Comp",
+          "code": "def f(t): return t.strip()"
+        },
+        {
+          "token": "ute",
+          "code": "def f(m, n): return m < n"
+        },
+        {
+          "token": "\u0120the",
+          "code": "def(x, yy): f(a): return abs(a)"
+        },
+        {
+          "token": "\u0120remainder",
+          "code": "!o00!cowe.def(x, y): f(x): return x + 1"
+        },
+        {
+          "token": "\u0120of",
+          "code": "def f(p, q): return p / q"
+        },
+        {
+          "token": "\u0120division",
+          "code": "defdef(x, y): return x % y"
+        }
+      ]
+    },
+    {
+      "prompt": "Return the negative of a number",
+      "decoded_mean": "def f(p, q): return p / q",
+      "token_trajectory": [
+        {
+          "token": "Return",
+          "code": "def f(text): return text.swapcase()"
+        },
+        {
+          "token": "\u0120the",
+          "code": "def f(m, n): return m >= n"
+        },
+        {
+          "token": "\u0120negative",
+          "code": "def f(a, b): return a * b"
+        },
+        {
+          "token": "\u0120of",
+          "code": "def f(a, b): return a < b"
+        },
+        {
+          "token": "\u0120a",
+          "code": "def f(v): return v * v * v"
+        },
+        {
+          "token": "\u0120number",
+          "code": "def f(p, q): return p // q"
+        }
+      ]
+    },
+    {
+      "prompt": "Convert text to uppercase",
+      "decoded_mean": "def f(x): return not x",
+      "token_trajectory": [
+        {
+          "token": "Con",
+          "code": "def f(t): return t.strip()"
+        },
+        {
+          "token": "vert",
+          "code": "den return x // y"
+        },
+        {
+          "token": "\u0120text",
+          "code": "def f(a, b): return a == b"
+        },
+        {
+          "token": "\u0120to",
+          "code": "def f(arr): return max(arr)"
+        },
+        {
+          "token": "\u0120u",
+          "code": "def f(text): return text[::-1]"
+        },
+        {
+          "token": "pperc",
+          "code": " * ret): return p if p >= 0 else -p"
+        },
+        {
+          "token": "ase",
+          "code": "def f(text): return text.swapcase()"
+        }
+      ]
+    },
+    {
+      "prompt": "Raise x to the power y",
+      "decoded_mean": "def f(m, n): return m / n",
+      "token_trajectory": [
+        {
+          "token": "Ra",
+          "code": "def f(text): return text.swapcase()"
+        },
+        {
+          "token": "ise",
+          "code": "def f(text): return text[::-1]"
+        },
+        {
+          "token": "\u0120x",
+          "code": "def f(v): return v * v * v"
+        },
+        {
+          "token": "\u0120to",
+          "code": "def f(a, b): return a * b"
+        },
+        {
+          "token": "\u0120the",
+          "code": "dedef(x, yy): f(a, b): return a == b"
+        },
+        {
+          "token": "\u0120power",
+          "code": "def f(p, q): return p and q"
+        },
+        {
+          "token": "\u0120y",
+          "code": "defdef(x, y): return x % y"
+        }
+      ]
+    },
+    {
+      "prompt": "Divide x by y",
+      "decoded_mean": "def f(x): return x % 2 != 0",
+      "token_trajectory": [
+        {
+          "token": "Div",
+          "code": "def f(text): return text.swapcase()"
+        },
+        {
+          "token": "ide",
+          "code": "def f(x): return x % 2 != 0"
+        },
+        {
+          "token": "\u0120x",
+          "code": "def f(v): return v * v * v"
+        },
+        {
+          "token": "\u0120by",
+          "code": "def f(m, n): return m + n"
+        },
+        {
+          "token": "\u0120y",
+          "code": "def f(x, y): return x ** y"
+        }
+      ]
+    }
+  ],
+  "elapsed": 9.550740242004395,
+  "timestamp": "2026-05-05T23:42:29"
+}

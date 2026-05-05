@@ -1,0 +1,75 @@
+{
+  "phase": 30,
+  "name": "Zero-Shot Executable Synthesis",
+  "n_correct": 4,
+  "n_exec": 7,
+  "accuracy": 0.5714285714285714,
+  "details": [
+    {
+      "prompt": "add two numbers",
+      "nearest_src": "def f(x, y): return x < y",
+      "hamming": 4,
+      "result": "True",
+      "expected": "8",
+      "correct": false
+    },
+    {
+      "prompt": "multiply x and y",
+      "nearest_src": "def f(x): return x * x",
+      "hamming": 0,
+      "result": "None",
+      "expected": "28",
+      "correct": false
+    },
+    {
+      "prompt": "subtract a from b",
+      "nearest_src": "def f(x, y): return x - y",
+      "hamming": 0,
+      "result": "7",
+      "expected": "7",
+      "correct": true
+    },
+    {
+      "prompt": "check if x is greater than y",
+      "nearest_src": "def f(x, y): return x > y",
+      "hamming": 2,
+      "result": "True",
+      "expected": "True",
+      "correct": true
+    },
+    {
+      "prompt": "return absolute value of x",
+      "nearest_src": "def f(x): return abs(x)",
+      "hamming": 0,
+      "result": "7",
+      "expected": "7",
+      "correct": true
+    },
+    {
+      "prompt": "negate a number",
+      "nearest_src": "def f(x): return -x",
+      "hamming": 4,
+      "result": "-5",
+      "expected": "-5",
+      "correct": true
+    },
+    {
+      "prompt": "return x modulo y",
+      "nearest_src": "def f(x, y): return x < y",
+      "hamming": 3,
+      "result": "False",
+      "expected": "2",
+      "correct": false
+    },
+    {
+      "prompt": "compute x to the power of y",
+      "nearest_src": "def f(x, y): return x - y",
+      "hamming": 1,
+      "result": "-1",
+      "expected": "8",
+      "correct": false
+    }
+  ],
+  "elapsed": 1.2490012645721436,
+  "timestamp": "2026-05-05T23:42:17"
+}
