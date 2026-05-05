@@ -1,0 +1,83 @@
+{
+  "phase": 13,
+  "name": "Semantic Auto-Patching",
+  "total_bugs": 7,
+  "exact_fixes": 0,
+  "semantic_fixes": 4,
+  "exact_rate": 0.0,
+  "semantic_rate": 0.5714285714285714,
+  "details": [
+    {
+      "desc": "Bug: adds instead of subtracting",
+      "buggy": "def f(x, y): return x + y",
+      "correct": "def f(x, y): return x - y",
+      "buggy_decoded": "def f(p, q): return p + q",
+      "patched": "def f(m, n): return m - n",
+      "patched_scaled": "def f(a, b): return a <= b",
+      "exact_fix": false,
+      "semantic_fix": true
+    },
+    {
+      "desc": "Bug: subtracts instead of adding",
+      "buggy": "def f(x, y): return x - y",
+      "correct": "def f(x, y): return x + y",
+      "buggy_decoded": "def f(m, n): return m - n",
+      "patched": "def f(a, b): return a + b",
+      "patched_scaled": "def f(a, b): return a - b",
+      "exact_fix": false,
+      "semantic_fix": true
+    },
+    {
+      "desc": "Bug: multiplies instead of dividing",
+      "buggy": "def f(x, y): return x * y",
+      "correct": "def f(x, y): return x / y",
+      "buggy_decoded": "def f(a, b): return a * b",
+      "patched": "def f(m, n): return m / n",
+      "patched_scaled": "def f(m, n): return m % n",
+      "exact_fix": false,
+      "semantic_fix": true
+    },
+    {
+      "desc": "Bug: wrong comparison direction",
+      "buggy": "def f(x, y): return x > y",
+      "correct": "def f(x, y): return x < y",
+      "buggy_decoded": "def f(a, b): return a > b",
+      "patched": "def f(m, n): return m < n",
+      "patched_scaled": "def f(p, q): return p >= q",
+      "exact_fix": false,
+      "semantic_fix": true
+    },
+    {
+      "desc": "Bug: equality instead of inequality",
+      "buggy": "def f(x, y): return x == y",
+      "correct": "def f(x, y): return x != y",
+      "buggy_decoded": "def f(p, q): return p == q",
+      "patched": "def f(m, n): return m <= n",
+      "patched_scaled": "def f(m, n): return m == n",
+      "exact_fix": false,
+      "semantic_fix": false
+    },
+    {
+      "desc": "Bug: uppercases instead of lowercasing",
+      "buggy": "def f(s): return s.upper()",
+      "correct": "def f(s): return s.lower()",
+      "buggy_decoded": "def f(text): return text.swapcase()",
+      "patched": "def f(text): return text.swapcase()",
+      "patched_scaled": "def f(text): return text.swapcase()",
+      "exact_fix": false,
+      "semantic_fix": false
+    },
+    {
+      "desc": "Bug: increments instead of decrementing",
+      "buggy": "def f(x): return x + 1",
+      "correct": "def f(x): return x - 1",
+      "buggy_decoded": "def f(x): return x + 1",
+      "patched": "def f(a): return a / 2",
+      "patched_scaled": "def f(v): return v % 2 == 0",
+      "exact_fix": false,
+      "semantic_fix": false
+    }
+  ],
+  "elapsed": 0.40917396545410156,
+  "timestamp": "2026-05-05T18:00:47"
+}

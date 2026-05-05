@@ -1,0 +1,15 @@
+{
+  "phase": 6,
+  "name": "The Linear Decompiler",
+  "forward_r2": 0.9703670144081116,
+  "inverse_r2_ridge": 0.8623085021972656,
+  "inverse_r2_pinv": -4859058176.0,
+  "bin_to_nl_r2": 0.866101861000061,
+  "retrieval_ridge": 0.1989051094890511,
+  "retrieval_pinv": 0.0,
+  "roundtrip_r2": 0.897611677646637,
+  "roundtrip_cos": 0.9562969947383352,
+  "condition_number": 19712466.0,
+  "elapsed": 0.11166119575500488,
+  "timestamp": "2026-05-05T17:40:29"
+}

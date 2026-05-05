@@ -1,0 +1,12 @@
+{
+  "phase": 20,
+  "name": "The Natural Language CPU",
+  "exec_samples": 20089,
+  "r2_ast": 0.754788875579834,
+  "r2_nl": 0.43477147817611694,
+  "mae_ast": 1249.21484375,
+  "mae_nl": 2307.56640625,
+  "ast_nl_correlation": 0.7308628353258954,
+  "elapsed": 38.84693646430969,
+  "timestamp": "2026-05-05T18:24:13"
+}

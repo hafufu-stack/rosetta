@@ -1,0 +1,73 @@
+{
+  "phase": 19,
+  "name": "Latent Function Composition",
+  "total": 7,
+  "has_expected": 2,
+  "details": [
+    {
+      "desc": "add + abs -> abs(x+y)?",
+      "src_a": "def f(x, y): return x + y",
+      "src_b": "def f(x): return abs(x)",
+      "sum": "def f(arr): return list(reversed(arr))",
+      "avg": "def f(a, b): return a == b",
+      "weighted": "def f(a, b): return abs(a * b)",
+      "has_expected": false
+    },
+    {
+      "desc": "sub + abs -> abs(x-y)?",
+      "src_a": "def f(x, y): return x - y",
+      "src_b": "def f(x): return abs(x)",
+      "sum": "def f(a, b): return abs(a / b)",
+      "avg": "def f(m, n): return abs(m ** n)",
+      "weighted": "def f(p, q): return p // q",
+      "has_expected": true
+    },
+    {
+      "desc": "add + square -> (x+y)^2?",
+      "src_a": "def f(x, y): return x + y",
+      "src_b": "def f(x): return x * x",
+      "sum": "def f(x, y): return (x - y) / x",
+      "avg": "def f(p, q): return p / q",
+      "weighted": "def f(p, q): return p // q",
+      "has_expected": false
+    },
+    {
+      "desc": "mul + negate -> -(x*y)?",
+      "src_a": "def f(x, y): return x * y",
+      "src_b": "def f(x): return -x",
+      "sum": "def f(x, y): return x // y",
+      "avg": "def f(x, y): return x // y",
+      "weighted": "def f(x, y): return x / y",
+      "has_expected": false
+    },
+    {
+      "desc": "upper + len -> len(upper(s))?",
+      "src_a": "def f(s): return s.upper()",
+      "src_b": "def f(s): return len(s)",
+      "sum": "d n x * y) + x",
+      "avg": "def f(arr): return list(reversed(arr))",
+      "weighted": "def f(text): return text.swapcase()",
+      "has_expected": false
+    },
+    {
+      "desc": "add + sub -> identity/zero?",
+      "src_a": "def f(x, y): return x + y",
+      "src_b": "def f(x, y): return x - y",
+      "sum": "def f(m, n): return m / n",
+      "avg": "def f(p, q): return p / q",
+      "weighted": "def f(p, q): return p // q",
+      "has_expected": true
+    },
+    {
+      "desc": "gt + not -> x <= y?",
+      "src_a": "def f(x, y): return x > y",
+      "src_b": "def f(x): return not x",
+      "sum": "def f(a, b): return a == b",
+      "avg": "def f(m, n): return abs(m ** n)",
+      "weighted": "def f(p, q): return p // q",
+      "has_expected": false
+    }
+  ],
+  "elapsed": 0.460529088973999,
+  "timestamp": "2026-05-05T18:23:33"
+}

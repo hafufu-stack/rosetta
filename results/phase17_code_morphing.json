@@ -1,0 +1,265 @@
+{
+  "phase": 17,
+  "name": "Infinite Code Morphing",
+  "n_pairs": 5,
+  "n_steps": 11,
+  "morphs": [
+    {
+      "desc": "Addition -> Multiplication",
+      "src_a": "def f(x, y): return x + y",
+      "src_b": "def f(x, y): return x * y",
+      "sequence": [
+        {
+          "t": 0.0,
+          "code": "def f(m, n): return m + n"
+        },
+        {
+          "t": 0.1,
+          "code": "def f(x, y): return x != y"
+        },
+        {
+          "t": 0.2,
+          "code": "def f(p, q): return p // q"
+        },
+        {
+          "t": 0.3,
+          "code": "def f(p, q): return p // q"
+        },
+        {
+          "t": 0.4,
+          "code": "def f(p, q): return p / q"
+        },
+        {
+          "t": 0.5,
+          "code": "def f(p, q): return p / q"
+        },
+        {
+          "t": 0.6,
+          "code": "def f(x, y): return x / y"
+        },
+        {
+          "t": 0.7,
+          "code": "def f(x, y): return x >= y"
+        },
+        {
+          "t": 0.8,
+          "code": "def f(a, b): return a - b"
+        },
+        {
+          "t": 0.9,
+          "code": "def f(a, b): return a > b"
+        },
+        {
+          "t": 1.0,
+          "code": "def f(a, b): return a * b"
+        }
+      ]
+    },
+    {
+      "desc": "Addition -> Comparison",
+      "src_a": "def f(x, y): return x + y",
+      "src_b": "def f(x, y): return x > y",
+      "sequence": [
+        {
+          "t": 0.0,
+          "code": "def f(m, n): return m + n"
+        },
+        {
+          "t": 0.1,
+          "code": "def f(a, b): return a != b"
+        },
+        {
+          "t": 0.2,
+          "code": "def f(p, q): return p // q"
+        },
+        {
+          "t": 0.3,
+          "code": "def f(p, q): return p // q"
+        },
+        {
+          "t": 0.4,
+          "code": "def f(p, q): return p / q"
+        },
+        {
+          "t": 0.5,
+          "code": "def f(p, q): return p / q"
+        },
+        {
+          "t": 0.6,
+          "code": "def f(p, q): return p / q"
+        },
+        {
+          "t": 0.7,
+          "code": "def f(m, n): return m / n"
+        },
+        {
+          "t": 0.8,
+          "code": "def f(m, n): return m >= n"
+        },
+        {
+          "t": 0.9,
+          "code": "def f(x, y): return x - y"
+        },
+        {
+          "t": 1.0,
+          "code": "def f(x, y): return x > y"
+        }
+      ]
+    },
+    {
+      "desc": "Absolute -> Square",
+      "src_a": "def f(x): return abs(x)",
+      "src_b": "def f(x): return x * x",
+      "sequence": [
+        {
+          "t": 0.0,
+          "code": "def f(arr): return min(arr)"
+        },
+        {
+          "t": 0.1,
+          "code": "def f(a): return int(a)"
+        },
+        {
+          "t": 0.2,
+          "code": "def f(a, b): return a == b"
+        },
+        {
+          "t": 0.3,
+          "code": "def f(a, b): return abs(a / b)"
+        },
+        {
+          "t": 0.4,
+          "code": "def f(a, b): return abs(a * b)"
+        },
+        {
+          "t": 0.5,
+          "code": "def f(a, b): return a + b"
+        },
+        {
+          "t": 0.6,
+          "code": "def f(p, q): return p // q"
+        },
+        {
+          "t": 0.7,
+          "code": "def f(p, q): return p / q"
+        },
+        {
+          "t": 0.8,
+          "code": "def f(m, n): return m / n"
+        },
+        {
+          "t": 0.9,
+          "code": "def f(x, y): return (x - y) + x"
+        },
+        {
+          "t": 1.0,
+          "code": "def f(a, b): return a * b"
+        }
+      ]
+    },
+    {
+      "desc": "String upper -> Length",
+      "src_a": "def f(s): return s.upper()",
+      "src_b": "def f(s): return len(s)",
+      "sequence": [
+        {
+          "t": 0.0,
+          "code": "def f(text): return text.swapcase()"
+        },
+        {
+          "t": 0.1,
+          "code": "def f(t): return t.strip()"
+        },
+        {
+          "t": 0.2,
+          "code": "def f(text): return text.swapcase()"
+        },
+        {
+          "t": 0.3,
+          "code": "def f(text): return text.swapcase()"
+        },
+        {
+          "t": 0.4,
+          "code": "def f(a): return not a"
+        },
+        {
+          "t": 0.5,
+          "code": "def f(arr): return list(reversed(arr))"
+        },
+        {
+          "t": 0.6,
+          "code": "def f(items): return list(reversed(items))"
+        },
+        {
+          "t": 0.7,
+          "code": "def f(nums): return list(reversed(nums))"
+        },
+        {
+          "t": 0.8,
+          "code": "def f(nums): return sorted(nums)"
+        },
+        {
+          "t": 0.9,
+          "code": "def f(nums): return sum(nums)"
+        },
+        {
+          "t": 1.0,
+          "code": "def f(arr): return min(arr)"
+        }
+      ]
+    },
+    {
+      "desc": "Subtraction -> Division",
+      "src_a": "def f(x, y): return x - y",
+      "src_b": "def f(x, y): return x / y",
+      "sequence": [
+        {
+          "t": 0.0,
+          "code": "def f(a, b): return a - b"
+        },
+        {
+          "t": 0.1,
+          "code": "def f(a, b): return a - b"
+        },
+        {
+          "t": 0.2,
+          "code": "def f(x, y): return (x - y) / x"
+        },
+        {
+          "t": 0.3,
+          "code": "def f(x, y): return x >= y"
+        },
+        {
+          "t": 0.4,
+          "code": "def f(x, y): return x >= y"
+        },
+        {
+          "t": 0.5,
+          "code": "def f(x, y): return x >= y"
+        },
+        {
+          "t": 0.6,
+          "code": "def f(x, y): return x >= y"
+        },
+        {
+          "t": 0.7,
+          "code": "def f(x, y): return x / y"
+        },
+        {
+          "t": 0.8,
+          "code": "def f(x, y): return x / y"
+        },
+        {
+          "t": 0.9,
+          "code": "def f(x, y): return x / y"
+        },
+        {
+          "t": 1.0,
+          "code": "def f(x, y): return x / y"
+        }
+      ]
+    }
+  ],
+  "elapsed": 1.0890851020812988,
+  "timestamp": "2026-05-05T18:12:59"
+}

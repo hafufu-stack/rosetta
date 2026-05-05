@@ -1,0 +1,57 @@
+{
+  "phase": 21,
+  "name": "Manifold-Guided Inverse Synthesis",
+  "total": 5,
+  "semantic_correct": 0,
+  "nearest_correct": 0,
+  "lambda": 0.5,
+  "details": [
+    {
+      "desc": "x + y",
+      "truth": "def f(x, y): return x + y",
+      "generated": "def f(m, n): return m < n",
+      "nearest": "def f(x): return abs(x)",
+      "nearest_decoded": "def f(arr): return min(arr)",
+      "semantic": false,
+      "final_loss": 0.002405745442956686
+    },
+    {
+      "desc": "x * y",
+      "truth": "def f(x, y): return x * y",
+      "generated": "def f(m, n): return abs(m ** n)",
+      "nearest": "def f(x): return x + 1",
+      "nearest_decoded": "def f(x, y): return x < y",
+      "semantic": false,
+      "final_loss": 0.0027756444178521633
+    },
+    {
+      "desc": "x - y",
+      "truth": "def f(x, y): return x - y",
+      "generated": "def f(m, n): return m < n",
+      "nearest": "def f(x): return abs(x)",
+      "nearest_decoded": "def f(arr): return min(arr)",
+      "semantic": false,
+      "final_loss": 0.001225859741680324
+    },
+    {
+      "desc": "x * 2",
+      "truth": "def f(x): return x * 2",
+      "generated": "def f(m, n): return m < n",
+      "nearest": "def f(x): return abs(x)",
+      "nearest_decoded": "def f(arr): return min(arr)",
+      "semantic": false,
+      "final_loss": 0.012823771685361862
+    },
+    {
+      "desc": "x^2",
+      "truth": "def f(x): return x * x",
+      "generated": "def f(m, n): return m < n",
+      "nearest": "def f(x): return abs(x)",
+      "nearest_decoded": "def f(arr): return min(arr)",
+      "semantic": false,
+      "final_loss": 0.005200865212827921
+    }
+  ],
+  "elapsed": 49.327486753463745,
+  "timestamp": "2026-05-05T18:37:02"
+}

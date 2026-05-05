@@ -1,0 +1,16 @@
+{
+  "phase": 8,
+  "name": "The Rosetta Compass",
+  "n_samples": 2000,
+  "categories": [
+    "Abs/Unary",
+    "Arithmetic",
+    "Boolean",
+    "Compare",
+    "List",
+    "String"
+  ],
+  "cluster_purity": 0.9925,
+  "elapsed": 11.370914697647095,
+  "timestamp": "2026-05-05T17:40:41"
+}

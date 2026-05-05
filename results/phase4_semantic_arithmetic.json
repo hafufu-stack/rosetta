@@ -1,0 +1,128 @@
+{
+  "phase": 4,
+  "name": "Semantic Binary Arithmetic",
+  "analogies": [
+    {
+      "analogy": "add:sub :: mul:?div",
+      "NL_target_sim": -0.7326828241348267,
+      "NL_best_sim": 0.930669367313385,
+      "NL_correct": false,
+      "NL_best": "def f(x, y): return x + y",
+      "NL_rank": 31,
+      "AST_target_sim": -0.7551807761192322,
+      "AST_best_sim": 0.9335540533065796,
+      "AST_correct": false,
+      "AST_best": "def f(x, y): return x + y",
+      "AST_rank": 31,
+      "Bytecode_target_sim": -0.5735577940940857,
+      "Bytecode_best_sim": 0.9958302974700928,
+      "Bytecode_correct": false,
+      "Bytecode_best": "def f(x, y): return x + y",
+      "Bytecode_rank": 30
+    },
+    {
+      "analogy": "add:mul :: sub:?div",
+      "NL_target_sim": -0.13606800138950348,
+      "NL_best_sim": 0.2943876385688782,
+      "NL_correct": false,
+      "NL_best": "def f(x, y): return x > y",
+      "NL_rank": 24,
+      "AST_target_sim": -0.1333605796098709,
+      "AST_best_sim": 0.38614779710769653,
+      "AST_correct": false,
+      "AST_best": "def f(x): return -x",
+      "AST_rank": 22,
+      "Bytecode_target_sim": -0.6498211622238159,
+      "Bytecode_best_sim": 0.8835997581481934,
+      "Bytecode_correct": false,
+      "Bytecode_best": "def f(s): return s.upper()",
+      "Bytecode_rank": 29
+    },
+    {
+      "analogy": "max:min :: gt:?eq",
+      "NL_target_sim": 0.49335700273513794,
+      "NL_best_sim": 0.996461033821106,
+      "NL_correct": false,
+      "NL_best": "def f(x, y): return x > y",
+      "NL_rank": 7,
+      "AST_target_sim": 0.4896819591522217,
+      "AST_best_sim": 1.0,
+      "AST_correct": false,
+      "AST_best": "def f(x, y): return x > y",
+      "AST_rank": 3,
+      "Bytecode_target_sim": 0.7334434986114502,
+      "Bytecode_best_sim": 1.0000001192092896,
+      "Bytecode_correct": false,
+      "Bytecode_best": "def f(x, y): return x > y",
+      "Bytecode_rank": 3
+    },
+    {
+      "analogy": "neg:abs :: square:?cube",
+      "NL_target_sim": -0.1615709662437439,
+      "NL_best_sim": 0.7133984565734863,
+      "NL_correct": false,
+      "NL_best": "def f(x): return -x",
+      "NL_rank": 17,
+      "AST_target_sim": -0.12204675376415253,
+      "AST_best_sim": 0.6802038550376892,
+      "AST_correct": false,
+      "AST_best": "def f(x, y): return x ** y",
+      "AST_rank": 16,
+      "Bytecode_target_sim": -0.2831776738166809,
+      "Bytecode_best_sim": 0.6935548782348633,
+      "Bytecode_correct": false,
+      "Bytecode_best": "def f(x): return -x",
+      "Bytecode_rank": 19
+    },
+    {
+      "analogy": "upper:lower :: len:?reverse",
+      "NL_target_sim": -0.7403331995010376,
+      "NL_best_sim": 0.9986870884895325,
+      "NL_correct": false,
+      "NL_best": "def f(s): return len(s)",
+      "NL_rank": 31,
+      "AST_target_sim": -0.6916701793670654,
+      "AST_best_sim": 1.0,
+      "AST_correct": false,
+      "AST_best": "def f(x): return abs(x)",
+      "AST_rank": 29,
+      "Bytecode_target_sim": -0.47020819783210754,
+      "Bytecode_best_sim": 1.0000001192092896,
+      "Bytecode_correct": false,
+      "Bytecode_best": "def f(x): return abs(x)",
+      "Bytecode_rank": 28
+    }
+  ],
+  "patches": [
+    {
+      "desc": "add:sub :: mul:?div",
+      "sim": -0.5203420519828796
+    },
+    {
+      "desc": "add:mul :: sub:?div",
+      "sim": -0.10984915494918823
+    },
+    {
+      "desc": "max:min :: gt:?eq",
+      "sim": 0.7235204577445984
+    },
+    {
+      "desc": "neg:abs :: square:?cube",
+      "sim": -0.04116383567452431
+    },
+    {
+      "desc": "upper:lower :: len:?reverse",
+      "sim": -0.4581822156906128
+    }
+  ],
+  "summary": {
+    "NL_accuracy": 0.0,
+    "NL_avg_sim": -0.2554595977067947,
+    "AST_accuracy": 0.0,
+    "AST_avg_sim": -0.24251526594161987,
+    "Bytecode_accuracy": 0.0,
+    "Bytecode_avg_sim": -0.24866426587104798
+  },
+  "elapsed": 0.0176389217376709,
+  "timestamp": "2026-05-05T17:24:01"
+}

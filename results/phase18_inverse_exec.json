@@ -1,0 +1,50 @@
+{
+  "phase": 18,
+  "name": "Neural Inverse Execution",
+  "total_specs": 5,
+  "semantic_correct": 0,
+  "details": [
+    {
+      "desc": "x + y",
+      "truth": "def f(x, y): return x + y",
+      "generated": "d f x): return x == y",
+      "nearest": "def f(x, y): return x and y",
+      "semantic": false,
+      "final_loss": 6.163367743283743e-06
+    },
+    {
+      "desc": "x * y",
+      "truth": "def f(x, y): return x * y",
+      "generated": "def(x, y): f(a, b): return a == b",
+      "nearest": "def f(x): return x if x >= 0 else 0",
+      "semantic": false,
+      "final_loss": 0.031123453751206398
+    },
+    {
+      "desc": "x - y",
+      "truth": "def f(x, y): return x - y",
+      "generated": "o0",
+      "nearest": "def f(x, y): return (x + y) * x",
+      "semantic": false,
+      "final_loss": 0.00020813554874621332
+    },
+    {
+      "desc": "x > y",
+      "truth": "def f(x, y): return x > y",
+      "generated": "-!-]<o00!ccabs%):2 f(v): return v * v * v",
+      "nearest": "def f(x): return x * x",
+      "semantic": false,
+      "final_loss": 0.00018492878007236868
+    },
+    {
+      "desc": "x * 2",
+      "truth": "def f(x): return x * 2",
+      "generated": " f(x): return x if x > 0 else -x",
+      "nearest": "def f(x): return x % 2 == 0",
+      "semantic": false,
+      "final_loss": 0.011001311242580414
+    }
+  ],
+  "elapsed": 46.734724044799805,
+  "timestamp": "2026-05-05T18:23:32"
+}

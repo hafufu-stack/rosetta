@@ -1,0 +1,16 @@
+{
+  "phase": 2,
+  "name": "Tri-Modal Latent Alignment",
+  "latent_dim": 64,
+  "total_params": 54272,
+  "epochs": 200,
+  "final_loss": 1.540478868143899,
+  "best_loss": 1.501779325273154,
+  "retrieval_nl_ast": 0.7168458781362007,
+  "retrieval_nl_bc": 0.6356033452807647,
+  "retrieval_ast_bc": 0.6451612903225806,
+  "same_source_sim": 0.9641871484609505,
+  "diff_source_sim": -0.014384383238810998,
+  "elapsed": 34.144943714141846,
+  "timestamp": "2026-05-05T17:23:57"
+}

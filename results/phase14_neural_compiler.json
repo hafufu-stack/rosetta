@@ -1,0 +1,91 @@
+{
+  "phase": 14,
+  "name": "End-to-End Neural Compiler",
+  "total_tests": 30,
+  "path1_direct": {
+    "exact": 0.1,
+    "semantic": 0.6333333333333333
+  },
+  "path2_twohop": {
+    "exact": 0.06666666666666667,
+    "semantic": 0.5
+  },
+  "path3_raw_nl": {
+    "exact": 0.13333333333333333,
+    "semantic": 0.6333333333333333
+  },
+  "examples": [
+    {
+      "nl": "Please product m and n",
+      "true": "def f(m, n): return m * n",
+      "generated": "def f(a, b): return a * b",
+      "exact": false,
+      "semantic": true
+    },
+    {
+      "nl": "Can you compute multiply of m and n",
+      "true": "def f(m, n): return m * n",
+      "generated": "def f(a, b): return a * b",
+      "exact": false,
+      "semantic": true
+    },
+    {
+      "nl": "Can you compute difference of a and b",
+      "true": "def f(a, b): return a - b",
+      "generated": "def f(m, n): return m - n",
+      "exact": false,
+      "semantic": true
+    },
+    {
+      "nl": "Can you check if a is same as b",
+      "true": "def f(a, b): return a == b",
+      "generated": "def f(p, q): return p == q",
+      "exact": false,
+      "semantic": true
+    },
+    {
+      "nl": "I want to modulo m and n",
+      "true": "def f(m, n): return m % n",
+      "generated": "def f(x, y): return x % y",
+      "exact": false,
+      "semantic": true
+    },
+    {
+      "nl": "count chars in t",
+      "true": "def f(t): return len(t)",
+      "generated": "def f(arr): return max(arr)",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "nl": "Can you decrement n",
+      "true": "def f(n): return n - 1",
+      "generated": "def f(a): return a - 1",
+      "exact": false,
+      "semantic": true
+    },
+    {
+      "nl": "Can you float of v",
+      "true": "def f(v): return float(v)",
+      "generated": "def f(arr): return max(arr)",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "nl": "I want to int of n",
+      "true": "def f(n): return int(n)",
+      "generated": "def f(a): return abs(a)",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "nl": "Can you test a exceeds b",
+      "true": "def f(a, b): return a > b",
+      "generated": "def f(a, b): return a > b",
+      "exact": true,
+      "semantic": true
+    }
+  ],
+  "elapsed": 1.7025227546691895,
+  "timestamp": "2026-05-05T18:00:49"
+}

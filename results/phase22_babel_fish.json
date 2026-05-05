@@ -1,0 +1,134 @@
+{
+  "phase": 22,
+  "name": "The Babel Fish Transpiler",
+  "total": 30,
+  "exact": 0,
+  "semantic": 1,
+  "exact_rate": 0.0,
+  "semantic_rate": 0.03333333333333333,
+  "js_vocab_size": 57,
+  "details": [
+    {
+      "python": "def f(p, q): return p > q",
+      "truth_js": "function f(p, q) { return p > q; }",
+      "generated_js": "urn p != q; }",
+      "generated_py": "def f(x, y): return x > y",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "python": "def f(a, b): return (a - b) + a",
+      "truth_js": "function f(a, b) { return (a - b) + a; }",
+      "generated_js": "erCas(); }",
+      "generated_py": "def f(a, b): return a - b",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "python": "def f(x, y): return x + y",
+      "truth_js": "function f(x, y) { return x + y; }",
+      "generated_js": "umn f(x, y) { return Math.floor(x); }",
+      "generated_py": "def f(m, n): return m + n",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "python": "def f(m, n): return m if m > n else n",
+      "truth_js": "function f(m, n) { return m > n ? m : n; }",
+      "generated_js": "erCas(); }",
+      "generated_py": "def f(x, y): return x - y",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "python": "def f(m, n): return m / n",
+      "truth_js": "function f(m, n) { return m / n; }",
+      "generated_js": "extitle()? { return s.split(\"\").reverse().join(\"\"); }",
+      "generated_py": "def f(x, y): return x / y",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "python": "def f(a, b): return abs(a ** b)",
+      "truth_js": "function f(a, b) { return Math.abs(a ** b); }",
+      "generated_js": "urna + y; }",
+      "generated_py": "def f(m, n): return abs(m ** n)",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "python": "def f(p, q): return p / q",
+      "truth_js": "function f(p, q) { return p / q; }",
+      "generated_js": "extitle()? { return s.split(\"\").reverse().join(\"\"); }",
+      "generated_py": "def f(x, y): return x / y",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "python": "def f(m, n): return m != n",
+      "truth_js": "function f(m, n) { return m != n; }",
+      "generated_js": "exnction f(v) { return -x; }",
+      "generated_py": "def f(a, b): return a != b",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "python": "def f(s): return len(s)",
+      "truth_js": "function f(s) { return .lengths); }",
+      "generated_js": "urn !a - b; }",
+      "generated_py": "def f(arr): return min(arr)",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "python": "def f(x): return x - 1",
+      "truth_js": "function f(x) { return x - 1; }",
+      "generated_js": ") { return Math.abs(m * n); }",
+      "generated_py": "def f(a): return a - 1",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "python": "def f(x, y): return x // y",
+      "truth_js": "function f(x, y) { return Math.floor(x / y); }",
+      "generated_js": "unction f(x, y) { return Math.floor(x / y); }",
+      "generated_py": "def f(p, q): return p // q",
+      "exact": false,
+      "semantic": true
+    },
+    {
+      "python": "def f(p, q): return abs(p + q)",
+      "truth_js": "function f(p, q) { return Math.abs(p + q); }",
+      "generated_js": "urn !a + b) - a; }",
+      "generated_py": "def f(a, b): return abs(a + b)",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "python": "def f(items): return sum(items)",
+      "truth_js": "function f(items) { return sum(items); }",
+      "generated_js": "urn !a - b; }",
+      "generated_py": "def f(arr): return min(arr)",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "python": "def f(p, q): return abs(p // q)",
+      "truth_js": "function f(p, q) { return Math.floor(Math.abs(p / q)); }",
+      "generated_js": "urn !a / b; }",
+      "generated_py": "def f(a, b): return abs(a // b)",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "python": "def f(text): return text.swapcase()",
+      "truth_js": "function f(text) { return text.split(\"\").map(c=>c===c.toUpperCase()?c.toLowerCase():c.toUpperCase()).join(\"\"); }",
+      "generated_js": "ext) { return -x; }",
+      "generated_py": "def f(text): return text.swapcase()",
+      "exact": false,
+      "semantic": false
+    }
+  ],
+  "elapsed": 30.392292499542236,
+  "timestamp": "2026-05-05T18:37:33"
+}

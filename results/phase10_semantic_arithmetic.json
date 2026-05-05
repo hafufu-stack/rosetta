@@ -1,0 +1,156 @@
+{
+  "phase": 10,
+  "name": "Decoder-based Semantic Arithmetic",
+  "total_analogies": 6,
+  "ast_exact_correct": 0,
+  "ast_semantic_correct": 0,
+  "sanity_exact": 2,
+  "details": [
+    {
+      "analogy": "add:sub :: mul:?div",
+      "modality": "AST",
+      "expected": "def f(x, y): return x / y",
+      "generated": "def f(p, q): return p / q",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "add:sub :: mul:?div",
+      "modality": "NL",
+      "expected": "def f(x, y): return x / y",
+      "generated": "def f(p, q): return p / q",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "add:sub :: mul:?div",
+      "modality": "BC",
+      "expected": "def f(x, y): return x / y",
+      "generated": "def f(p, q): return p / q",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "add:mul :: sub:?div",
+      "modality": "AST",
+      "expected": "def f(x, y): return x / y",
+      "generated": "def f(m, n): return m or n",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "add:mul :: sub:?div",
+      "modality": "NL",
+      "expected": "def f(x, y): return x / y",
+      "generated": "def f(m, n): return m or n",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "add:mul :: sub:?div",
+      "modality": "BC",
+      "expected": "def f(x, y): return x / y",
+      "generated": "def f(a): return (a / b) * a",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "gt:lt :: gte:?lte",
+      "modality": "AST",
+      "expected": "def f(x, y): return x <= y",
+      "generated": "def f(m, n): return m >= n",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "gt:lt :: gte:?lte",
+      "modality": "NL",
+      "expected": "def f(x, y): return x <= y",
+      "generated": "def f(a, b): return a >= b",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "gt:lt :: gte:?lte",
+      "modality": "BC",
+      "expected": "def f(x, y): return x <= y",
+      "generated": "def f(x, y): return x >= y",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "inc:dec :: double:?halve",
+      "modality": "AST",
+      "expected": "def f(x): return x / 2",
+      "generated": "def f(x): return x if x > 0 else -x",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "inc:dec :: double:?halve",
+      "modality": "NL",
+      "expected": "def f(x): return x / 2",
+      "generated": "def f(p, q): return p / q",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "inc:dec :: double:?halve",
+      "modality": "BC",
+      "expected": "def f(x): return x / 2",
+      "generated": "def f(p): return p if p >= 0 else 0",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "neg:abs :: square:?cube",
+      "modality": "AST",
+      "expected": "def f(x): return x * x * x",
+      "generated": "def f(p, q): return p + q",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "neg:abs :: square:?cube",
+      "modality": "NL",
+      "expected": "def f(x): return x * x * x",
+      "generated": "def f(p, q): return p + q",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "neg:abs :: square:?cube",
+      "modality": "BC",
+      "expected": "def f(x): return x * x * x",
+      "generated": "def f(a, b): return a // b",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "upper:lower :: len:?reverse",
+      "modality": "AST",
+      "expected": "def f(s): return s[::-1]",
+      "generated": "def f(arr): return max(arr)",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "upper:lower :: len:?reverse",
+      "modality": "NL",
+      "expected": "def f(s): return s[::-1]",
+      "generated": "def f(x): return not x",
+      "exact": false,
+      "semantic": false
+    },
+    {
+      "analogy": "upper:lower :: len:?reverse",
+      "modality": "BC",
+      "expected": "def f(s): return s[::-1]",
+      "generated": "def f(x): return int(x)",
+      "exact": false,
+      "semantic": false
+    }
+  ],
+  "elapsed": 1.076873540878296,
+  "timestamp": "2026-05-05T17:51:11"
+}

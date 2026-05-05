@@ -1,0 +1,14 @@
+{
+  "phase": 5,
+  "name": "The Rosetta Scaling",
+  "dataset_size": 2736,
+  "unique_sources": 236,
+  "final_loss": 1.8805295499888333,
+  "analogy_accuracy": {
+    "NL": 0.0,
+    "AST": 0.0,
+    "BC": 0.0
+  },
+  "elapsed": 125.67356848716736,
+  "timestamp": "2026-05-05T17:40:26"
+}

@@ -1,0 +1,45 @@
+{
+  "phase": 15,
+  "name": "SVD-Bottleneck Decoder",
+  "signal_dims": 6,
+  "noise_results": [
+    {
+      "noise_std": 0.0,
+      "exact": 0.25,
+      "semantic": 0.8
+    },
+    {
+      "noise_std": 0.5,
+      "exact": 0.25,
+      "semantic": 0.8
+    },
+    {
+      "noise_std": 1.0,
+      "exact": 0.25,
+      "semantic": 0.8
+    },
+    {
+      "noise_std": 2.0,
+      "exact": 0.25,
+      "semantic": 0.7
+    },
+    {
+      "noise_std": 5.0,
+      "exact": 0.1,
+      "semantic": 0.4
+    },
+    {
+      "noise_std": 10.0,
+      "exact": 0.0,
+      "semantic": 0.0
+    },
+    {
+      "noise_std": 50.0,
+      "exact": 0.0,
+      "semantic": 0.0
+    }
+  ],
+  "final_loss": 0.08738712932575833,
+  "elapsed": 60.804829359054565,
+  "timestamp": "2026-05-05T18:10:54"
+}

@@ -1,0 +1,312 @@
+{
+  "phase": 11,
+  "name": "Mechanistic Binary Surgery",
+  "total_interventions": 36,
+  "changed": 23,
+  "change_rate": 0.6388888888888888,
+  "meaningful": 23,
+  "details": [
+    {
+      "input": "def f(x, y): return x + y",
+      "intervention": "Flip axis 0 (arithmetic)",
+      "axis": 0,
+      "scale": -1.0,
+      "original": "def f(p, q): return p / q",
+      "modified": "def f(p, q): return p // q",
+      "changed": true,
+      "cos_to_orig": 0.6029334664344788
+    },
+    {
+      "input": "def f(x, y): return x + y",
+      "intervention": "Zero axis 0",
+      "axis": 0,
+      "scale": 0.0,
+      "original": "def f(p, q): return p / q",
+      "modified": "def f(p, q): return p // q",
+      "changed": true,
+      "cos_to_orig": 0.8928784132003784
+    },
+    {
+      "input": "def f(x, y): return x + y",
+      "intervention": "Amplify axis 0 x2",
+      "axis": 0,
+      "scale": 2.0,
+      "original": "def f(p, q): return p / q",
+      "modified": "def f(x, y): return x + y",
+      "changed": true,
+      "cos_to_orig": 0.9462483525276184
+    },
+    {
+      "input": "def f(x, y): return x + y",
+      "intervention": "Flip axis 1",
+      "axis": 1,
+      "scale": -1.0,
+      "original": "def f(p, q): return p / q",
+      "modified": "def f(x, y): return x <= y",
+      "changed": true,
+      "cos_to_orig": -0.2219652682542801
+    },
+    {
+      "input": "def f(x, y): return x + y",
+      "intervention": "Flip axis 2 (comparison)",
+      "axis": 2,
+      "scale": -1.0,
+      "original": "def f(p, q): return p / q",
+      "modified": "def f(x, y): return x - y",
+      "changed": true,
+      "cos_to_orig": 0.9029852747917175
+    },
+    {
+      "input": "def f(x, y): return x + y",
+      "intervention": "Zero axis 2",
+      "axis": 2,
+      "scale": 0.0,
+      "original": "def f(p, q): return p / q",
+      "modified": "def f(x, y): return x // y",
+      "changed": true,
+      "cos_to_orig": 0.9752422571182251
+    },
+    {
+      "input": "def f(x, y): return x * y",
+      "intervention": "Flip axis 0 (arithmetic)",
+      "axis": 0,
+      "scale": -1.0,
+      "original": "def f(a, b): return a + 1",
+      "modified": "def f(a, b): return a % b",
+      "changed": true,
+      "cos_to_orig": 0.8281967043876648
+    },
+    {
+      "input": "def f(x, y): return x * y",
+      "intervention": "Zero axis 0",
+      "axis": 0,
+      "scale": 0.0,
+      "original": "def f(a, b): return a + 1",
+      "modified": "def f(a, b): return a % b",
+      "changed": true,
+      "cos_to_orig": 0.9567779898643494
+    },
+    {
+      "input": "def f(x, y): return x * y",
+      "intervention": "Amplify axis 0 x2",
+      "axis": 0,
+      "scale": 2.0,
+      "original": "def f(a, b): return a + 1",
+      "modified": "def f(p, q): return p * q",
+      "changed": true,
+      "cos_to_orig": 0.9695452451705933
+    },
+    {
+      "input": "def f(x, y): return x * y",
+      "intervention": "Flip axis 1",
+      "axis": 1,
+      "scale": -1.0,
+      "original": "def f(a, b): return a + 1",
+      "modified": "def f(m, n): return m % n",
+      "changed": true,
+      "cos_to_orig": -0.30195558071136475
+    },
+    {
+      "input": "def f(x, y): return x * y",
+      "intervention": "Flip axis 2 (comparison)",
+      "axis": 2,
+      "scale": -1.0,
+      "original": "def f(a, b): return a + 1",
+      "modified": "def f(p, q): return p + q",
+      "changed": true,
+      "cos_to_orig": 0.9840546250343323
+    },
+    {
+      "input": "def f(x, y): return x * y",
+      "intervention": "Zero axis 2",
+      "axis": 2,
+      "scale": 0.0,
+      "original": "def f(a, b): return a + 1",
+      "modified": "def f(p, q): return p + q",
+      "changed": true,
+      "cos_to_orig": 0.9960200786590576
+    },
+    {
+      "input": "def f(x, y): return x > y",
+      "intervention": "Flip axis 0 (arithmetic)",
+      "axis": 0,
+      "scale": -1.0,
+      "original": "def f(m, n): return m > n",
+      "modified": "def f(m, n): return m > n",
+      "changed": false,
+      "cos_to_orig": 0.9781303405761719
+    },
+    {
+      "input": "def f(x, y): return x > y",
+      "intervention": "Zero axis 0",
+      "axis": 0,
+      "scale": 0.0,
+      "original": "def f(m, n): return m > n",
+      "modified": "def f(m, n): return m > n",
+      "changed": false,
+      "cos_to_orig": 0.9945445656776428
+    },
+    {
+      "input": "def f(x, y): return x > y",
+      "intervention": "Amplify axis 0 x2",
+      "axis": 0,
+      "scale": 2.0,
+      "original": "def f(m, n): return m > n",
+      "modified": "def f(m, n): return m > n",
+      "changed": false,
+      "cos_to_orig": 0.9948257803916931
+    },
+    {
+      "input": "def f(x, y): return x > y",
+      "intervention": "Flip axis 1",
+      "axis": 1,
+      "scale": -1.0,
+      "original": "def f(m, n): return m > n",
+      "modified": "def f(p, q): return p > q",
+      "changed": true,
+      "cos_to_orig": 0.9104551076889038
+    },
+    {
+      "input": "def f(x, y): return x > y",
+      "intervention": "Flip axis 2 (comparison)",
+      "axis": 2,
+      "scale": -1.0,
+      "original": "def f(m, n): return m > n",
+      "modified": "def f(a): return a / 2",
+      "changed": true,
+      "cos_to_orig": -0.17802384495735168
+    },
+    {
+      "input": "def f(x, y): return x > y",
+      "intervention": "Zero axis 2",
+      "axis": 2,
+      "scale": 0.0,
+      "original": "def f(m, n): return m > n",
+      "modified": "def f(m, n): return m < n",
+      "changed": true,
+      "cos_to_orig": 0.6284539103507996
+    },
+    {
+      "input": "def f(x): return abs(x)",
+      "intervention": "Flip axis 0 (arithmetic)",
+      "axis": 0,
+      "scale": -1.0,
+      "original": "def f(a): return abs(a)",
+      "modified": "def f(a): return abs(a)",
+      "changed": false,
+      "cos_to_orig": 0.9172416925430298
+    },
+    {
+      "input": "def f(x): return abs(x)",
+      "intervention": "Zero axis 0",
+      "axis": 0,
+      "scale": 0.0,
+      "original": "def f(a): return abs(a)",
+      "modified": "def f(a): return abs(a)",
+      "changed": false,
+      "cos_to_orig": 0.9788846373558044
+    },
+    {
+      "input": "def f(x): return abs(x)",
+      "intervention": "Amplify axis 0 x2",
+      "axis": 0,
+      "scale": 2.0,
+      "original": "def f(a): return abs(a)",
+      "modified": "def f(n): return float(n)",
+      "changed": true,
+      "cos_to_orig": 0.9817022085189819
+    },
+    {
+      "input": "def f(x): return abs(x)",
+      "intervention": "Flip axis 1",
+      "axis": 1,
+      "scale": -1.0,
+      "original": "def f(a): return abs(a)",
+      "modified": "def f(a): return abs(a)",
+      "changed": false,
+      "cos_to_orig": 0.897506833076477
+    },
+    {
+      "input": "def f(x): return abs(x)",
+      "intervention": "Flip axis 2 (comparison)",
+      "axis": 2,
+      "scale": -1.0,
+      "original": "def f(a): return abs(a)",
+      "modified": "def f(text): return text.strip()",
+      "changed": true,
+      "cos_to_orig": 0.06383149325847626
+    },
+    {
+      "input": "def f(x): return abs(x)",
+      "intervention": "Zero axis 2",
+      "axis": 2,
+      "scale": 0.0,
+      "original": "def f(a): return abs(a)",
+      "modified": "def f(n): return len(w)",
+      "changed": true,
+      "cos_to_orig": 0.7212207913398743
+    },
+    {
+      "input": "def f(s): return s.upper()",
+      "intervention": "Flip axis 0 (arithmetic)",
+      "axis": 0,
+      "scale": -1.0,
+      "original": "def f(text): return text.swapcase()",
+      "modified": "def f(text): return text.swapcase()",
+      "changed": false,
+      "cos_to_orig": 0.9431321024894714
+    },
+    {
+      "input": "def f(s): return s.upper()",
+      "intervention": "Zero axis 0",
+      "axis": 0,
+      "scale": 0.0,
+      "original": "def f(text): return text.swapcase()",
+      "modified": "def f(text): return text.swapcase()",
+      "changed": false,
+      "cos_to_orig": 0.9855579733848572
+    },
+    {
+      "input": "def f(s): return s.upper()",
+      "intervention": "Amplify axis 0 x2",
+      "axis": 0,
+      "scale": 2.0,
+      "original": "def f(text): return text.swapcase()",
+      "modified": "def f(t): return t.strip()",
+      "changed": true,
+      "cos_to_orig": 0.986875593662262
+    },
+    {
+      "input": "def f(s): return s.upper()",
+      "intervention": "Flip axis 1",
+      "axis": 1,
+      "scale": -1.0,
+      "original": "def f(text): return text.swapcase()",
+      "modified": "def f(text): return text.swapcase()",
+      "changed": false,
+      "cos_to_orig": 0.9980208873748779
+    },
+    {
+      "input": "def f(s): return s.upper()",
+      "intervention": "Flip axis 2 (comparison)",
+      "axis": 2,
+      "scale": -1.0,
+      "original": "def f(text): return text.swapcase()",
+      "modified": "def f(n): return len(w)",
+      "changed": true,
+      "cos_to_orig": 0.19205379486083984
+    },
+    {
+      "input": "def f(s): return s.upper()",
+      "intervention": "Zero axis 2",
+      "axis": 2,
+      "scale": 0.0,
+      "original": "def f(text): return text.swapcase()",
+      "modified": "def f(n): return -n",
+      "changed": true,
+      "cos_to_orig": 0.7785282731056213
+    }
+  ],
+  "elapsed": 1.3834640979766846,
+  "timestamp": "2026-05-05T17:51:13"
+}

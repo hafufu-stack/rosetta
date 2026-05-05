@@ -1,0 +1,39 @@
+{
+  "phase": 9,
+  "name": "Generative Decompiler",
+  "char_vocab_size": 44,
+  "decoder_params": 77612,
+  "final_loss": 0.07091937214136124,
+  "ast_to_code_exact": 0.2,
+  "ast_to_code_partial": 0.2,
+  "pipeline_exact": 0.1,
+  "examples": [
+    {
+      "true": "def f(a, b): return a + b",
+      "generated": "def f(p, q): return p + q",
+      "match": false
+    },
+    {
+      "true": "def f(m, n): return m == n",
+      "generated": "def f(p, q): return p == q",
+      "match": false
+    },
+    {
+      "true": "def f(n): return n * n * n",
+      "generated": "def f(x): return x * x * x",
+      "match": false
+    },
+    {
+      "true": "def f(x): return abs(x)",
+      "generated": "def f(arr): return max(arr)",
+      "match": false
+    },
+    {
+      "true": "def f(w): return len(w)",
+      "generated": "def f(arr): return max(arr)",
+      "match": false
+    }
+  ],
+  "elapsed": 41.40078949928284,
+  "timestamp": "2026-05-05T17:51:09"
+}

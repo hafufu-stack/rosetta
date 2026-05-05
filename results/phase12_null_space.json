@@ -1,0 +1,52 @@
+{
+  "phase": 12,
+  "name": "Null-Space Obfuscation",
+  "signal_dims": 4,
+  "null_dims": 60,
+  "noise_results": [
+    {
+      "noise_std": 0.0,
+      "exact": 0.3,
+      "semantic": 0.6,
+      "total": 20
+    },
+    {
+      "noise_std": 0.5,
+      "exact": 0.0,
+      "semantic": 0.0,
+      "total": 20
+    },
+    {
+      "noise_std": 1.0,
+      "exact": 0.0,
+      "semantic": 0.05,
+      "total": 20
+    },
+    {
+      "noise_std": 2.0,
+      "exact": 0.0,
+      "semantic": 0.0,
+      "total": 20
+    },
+    {
+      "noise_std": 5.0,
+      "exact": 0.0,
+      "semantic": 0.0,
+      "total": 20
+    },
+    {
+      "noise_std": 10.0,
+      "exact": 0.0,
+      "semantic": 0.0,
+      "total": 20
+    },
+    {
+      "noise_std": 50.0,
+      "exact": 0.0,
+      "semantic": 0.0,
+      "total": 20
+    }
+  ],
+  "elapsed": 5.55118727684021,
+  "timestamp": "2026-05-05T18:00:46"
+}
