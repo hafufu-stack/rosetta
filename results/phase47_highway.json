@@ -1,0 +1,244 @@
+{
+  "phase": 47,
+  "name": "The Hidden Highway",
+  "hubs": [
+    {
+      "code": "def f(x, y): return x >= y",
+      "count": 22
+    },
+    {
+      "code": "def f(p, q): return p / q",
+      "count": 17
+    },
+    {
+      "code": "def f(a, b): return a > b",
+      "count": 17
+    },
+    {
+      "code": "def f(m, n): return m < n",
+      "count": 16
+    },
+    {
+      "code": "def f(p, q): return p // q",
+      "count": 15
+    },
+    {
+      "code": "def f(x, y): return x // y",
+      "count": 14
+    },
+    {
+      "code": "def f(x, y): return x != y",
+      "count": 13
+    },
+    {
+      "code": "def f(x, y): return x / y",
+      "count": 13
+    },
+    {
+      "code": "def f(m, n): return m + n",
+      "count": 13
+    },
+    {
+      "code": "def f(x, y): return x + y",
+      "count": 11
+    },
+    {
+      "code": "def f(a, b): return a - b",
+      "count": 11
+    },
+    {
+      "code": "def f(m, n): return abs(m ** n)",
+      "count": 11
+    },
+    {
+      "code": "def f(x, y): return abs(x / y)",
+      "count": 11
+    },
+    {
+      "code": "def f(x, y): return x and y",
+      "count": 11
+    },
+    {
+      "code": "def f(x, y): return (x - y) / x",
+      "count": 10
+    }
+  ],
+  "n_routes": 45,
+  "avg_stops": 12.311111111111112,
+  "routes": [
+    {
+      "from": "def f(x, y): return x + y",
+      "to": "def f(x, y): return x - y",
+      "n_waypoints": 9,
+      "waypoints": [
+        "def f(m, n): return m + n",
+        "def f(x, y): return x + y",
+        "def f(x, y): return x != y",
+        "def f(p, q): return p // q",
+        "def f(p, q): return p / q",
+        "def f(x, y): return x / y",
+        "def f(x, y): return x >= y",
+        "def f(x, y): return (x - y) / x",
+        "def f(a, b): return a - b"
+      ]
+    },
+    {
+      "from": "def f(x, y): return x + y",
+      "to": "def f(x, y): return x * y",
+      "n_waypoints": 11,
+      "waypoints": [
+        "def f(m, n): return m + n",
+        "def f(x, y): return x != y",
+        "def f(p, q): return p // q",
+        "def f(p, q): return p / q",
+        "def f(x, y): return x / y",
+        "def f(x, y): return x >= y",
+        "def f(x, y): return (x - y) / x",
+        "def f(x, y): return x >= y",
+        "def f(a, b): return a - b",
+        "def f(a, b): return a > b",
+        "def f(a, b): return a * b"
+      ]
+    },
+    {
+      "from": "def f(x, y): return x + y",
+      "to": "def f(x, y): return x / y",
+      "n_waypoints": 7,
+      "waypoints": [
+        "def f(m, n): return m + n",
+        "def f(x, y): return x != y",
+        "def f(x, y): return x // y",
+        "def f(m, n): return m // n",
+        "def f(p, q): return p // q",
+        "def f(p, q): return p / q",
+        "def f(x, y): return x / y"
+      ]
+    },
+    {
+      "from": "def f(x, y): return x + y",
+      "to": "def f(x, y): return x > y",
+      "n_waypoints": 10,
+      "waypoints": [
+        "def f(m, n): return m + n",
+        "def f(p, q): return p + q",
+        "def f(a, b): return a != b",
+        "def f(p, q): return p // q",
+        "def f(p, q): return p / q",
+        "def f(m, n): return m / n",
+        "def f(m, n): return m >= n",
+        "def f(x, y): return (x - y) + x",
+        "def f(x, y): return x - y",
+        "def f(x, y): return x > y"
+      ]
+    },
+    {
+      "from": "def f(x, y): return x + y",
+      "to": "def f(x, y): return x == y",
+      "n_waypoints": 12,
+      "waypoints": [
+        "def f(m, n): return m + n",
+        "def f(m, n): return m < n",
+        "def f(m, n): return abs(m % n)",
+        "def f(m, n): return abs(m ** n)",
+        "def f(m, n): return abs(m * n)",
+        "def f(m, n): return abs(m + n)",
+        "def f(m, n): return abs(m // n)",
+        "def f(a, b): return abs(a * b)",
+        "def f(a, b): return abs(a // b)",
+        "def f(a, b): return abs(a / b)",
+        "def f(a, b): return a and b",
+        "def f(a, b): return a == b"
+      ]
+    },
+    {
+      "from": "def f(x, y): return x + y",
+      "to": "def f(x): return abs(x)",
+      "n_waypoints": 10,
+      "waypoints": [
+        "def f(m, n): return m + n",
+        "def f(m, n): return m < n",
+        "def f(m, n): return abs(m ** n)",
+        "def f(a, b): return abs(a * b)",
+        "def f(a, b): return abs(a // b)",
+        "def f(a, b): return abs(a / b)",
+        "def f(a, b): return a == b",
+        "def f(a): return -a",
+        "def f(a): return int(a)",
+        "def f(arr): return min(arr)"
+      ]
+    },
+    {
+      "from": "def f(x, y): return x + y",
+      "to": "def f(x): return -x",
+      "n_waypoints": 11,
+      "waypoints": [
+        "def f(m, n): return m + n",
+        "def f(m, n): return m < n",
+        "def f(m, n): return abs(m ** n)",
+        "def f(m, n): return abs(m * n)",
+        "def f(m, n): return abs(m + n)",
+        "def f(m, n): return abs(m // n)",
+        "def f(a, b): return abs(a * b)",
+        "def f(a, b): return abs(a // b)",
+        "def f(x, y): return abs(x / y)",
+        "def f(x, y): return x and y",
+        "def f(x, y): return x == y"
+      ]
+    },
+    {
+      "from": "def f(x, y): return x + y",
+      "to": "def f(s): return s.upper()",
+      "n_waypoints": 15,
+      "waypoints": [
+        "def f(m, n): return m + n",
+        "def f(m, n): return m < n",
+        "def f(m, n): return abs(m ** n)",
+        "def f(m, n): return m or n",
+        "def f(m, n): return abs(m // n)",
+        "def f(x, y): return abs(x * y)",
+        "def f(x, y): return abs(x / y)",
+        "def f(x, y): return x and y",
+        "def f(x, y): return x == y",
+        "def f(x): return -x",
+        "def f(x): return float(x)",
+        "def f(text): return text[::-1]",
+        "def f(text): return text.swapcase()",
+        "def f(t): return t.strip()",
+        "def f(text): return text.swapcase()"
+      ]
+    },
+    {
+      "from": "def f(x, y): return x + y",
+      "to": "def f(x, y): return x % y",
+      "n_waypoints": 14,
+      "waypoints": [
+        "def f(m, n): return m + n",
+        "def f(p, q): return p + q",
+        "def f(x, y): return x != y",
+        "def f(p, q): return p // q",
+        "def f(p, q): return p / q",
+        "def f(m, n): return m / n",
+        "def f(x, y): return x / y",
+        "def f(x, y): return x >= y",
+        "def f(a, b): return a - b",
+        "def f(a, b): return a > b",
+        "def f(a, b): return a * b",
+        "def f(a, b): return a ** b",
+        "def f(x, y): return x ** y",
+        "def f(x, y): return x % y"
+      ]
+    },
+    {
+      "from": "def f(x, y): return x - y",
+      "to": "def f(x, y): return x * y",
+      "n_waypoints": 3,
+      "waypoints": [
+        "def f(a, b): return a - b",
+        "def f(a, b): return a > b",
+        "def f(a, b): return a * b"
+      ]
+    }
+  ],
+  "elapsed": 91.07071471214294,
+  "timestamp": "2026-05-06T00:31:05"
+}

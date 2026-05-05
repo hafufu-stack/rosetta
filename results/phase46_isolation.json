@@ -1,0 +1,82 @@
+{
+  "phase": 46,
+  "name": "The Isolation Paradox",
+  "top_basins": [
+    {
+      "src": "def f(m, n): return m // n",
+      "mass": 3,
+      "isolation": 0.25,
+      "basin": 0.18,
+      "norm": 1.0
+    },
+    {
+      "src": "def f(m, n): return abs(m % n)",
+      "mass": 3,
+      "isolation": 0.25,
+      "basin": 0.16,
+      "norm": 0.9999999403953552
+    },
+    {
+      "src": "def f(x, y): return x // y",
+      "mass": 3,
+      "isolation": 0.25,
+      "basin": 0.14,
+      "norm": 1.0
+    },
+    {
+      "src": "def f(a, b): return abs(a % b)",
+      "mass": 3,
+      "isolation": 0.25,
+      "basin": 0.12,
+      "norm": 0.9999999403953552
+    },
+    {
+      "src": "def f(a, b): return a // b",
+      "mass": 3,
+      "isolation": 0.25,
+      "basin": 0.1,
+      "norm": 1.0
+    },
+    {
+      "src": "def f(p, q): return abs(p % q)",
+      "mass": 3,
+      "isolation": 0.25,
+      "basin": 0.1,
+      "norm": 0.9999999403953552
+    },
+    {
+      "src": "def f(m, n): return abs(m ** n)",
+      "mass": 3,
+      "isolation": 0.25,
+      "basin": 0.1,
+      "norm": 1.0
+    },
+    {
+      "src": "def f(p, q): return p // q",
+      "mass": 3,
+      "isolation": 0.25,
+      "basin": 0.08,
+      "norm": 1.0
+    },
+    {
+      "src": "def f(a, b): return abs(a ** b)",
+      "mass": 3,
+      "isolation": 0.25,
+      "basin": 0.08,
+      "norm": 1.0
+    },
+    {
+      "src": "def f(m, n): return m == n",
+      "mass": 3,
+      "isolation": 0.25,
+      "basin": 0.08,
+      "norm": 0.9999999403953552
+    }
+  ],
+  "correlation_isolation_basin": 0.237468323742355,
+  "correlation_norm_basin": 0.10717941219498676,
+  "mean_basin_isolated": 0.015340909090909093,
+  "mean_basin_crowded": 0.0006666666666666666,
+  "elapsed": 792.4696488380432,
+  "timestamp": "2026-05-06T00:29:33"
+}

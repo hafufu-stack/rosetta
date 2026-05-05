@@ -1,0 +1,116 @@
+{
+  "phase": 48,
+  "name": "The Syntax-Semantics Spectrum",
+  "spectrum": [
+    {
+      "dims": 1,
+      "semantic": 0.23333333333333334,
+      "syntactic": 0.0,
+      "var_names": 0.26666666666666666,
+      "var_explained": 0.2547113001346588
+    },
+    {
+      "dims": 2,
+      "semantic": 0.0,
+      "syntactic": 0.0,
+      "var_names": 0.23333333333333334,
+      "var_explained": 0.4884655773639679
+    },
+    {
+      "dims": 3,
+      "semantic": 0.23333333333333334,
+      "syntactic": 0.0,
+      "var_names": 0.23333333333333334,
+      "var_explained": 0.6781181693077087
+    },
+    {
+      "dims": 4,
+      "semantic": 0.36666666666666664,
+      "syntactic": 0.0,
+      "var_names": 0.26666666666666666,
+      "var_explained": 0.7716057896614075
+    },
+    {
+      "dims": 5,
+      "semantic": 0.36666666666666664,
+      "syntactic": 0.13333333333333333,
+      "var_names": 0.4,
+      "var_explained": 0.8633549213409424
+    },
+    {
+      "dims": 6,
+      "semantic": 0.5,
+      "syntactic": 0.13333333333333333,
+      "var_names": 0.5,
+      "var_explained": 0.9288886785507202
+    },
+    {
+      "dims": 7,
+      "semantic": 0.36666666666666664,
+      "syntactic": 0.13333333333333333,
+      "var_names": 0.26666666666666666,
+      "var_explained": 0.9537512063980103
+    },
+    {
+      "dims": 8,
+      "semantic": 0.5,
+      "syntactic": 0.23333333333333334,
+      "var_names": 0.36666666666666664,
+      "var_explained": 0.9676514267921448
+    },
+    {
+      "dims": 9,
+      "semantic": 0.4666666666666667,
+      "syntactic": 0.36666666666666664,
+      "var_names": 0.7333333333333333,
+      "var_explained": 0.9789146780967712
+    },
+    {
+      "dims": 10,
+      "semantic": 0.6,
+      "syntactic": 0.36666666666666664,
+      "var_names": 0.6,
+      "var_explained": 0.9866748452186584
+    },
+    {
+      "dims": 12,
+      "semantic": 0.7333333333333333,
+      "syntactic": 0.4666666666666667,
+      "var_names": 0.6,
+      "var_explained": 0.9929146766662598
+    },
+    {
+      "dims": 16,
+      "semantic": 0.7333333333333333,
+      "syntactic": 0.7333333333333333,
+      "var_names": 1.0,
+      "var_explained": 0.9979279041290283
+    },
+    {
+      "dims": 20,
+      "semantic": 0.8666666666666667,
+      "syntactic": 0.8666666666666667,
+      "var_names": 1.0,
+      "var_explained": 0.9992986917495728
+    },
+    {
+      "dims": 32,
+      "semantic": 1.0,
+      "syntactic": 1.0,
+      "var_names": 1.0,
+      "var_explained": 0.999989926815033
+    },
+    {
+      "dims": 64,
+      "semantic": 1.0,
+      "syntactic": 1.0,
+      "var_names": 1.0,
+      "var_explained": 1.0
+    }
+  ],
+  "semantic_90": 32,
+  "syntactic_90": 32,
+  "gap": 0,
+  "elapsed": 30.49299192428589,
+  "timestamp": "2026-05-06T00:31:36"
+}
