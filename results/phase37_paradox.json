@@ -1,0 +1,19 @@
+{
+  "phase": 37,
+  "name": "The Rosetta Paradox",
+  "n_signal": 20,
+  "n_null": 44,
+  "mi_signal": 240.73030361011806,
+  "mi_null": 243.5145934172771,
+  "mi_per_signal": 12.036515180505903,
+  "mi_per_null": 5.534422577665389,
+  "density_ratio": 2.1748457064121265,
+  "signal_var_pct": 0.5843190550804138,
+  "null_var_pct": 0.41568630933761597,
+  "recon_cos": 0.7585111856460571,
+  "recon_r2": 0.5789372324943542,
+  "avg_entropy_signal": 3.5029317419721915,
+  "avg_entropy_null": 3.488224412740574,
+  "elapsed": 1.1935698986053467,
+  "timestamp": "2026-05-06T00:00:53"
+}

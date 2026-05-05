@@ -1,0 +1,126 @@
+{
+  "phase": 39,
+  "name": "The Compiler's Memory",
+  "n_iterations": 50,
+  "avg_final_cos": 0.6611254155635834,
+  "n_converged": 1,
+  "n_stable": 4,
+  "n_decay": 60,
+  "n_grow": 0,
+  "top_eigenvalues": [
+    {
+      "real": 0.9887703657150269,
+      "imag": 0.0,
+      "mag": 0.9887703657150269
+    },
+    {
+      "real": 0.9830690026283264,
+      "imag": 0.0,
+      "mag": 0.9830690026283264
+    },
+    {
+      "real": 0.9709852933883667,
+      "imag": 0.0,
+      "mag": 0.9709852933883667
+    },
+    {
+      "real": 0.9675431847572327,
+      "imag": 0.0,
+      "mag": 0.9675431847572327
+    },
+    {
+      "real": 0.8952547311782837,
+      "imag": 0.0,
+      "mag": 0.8952547311782837
+    },
+    {
+      "real": 0.8871834874153137,
+      "imag": 0.0,
+      "mag": 0.8871834874153137
+    },
+    {
+      "real": 0.6000619530677795,
+      "imag": 0.0,
+      "mag": 0.6000619530677795
+    },
+    {
+      "real": 0.49635228514671326,
+      "imag": 0.0,
+      "mag": 0.49635228514671326
+    },
+    {
+      "real": 0.4062698185443878,
+      "imag": 0.0,
+      "mag": 0.4062698185443878
+    },
+    {
+      "real": 0.30448803305625916,
+      "imag": 0.0,
+      "mag": 0.30448803305625916
+    }
+  ],
+  "trajectories": [
+    {
+      "src": "def f(x, y): return x + y",
+      "cos": 0.6351926922798157,
+      "start": "def f(m, n): return m + n",
+      "end": "def f(m, n): return abs(m ** n)"
+    },
+    {
+      "src": "def f(x, y): return abs(x + y)",
+      "cos": 0.6032496094703674,
+      "start": "def f(a, b): return abs(a + b)",
+      "end": "def f(m, n): return m < n"
+    },
+    {
+      "src": "def f(a, b): return a + b",
+      "cos": 0.6351926922798157,
+      "start": "def f(m, n): return m + n",
+      "end": "def f(m, n): return abs(m ** n)"
+    },
+    {
+      "src": "def f(a, b): return abs(a + b)",
+      "cos": 0.6032496094703674,
+      "start": "def f(a, b): return abs(a + b)",
+      "end": "def f(m, n): return m < n"
+    },
+    {
+      "src": "def f(m, n): return m + n",
+      "cos": 0.6351926922798157,
+      "start": "def f(m, n): return m + n",
+      "end": "def f(m, n): return abs(m ** n)"
+    },
+    {
+      "src": "def f(m, n): return abs(m + n)",
+      "cos": 0.6032496094703674,
+      "start": "def f(a, b): return abs(a + b)",
+      "end": "def f(m, n): return m < n"
+    },
+    {
+      "src": "def f(p, q): return p + q",
+      "cos": 0.6351926922798157,
+      "start": "def f(m, n): return m + n",
+      "end": "def f(m, n): return abs(m ** n)"
+    },
+    {
+      "src": "def f(p, q): return abs(p + q)",
+      "cos": 0.6032496094703674,
+      "start": "def f(a, b): return abs(a + b)",
+      "end": "def f(m, n): return m < n"
+    },
+    {
+      "src": "def f(x, y): return x - y",
+      "cos": 0.7743986248970032,
+      "start": "def f(a, b): return a - b",
+      "end": "def f(p, q): return p / q"
+    },
+    {
+      "src": "def f(x, y): return abs(x - y)",
+      "cos": 0.8830863237380981,
+      "start": "def f(a, b): return abs(a // b)",
+      "end": "def f(m, n): return m + n"
+    }
+  ],
+  "elapsed": 0.6547291278839111,
+  "timestamp": "2026-05-06T00:00:57"
+}
