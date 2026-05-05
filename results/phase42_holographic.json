@@ -1,0 +1,167 @@
+{
+  "phase": 42,
+  "name": "Holographic Principle of Compilation",
+  "compression_results": [
+    {
+      "dims": 1,
+      "avg_cos": 0.4346997702121735,
+      "code_accuracy": 0.0,
+      "var_explained": 0.2547113001346588
+    },
+    {
+      "dims": 2,
+      "avg_cos": 0.6783205652236939,
+      "code_accuracy": 0.08,
+      "var_explained": 0.4884655773639679
+    },
+    {
+      "dims": 3,
+      "avg_cos": 0.7375299942493438,
+      "code_accuracy": 0.0,
+      "var_explained": 0.6781181693077087
+    },
+    {
+      "dims": 4,
+      "avg_cos": 0.8936758816242218,
+      "code_accuracy": 0.08,
+      "var_explained": 0.7716057896614075
+    },
+    {
+      "dims": 5,
+      "avg_cos": 0.9277979123592377,
+      "code_accuracy": 0.08,
+      "var_explained": 0.8633549213409424
+    },
+    {
+      "dims": 6,
+      "avg_cos": 0.9433479273319244,
+      "code_accuracy": 0.08,
+      "var_explained": 0.9288886785507202
+    },
+    {
+      "dims": 8,
+      "avg_cos": 0.9799937319755554,
+      "code_accuracy": 0.32,
+      "var_explained": 0.9676514267921448
+    },
+    {
+      "dims": 10,
+      "avg_cos": 0.9922808527946472,
+      "code_accuracy": 0.4,
+      "var_explained": 0.9866748452186584
+    },
+    {
+      "dims": 16,
+      "avg_cos": 0.9988846087455749,
+      "code_accuracy": 0.82,
+      "var_explained": 0.9979279041290283
+    },
+    {
+      "dims": 32,
+      "avg_cos": 0.9999840152263642,
+      "code_accuracy": 1.0,
+      "var_explained": 0.999989926815033
+    },
+    {
+      "dims": 64,
+      "avg_cos": 1.0000000548362733,
+      "code_accuracy": 1.0,
+      "var_explained": 1.0
+    }
+  ],
+  "min_dims_90pct": 32,
+  "holographic_examples": [
+    {
+      "coords": [
+        -0.5675843954086304,
+        -0.5341804027557373
+      ],
+      "original": "def f(m, n): return m + n",
+      "from_2d": "def f(a, b): return abs(a * b)",
+      "match": false
+    },
+    {
+      "coords": [
+        -0.4533441662788391,
+        -0.4104764759540558
+      ],
+      "original": "def f(a, b): return abs(a + b)",
+      "from_2d": "def f(a, b): return abs(a * b)",
+      "match": false
+    },
+    {
+      "coords": [
+        -0.5675843954086304,
+        -0.5341804027557373
+      ],
+      "original": "def f(m, n): return m + n",
+      "from_2d": "def f(a, b): return abs(a * b)",
+      "match": false
+    },
+    {
+      "coords": [
+        -0.4533441662788391,
+        -0.4104764759540558
+      ],
+      "original": "def f(a, b): return abs(a + b)",
+      "from_2d": "def f(a, b): return abs(a * b)",
+      "match": false
+    },
+    {
+      "coords": [
+        -0.5675843954086304,
+        -0.5341804027557373
+      ],
+      "original": "def f(m, n): return m + n",
+      "from_2d": "def f(a, b): return abs(a * b)",
+      "match": false
+    },
+    {
+      "coords": [
+        -0.4533441662788391,
+        -0.4104764759540558
+      ],
+      "original": "def f(a, b): return abs(a + b)",
+      "from_2d": "def f(a, b): return abs(a * b)",
+      "match": false
+    },
+    {
+      "coords": [
+        -0.5675843954086304,
+        -0.5341804027557373
+      ],
+      "original": "def f(m, n): return m + n",
+      "from_2d": "def f(a, b): return abs(a * b)",
+      "match": false
+    },
+    {
+      "coords": [
+        -0.4533441662788391,
+        -0.4104764759540558
+      ],
+      "original": "def f(a, b): return abs(a + b)",
+      "from_2d": "def f(a, b): return abs(a * b)",
+      "match": false
+    },
+    {
+      "coords": [
+        0.6865682601928711,
+        0.3892199695110321
+      ],
+      "original": "def f(a, b): return a - b",
+      "from_2d": "def f(x, y): return x / y",
+      "match": false
+    },
+    {
+      "coords": [
+        0.3784596920013428,
+        0.4865812063217163
+      ],
+      "original": "def f(a, b): return abs(a // b)",
+      "from_2d": "def f(m, n): return m < n",
+      "match": false
+    }
+  ],
+  "elapsed": 20.466487407684326,
+  "timestamp": "2026-05-06T00:07:19"
+}

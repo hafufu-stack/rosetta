@@ -1,0 +1,247 @@
+{
+  "phase": 40,
+  "name": "5-Dimensional Theory of Code",
+  "variance_ratios": [
+    0.2547113001346588,
+    0.23375427722930908,
+    0.18965259194374084,
+    0.09348764270544052,
+    0.09174910932779312,
+    0.06553374230861664,
+    0.02486249804496765,
+    0.013900244608521461,
+    0.011263231746852398,
+    0.007760162930935621
+  ],
+  "elements": [
+    {
+      "pc": 0,
+      "variance": 0.2547113001346588,
+      "codes": [
+        {
+          "t": -2,
+          "code": "def f(items): return list(reversed(items))"
+        },
+        {
+          "t": -1,
+          "code": "def f(a, b): return a == b"
+        },
+        {
+          "t": 0,
+          "code": "def f(m, n): return m < n"
+        },
+        {
+          "t": 1,
+          "code": "def f(x, y): return x >= y"
+        },
+        {
+          "t": 2,
+          "code": "def f(x, y): return x % y"
+        }
+      ],
+      "category_means": {
+        "arithmetic": 0.29539617896080017,
+        "comparison": 0.031497009098529816,
+        "string": -0.3187428116798401,
+        "list": -0.6492276787757874,
+        "unary": -0.2936355471611023,
+        "binary_op": 0.198635995388031
+      },
+      "interpretation": "PC0: 'list' (low=-0.65) <-> 'arithmetic' (high=0.30)"
+    },
+    {
+      "pc": 1,
+      "variance": 0.23375427722930908,
+      "codes": [
+        {
+          "t": -2,
+          "code": "def f(x, y): return x >= y"
+        },
+        {
+          "t": -1,
+          "code": "def f(p, q): return p / q"
+        },
+        {
+          "t": 0,
+          "code": "def f(m, n): return m < n"
+        },
+        {
+          "t": 1,
+          "code": "def f(x, y): return abs(x / y)"
+        },
+        {
+          "t": 2,
+          "code": "def f(n): return float(n)"
+        }
+      ],
+      "category_means": {
+        "arithmetic": -0.19280670583248138,
+        "comparison": 0.15937212109565735,
+        "string": 0.26897773146629333,
+        "list": 0.21206426620483398,
+        "unary": 0.10341569781303406,
+        "binary_op": -0.06995712220668793
+      },
+      "interpretation": "PC1: 'arithmetic' (low=-0.19) <-> 'string' (high=0.27)"
+    },
+    {
+      "pc": 2,
+      "variance": 0.18965259194374084,
+      "codes": [
+        {
+          "t": -2,
+          "code": "def f(p, q): return p / q"
+        },
+        {
+          "t": -1,
+          "code": "def f(p, q): return p // q"
+        },
+        {
+          "t": 0,
+          "code": "def f(m, n): return m < n"
+        },
+        {
+          "t": 1,
+          "code": "def f(x, y): return x or y"
+        },
+        {
+          "t": 2,
+          "code": "def f(p, q): return p and q"
+        }
+      ],
+      "category_means": {
+        "arithmetic": 0.015958208590745926,
+        "comparison": -0.04797394946217537,
+        "string": 0.2794792950153351,
+        "list": -0.27776169776916504,
+        "unary": 0.08954515308141708,
+        "binary_op": -0.06057454273104668
+      },
+      "interpretation": "PC2: 'list' (low=-0.28) <-> 'string' (high=0.28)"
+    },
+    {
+      "pc": 3,
+      "variance": 0.09348764270544052,
+      "codes": [
+        {
+          "t": -2,
+          "code": "def f(p, q): return p / q"
+        },
+        {
+          "t": -1,
+          "code": "def f(x, y): return x // y"
+        },
+        {
+          "t": 0,
+          "code": "def f(m, n): return m < n"
+        },
+        {
+          "t": 1,
+          "code": "def f(m, n): return abs(m * n)"
+        },
+        {
+          "t": 2,
+          "code": "def f(a, b): return abs(a / b)"
+        }
+      ],
+      "category_means": {
+        "arithmetic": -0.00534958066418767,
+        "comparison": -0.2421415150165558,
+        "string": 0.2374066412448883,
+        "list": 0.19868580996990204,
+        "unary": 0.11545339971780777,
+        "binary_op": -0.07810085266828537
+      },
+      "interpretation": "PC3: 'comparison' (low=-0.24) <-> 'string' (high=0.24)"
+    },
+    {
+      "pc": 4,
+      "variance": 0.09174910932779312,
+      "codes": [
+        {
+          "t": -2,
+          "code": "def f(p, q): return p / q"
+        },
+        {
+          "t": -1,
+          "code": "def f(p, q): return p // q"
+        },
+        {
+          "t": 0,
+          "code": "def f(m, n): return m < n"
+        },
+        {
+          "t": 1,
+          "code": "def f(m, n): return m or n"
+        },
+        {
+          "t": 2,
+          "code": "def f(x, y): return x == y"
+        }
+      ],
+      "category_means": {
+        "arithmetic": -0.037626441568136215,
+        "comparison": -0.1523469239473343,
+        "string": 0.26419517397880554,
+        "list": 0.04497578740119934,
+        "unary": 0.06488648056983948,
+        "binary_op": -0.04389356076717377
+      },
+      "interpretation": "PC4: 'comparison' (low=-0.15) <-> 'string' (high=0.26)"
+    }
+  ],
+  "coordinates": [
+    {
+      "src": "def f(x, y): return x + y",
+      "coords": [
+        -0.5675843954086304,
+        -0.5341804027557373,
+        0.3492829501628876,
+        -0.20014101266860962,
+        -0.4673650860786438
+      ]
+    },
+    {
+      "src": "def f(x, y): return x > y",
+      "coords": [
+        0.18675783276557922,
+        -0.06815201044082642,
+        -0.8632878661155701,
+        -0.18681716918945312,
+        -0.14693625271320343
+      ]
+    },
+    {
+      "src": "def f(s): return s.upper()",
+      "coords": [
+        -0.03683929145336151,
+        0.36760714650154114,
+        0.6954602003097534,
+        0.3416585922241211,
+        0.35513830184936523
+      ]
+    },
+    {
+      "src": "def f(x): return abs(x)",
+      "coords": [
+        -0.7415980100631714,
+        0.12103365361690521,
+        -0.34449219703674316,
+        0.08102860301733017,
+        0.12778055667877197
+      ]
+    },
+    {
+      "src": "def f(x): return -x",
+      "coords": [
+        -0.3344399929046631,
+        0.07920399308204651,
+        0.25550657510757446,
+        -0.5851911306381226,
+        0.42662692070007324
+      ]
+    }
+  ],
+  "elapsed": 3.8067007064819336,
+  "timestamp": "2026-05-06T00:06:38"
+}

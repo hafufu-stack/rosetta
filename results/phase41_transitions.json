@@ -1,0 +1,248 @@
+{
+  "phase": 41,
+  "name": "Program Phase Transitions",
+  "transitions": [
+    {
+      "desc": "add -> sub",
+      "n_transitions": 9,
+      "avg_gap": 0.1125,
+      "transition_points": [
+        {
+          "t": 0.06,
+          "from": "def f(m, n): return m + n",
+          "to": "def f(x, y): return x + y"
+        },
+        {
+          "t": 0.08,
+          "from": "def f(x, y): return x + y",
+          "to": "def f(x, y): return x != y"
+        },
+        {
+          "t": 0.18,
+          "from": "def f(x, y): return x != y",
+          "to": "def f(x, y): return x // y"
+        },
+        {
+          "t": 0.2,
+          "from": "def f(x, y): return x // y",
+          "to": "def f(p, q): return p // q"
+        },
+        {
+          "t": 0.44,
+          "from": "def f(p, q): return p // q",
+          "to": "def f(p, q): return p / q"
+        },
+        {
+          "t": 0.68,
+          "from": "def f(p, q): return p / q",
+          "to": "def f(x, y): return x / y"
+        },
+        {
+          "t": 0.78,
+          "from": "def f(x, y): return x / y",
+          "to": "def f(x, y): return x >= y"
+        },
+        {
+          "t": 0.92,
+          "from": "def f(x, y): return x >= y",
+          "to": "def f(x, y): return (x - y) / "
+        },
+        {
+          "t": 0.96,
+          "from": "def f(x, y): return (x - y) / ",
+          "to": "def f(a, b): return a - b"
+        }
+      ],
+      "start_code": "def f(m, n): return m + n",
+      "end_code": "def f(a, b): return a - b"
+    },
+    {
+      "desc": "mul -> div",
+      "n_transitions": 5,
+      "avg_gap": 0.16499999999999998,
+      "transition_points": [
+        {
+          "t": 0.16,
+          "from": "def f(a, b): return a * b",
+          "to": "def f(a, b): return a > b"
+        },
+        {
+          "t": 0.36,
+          "from": "def f(a, b): return a > b",
+          "to": "def f(a, b): return a - b"
+        },
+        {
+          "t": 0.52,
+          "from": "def f(a, b): return a - b",
+          "to": "def f(x, y): return (x - y) / "
+        },
+        {
+          "t": 0.56,
+          "from": "def f(x, y): return (x - y) / ",
+          "to": "def f(x, y): return x >= y"
+        },
+        {
+          "t": 0.82,
+          "from": "def f(x, y): return x >= y",
+          "to": "def f(x, y): return x / y"
+        }
+      ],
+      "start_code": "def f(a, b): return a * b",
+      "end_code": "def f(x, y): return x / y"
+    },
+    {
+      "desc": "add -> gt",
+      "n_transitions": 11,
+      "avg_gap": 0.096,
+      "transition_points": [
+        {
+          "t": 0.02,
+          "from": "def f(m, n): return m + n",
+          "to": "def f(p, q): return p + q"
+        },
+        {
+          "t": 0.06,
+          "from": "def f(p, q): return p + q",
+          "to": "def f(a, b): return a != b"
+        },
+        {
+          "t": 0.12,
+          "from": "def f(a, b): return a != b",
+          "to": "def f(a, b): return a // b"
+        },
+        {
+          "t": 0.14,
+          "from": "def f(a, b): return a // b",
+          "to": "def f(p, q): return p // q"
+        },
+        {
+          "t": 0.36,
+          "from": "def f(p, q): return p // q",
+          "to": "def f(p, q): return p / q"
+        },
+        {
+          "t": 0.62,
+          "from": "def f(p, q): return p / q",
+          "to": "def f(m, n): return m / n"
+        },
+        {
+          "t": 0.72,
+          "from": "def f(m, n): return m / n",
+          "to": "def f(m, n): return m >= n"
+        },
+        {
+          "t": 0.86,
+          "from": "def f(m, n): return m >= n",
+          "to": "def f(x, y): return (x - y) / "
+        },
+        {
+          "t": 0.88,
+          "from": "def f(x, y): return (x - y) / ",
+          "to": "def f(x, y): return x >= y"
+        },
+        {
+          "t": 0.9,
+          "from": "def f(x, y): return x >= y",
+          "to": "def f(x, y): return x - y"
+        }
+      ],
+      "start_code": "def f(m, n): return m + n",
+      "end_code": "def f(x, y): return x > y"
+    },
+    {
+      "desc": "add -> mul",
+      "n_transitions": 11,
+      "avg_gap": 0.088,
+      "transition_points": [
+        {
+          "t": 0.06,
+          "from": "def f(m, n): return m + n",
+          "to": "def f(x, y): return x != y"
+        },
+        {
+          "t": 0.14,
+          "from": "def f(x, y): return x != y",
+          "to": "def f(p, q): return p // q"
+        },
+        {
+          "t": 0.34,
+          "from": "def f(p, q): return p // q",
+          "to": "def f(p, q): return p / q"
+        },
+        {
+          "t": 0.54,
+          "from": "def f(p, q): return p / q",
+          "to": "def f(m, n): return m / n"
+        },
+        {
+          "t": 0.58,
+          "from": "def f(m, n): return m / n",
+          "to": "def f(x, y): return x / y"
+        },
+        {
+          "t": 0.62,
+          "from": "def f(x, y): return x / y",
+          "to": "def f(x, y): return x >= y"
+        },
+        {
+          "t": 0.74,
+          "from": "def f(x, y): return x >= y",
+          "to": "def f(x, y): return (x - y) / "
+        },
+        {
+          "t": 0.76,
+          "from": "def f(x, y): return (x - y) / ",
+          "to": "def f(x, y): return x >= y"
+        },
+        {
+          "t": 0.78,
+          "from": "def f(x, y): return x >= y",
+          "to": "def f(a, b): return a - b"
+        },
+        {
+          "t": 0.84,
+          "from": "def f(a, b): return a - b",
+          "to": "def f(a, b): return a > b"
+        }
+      ],
+      "start_code": "def f(m, n): return m + n",
+      "end_code": "def f(a, b): return a * b"
+    },
+    {
+      "desc": "abs -> neg",
+      "n_transitions": 5,
+      "avg_gap": 0.19,
+      "transition_points": [
+        {
+          "t": 0.24,
+          "from": "def f(arr): return min(arr)",
+          "to": "def f(a): return abs(a)"
+        },
+        {
+          "t": 0.3,
+          "from": "def f(a): return abs(a)",
+          "to": "def f(a): return int(a)"
+        },
+        {
+          "t": 0.64,
+          "from": "def f(a): return int(a)",
+          "to": "def f(a): return -a"
+        },
+        {
+          "t": 0.7,
+          "from": "def f(a): return -a",
+          "to": "def f(a, b): return a == b"
+        },
+        {
+          "t": 1.0,
+          "from": "def f(a, b): return a == b",
+          "to": "def f(x, y): return x == y"
+        }
+      ],
+      "start_code": "def f(arr): return min(arr)",
+      "end_code": "def f(x, y): return x == y"
+    }
+  ],
+  "elapsed": 17.52185034751892,
+  "timestamp": "2026-05-06T00:06:58"
+}
