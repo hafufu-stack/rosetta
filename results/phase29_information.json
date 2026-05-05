@@ -1,0 +1,35 @@
+{
+  "phase": 29,
+  "name": "Information-Theoretic Compilation",
+  "total_mi_nl_bc": 5321.86804414882,
+  "total_mi_ast_bc": 5896.609072985072,
+  "total_mi_nl_ast": 5271.824085567587,
+  "info_preservation": 1.009492721640359,
+  "n90_nl_dims": 57,
+  "top_nl_dims": [
+    38,
+    42,
+    52,
+    62,
+    51,
+    40,
+    36,
+    22,
+    8,
+    45
+  ],
+  "top_bc_dims": [
+    19,
+    9,
+    45,
+    20,
+    30,
+    18,
+    37,
+    39,
+    11,
+    43
+  ],
+  "elapsed": 1.52628493309021,
+  "timestamp": "2026-05-05T23:30:24"
+}

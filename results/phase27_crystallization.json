@@ -1,0 +1,266 @@
+{
+  "phase": 27,
+  "name": "Sequential Semantic Crystallization",
+  "opcode_vocab_size": 23,
+  "n_samples": 2736,
+  "trajectories": [
+    {
+      "source": "def f(x, y): return x + y",
+      "nl": "add x and y",
+      "opcodes": [
+        "RESUME",
+        "LOAD_CONST",
+        "MAKE_FUNCTION",
+        "STORE_NAME",
+        "RETURN_CONST",
+        "RESUME",
+        "LOAD_FAST_LOAD_FAST",
+        "BINARY_OP",
+        "RETURN_VALUE"
+      ],
+      "cos_trajectory": [
+        0.04419092833995819,
+        0.051545094698667526,
+        0.008538844995200634,
+        -0.0542624406516552,
+        -0.06596680730581284,
+        0.048336517065763474,
+        0.014342601411044598,
+        -0.05854072421789169,
+        -0.15856078267097473
+      ],
+      "crystal_step": 5,
+      "crystal_opcode": "RESUME",
+      "max_jump": 0.11430332437157631,
+      "final_cos": -0.15856078267097473
+    },
+    {
+      "source": "def f(x, y): return abs(x + y)",
+      "nl": "absolute p of x and y",
+      "opcodes": [
+        "RESUME",
+        "LOAD_CONST",
+        "MAKE_FUNCTION",
+        "STORE_NAME",
+        "RETURN_CONST",
+        "RESUME",
+        "LOAD_GLOBAL",
+        "LOAD_FAST_LOAD_FAST",
+        "BINARY_OP",
+        "CALL",
+        "RETURN_VALUE"
+      ],
+      "cos_trajectory": [
+        -0.10616949945688248,
+        -0.19755394756793976,
+        -0.1675575077533722,
+        -0.0327787920832634,
+        0.0399220809340477,
+        -0.10110145807266235,
+        0.02586756832897663,
+        0.13556064665317535,
+        -0.01832985319197178,
+        0.32684820890426636,
+        0.38120514154434204
+      ],
+      "crystal_step": 9,
+      "crystal_opcode": "CALL",
+      "max_jump": 0.34517806209623814,
+      "final_cos": 0.38120514154434204
+    },
+    {
+      "source": "def f(a, b): return a + b",
+      "nl": "add a and b",
+      "opcodes": [
+        "RESUME",
+        "LOAD_CONST",
+        "MAKE_FUNCTION",
+        "STORE_NAME",
+        "RETURN_CONST",
+        "RESUME",
+        "LOAD_FAST_LOAD_FAST",
+        "BINARY_OP",
+        "RETURN_VALUE"
+      ],
+      "cos_trajectory": [
+        0.04487011209130287,
+        0.051956016570329666,
+        0.009113005362451077,
+        -0.05378998816013336,
+        -0.064980149269104,
+        0.04960574582219124,
+        0.014044487848877907,
+        -0.05697859078645706,
+        -0.1555570513010025
+      ],
+      "crystal_step": 5,
+      "crystal_opcode": "RESUME",
+      "max_jump": 0.11458589509129524,
+      "final_cos": -0.1555570513010025
+    },
+    {
+      "source": "def f(a, b): return abs(a + b)",
+      "nl": "absolute p of a and b",
+      "opcodes": [
+        "RESUME",
+        "LOAD_CONST",
+        "MAKE_FUNCTION",
+        "STORE_NAME",
+        "RETURN_CONST",
+        "RESUME",
+        "LOAD_GLOBAL",
+        "LOAD_FAST_LOAD_FAST",
+        "BINARY_OP",
+        "CALL",
+        "RETURN_VALUE"
+      ],
+      "cos_trajectory": [
+        -0.1024397537112236,
+        -0.19086411595344543,
+        -0.16190879046916962,
+        -0.02961486391723156,
+        0.04180952161550522,
+        -0.0968555435538292,
+        0.02771681174635887,
+        0.13800431787967682,
+        -0.01928427815437317,
+        0.32448720932006836,
+        0.38644489645957947
+      ],
+      "crystal_step": 9,
+      "crystal_opcode": "CALL",
+      "max_jump": 0.34377148747444153,
+      "final_cos": 0.38644489645957947
+    },
+    {
+      "source": "def f(m, n): return m + n",
+      "nl": "add m and n",
+      "opcodes": [
+        "RESUME",
+        "LOAD_CONST",
+        "MAKE_FUNCTION",
+        "STORE_NAME",
+        "RETURN_CONST",
+        "RESUME",
+        "LOAD_FAST_LOAD_FAST",
+        "BINARY_OP",
+        "RETURN_VALUE"
+      ],
+      "cos_trajectory": [
+        0.04394106566905975,
+        0.05272236466407776,
+        0.010012319311499596,
+        -0.05416276678442955,
+        -0.06625622510910034,
+        0.04784085229039192,
+        0.014525055885314941,
+        -0.05760883167386055,
+        -0.1590391993522644
+      ],
+      "crystal_step": 5,
+      "crystal_opcode": "RESUME",
+      "max_jump": 0.11409707739949226,
+      "final_cos": -0.1590391993522644
+    },
+    {
+      "source": "def f(m, n): return abs(m + n)",
+      "nl": "absolute p of m and n",
+      "opcodes": [
+        "RESUME",
+        "LOAD_CONST",
+        "MAKE_FUNCTION",
+        "STORE_NAME",
+        "RETURN_CONST",
+        "RESUME",
+        "LOAD_GLOBAL",
+        "LOAD_FAST_LOAD_FAST",
+        "BINARY_OP",
+        "CALL",
+        "RETURN_VALUE"
+      ],
+      "cos_trajectory": [
+        -0.10965714603662491,
+        -0.20339813828468323,
+        -0.17164888978004456,
+        -0.034694187343120575,
+        0.04237832874059677,
+        -0.1020914688706398,
+        0.02425363101065159,
+        0.13378378748893738,
+        -0.014939422719180584,
+        0.3330405354499817,
+        0.38485240936279297
+      ],
+      "crystal_step": 9,
+      "crystal_opcode": "CALL",
+      "max_jump": 0.3479799581691623,
+      "final_cos": 0.38485240936279297
+    },
+    {
+      "source": "def f(p, q): return p + q",
+      "nl": "add p and q",
+      "opcodes": [
+        "RESUME",
+        "LOAD_CONST",
+        "MAKE_FUNCTION",
+        "STORE_NAME",
+        "RETURN_CONST",
+        "RESUME",
+        "LOAD_FAST_LOAD_FAST",
+        "BINARY_OP",
+        "RETURN_VALUE"
+      ],
+      "cos_trajectory": [
+        0.04389547184109688,
+        0.05186796188354492,
+        0.009625512175261974,
+        -0.054882872849702835,
+        -0.06626711040735245,
+        0.04818406701087952,
+        0.011213475838303566,
+        -0.05977829545736313,
+        -0.1566934734582901
+      ],
+      "crystal_step": 5,
+      "crystal_opcode": "RESUME",
+      "max_jump": 0.11445117741823196,
+      "final_cos": -0.1566934734582901
+    },
+    {
+      "source": "def f(p, q): return abs(p + q)",
+      "nl": "absolute p of p and q",
+      "opcodes": [
+        "RESUME",
+        "LOAD_CONST",
+        "MAKE_FUNCTION",
+        "STORE_NAME",
+        "RETURN_CONST",
+        "RESUME",
+        "LOAD_GLOBAL",
+        "LOAD_FAST_LOAD_FAST",
+        "BINARY_OP",
+        "CALL",
+        "RETURN_VALUE"
+      ],
+      "cos_trajectory": [
+        -0.10020836442708969,
+        -0.1891898512840271,
+        -0.14832408726215363,
+        -0.02417086996138096,
+        0.050862520933151245,
+        -0.09146004170179367,
+        0.029311273247003555,
+        0.1258516162633896,
+        -0.02821824513375759,
+        0.32951921224594116,
+        0.3853791058063507
+      ],
+      "crystal_step": 9,
+      "crystal_opcode": "CALL",
+      "max_jump": 0.35773745737969875,
+      "final_cos": 0.3853791058063507
+    }
+  ],
+  "elapsed": 21.877835750579834,
+  "timestamp": "2026-05-05T23:30:21"
+}
