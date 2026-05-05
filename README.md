@@ -2,7 +2,8 @@
 
 **Linear Algebraic Compilation, Neural Decompilation, and Semantic Code Surgery in a Unified Latent Space**
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-red)](papers/paper_v1.pdf)
+[![Paper](https://img.shields.io/badge/Paper-Zenodo-blue)](https://doi.org/10.5281/zenodo.20036684)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20036684.svg)](https://doi.org/10.5281/zenodo.20036684)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 ## Overview
