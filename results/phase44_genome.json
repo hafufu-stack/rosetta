@@ -1,0 +1,79 @@
+{
+  "phase": 44,
+  "name": "The Rosetta Genome",
+  "n_species": 25,
+  "siblings": [
+    {
+      "func_a": "def f(x, y): return x + y",
+      "func_b": "def f(a, b): return a + b",
+      "distance": 0.0
+    },
+    {
+      "func_a": "def f(x, y): return x + y",
+      "func_b": "def f(m, n): return m + n",
+      "distance": 0.0
+    },
+    {
+      "func_a": "def f(x, y): return x + y",
+      "func_b": "def f(p, q): return p + q",
+      "distance": 0.0
+    },
+    {
+      "func_a": "def f(x, y): return abs(x + y)",
+      "func_b": "def f(a, b): return abs(a + b)",
+      "distance": 0.0
+    },
+    {
+      "func_a": "def f(x, y): return abs(x + y)",
+      "func_b": "def f(m, n): return abs(m + n)",
+      "distance": 0.0
+    },
+    {
+      "func_a": "def f(x, y): return abs(x + y)",
+      "func_b": "def f(p, q): return abs(p + q)",
+      "distance": 0.0
+    },
+    {
+      "func_a": "def f(a, b): return a + b",
+      "func_b": "def f(m, n): return m + n",
+      "distance": 0.0
+    },
+    {
+      "func_a": "def f(a, b): return a + b",
+      "func_b": "def f(p, q): return p + q",
+      "distance": 0.0
+    }
+  ],
+  "ancestors": [
+    {
+      "func_a": "def f(x, y): return x + y",
+      "func_b": "def f(x, y): return x - y",
+      "ancestor": "def f(p, q): return p / q"
+    },
+    {
+      "func_a": "def f(x, y): return x * y",
+      "func_b": "def f(x, y): return x / y",
+      "ancestor": "def f(a, b): return a - b"
+    },
+    {
+      "func_a": "def f(x, y): return x + y",
+      "func_b": "def f(x, y): return x * y",
+      "ancestor": "def f(p, q): return p / q"
+    },
+    {
+      "func_a": "def f(x): return abs(x)",
+      "func_b": "def f(x): return -x",
+      "ancestor": "def f(a): return int(a)"
+    },
+    {
+      "func_a": "def f(x, y): return x > y",
+      "func_b": "def f(x, y): return x == y",
+      "ancestor": "def f(p, q): return p // q"
+    }
+  ],
+  "avg_genetic_distance": 0.9223439199389397,
+  "min_distance": 0.0,
+  "max_distance": 1.8272188240323155,
+  "elapsed": 0.17037081718444824,
+  "timestamp": "2026-05-06T00:11:48"
+}

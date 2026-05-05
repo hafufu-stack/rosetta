@@ -1,0 +1,149 @@
+{
+  "phase": 43,
+  "name": "Semantic Gravity",
+  "heaviest": [
+    {
+      "rank": 1,
+      "mass": 39,
+      "src": "def f(lst): return min(lst)"
+    },
+    {
+      "rank": 2,
+      "mass": 39,
+      "src": "def f(arr): return min(arr)"
+    },
+    {
+      "rank": 3,
+      "mass": 39,
+      "src": "def f(nums): return min(nums)"
+    },
+    {
+      "rank": 4,
+      "mass": 39,
+      "src": "def f(items): return min(items)"
+    },
+    {
+      "rank": 5,
+      "mass": 39,
+      "src": "def f(items): return max(items)"
+    },
+    {
+      "rank": 6,
+      "mass": 39,
+      "src": "def f(nums): return max(nums)"
+    },
+    {
+      "rank": 7,
+      "mass": 39,
+      "src": "def f(arr): return max(arr)"
+    },
+    {
+      "rank": 8,
+      "mass": 39,
+      "src": "def f(lst): return max(lst)"
+    },
+    {
+      "rank": 9,
+      "mass": 39,
+      "src": "def f(lst): return len(lst)"
+    },
+    {
+      "rank": 10,
+      "mass": 39,
+      "src": "def f(arr): return len(arr)"
+    }
+  ],
+  "lightest": [
+    {
+      "mass": 3,
+      "src": "def f(m, n): return m + n"
+    },
+    {
+      "mass": 3,
+      "src": "def f(a, b): return abs(a + b)"
+    },
+    {
+      "mass": 3,
+      "src": "def f(a, b): return a + b"
+    },
+    {
+      "mass": 3,
+      "src": "def f(x, y): return abs(x + y)"
+    },
+    {
+      "mass": 3,
+      "src": "def f(x, y): return x + y"
+    }
+  ],
+  "center_func": "def f(lst): return list(reversed(lst))",
+  "clusters": [
+    {
+      "id": 0,
+      "size": 32,
+      "centroid_code": "def f(p, q): return p / q",
+      "examples": [
+        "def f(x, y): return x * y",
+        "def f(a, b): return a * b",
+        "def f(m, n): return m * n",
+        "def f(p, q): return p * q",
+        "def f(x, y): return x // y"
+      ]
+    },
+    {
+      "id": 1,
+      "size": 44,
+      "centroid_code": "def f(p, q): return p and q",
+      "examples": [
+        "def f(x, y): return x < y",
+        "def f(a, b): return a < b",
+        "def f(m, n): return m < n",
+        "def f(p, q): return p < q",
+        "def f(s): return s.upper()"
+      ]
+    },
+    {
+      "id": 2,
+      "size": 52,
+      "centroid_code": "def f(p, q): return p / q",
+      "examples": [
+        "def f(x, y): return x - y",
+        "def f(x, y): return abs(x - y)",
+        "def f(a, b): return a - b",
+        "def f(a, b): return abs(a - b)",
+        "def f(m, n): return m - n"
+      ]
+    },
+    {
+      "id": 3,
+      "size": 56,
+      "centroid_code": "def f(a): return int(a)",
+      "examples": [
+        "def f(x, y): return x == y",
+        "def f(a, b): return a == b",
+        "def f(m, n): return m == n",
+        "def f(p, q): return p == q",
+        "def f(x, y): return x != y"
+      ]
+    },
+    {
+      "id": 4,
+      "size": 52,
+      "centroid_code": "def f(p, q): return p // q",
+      "examples": [
+        "def f(x, y): return x + y",
+        "def f(x, y): return abs(x + y)",
+        "def f(a, b): return a + b",
+        "def f(a, b): return abs(a + b)",
+        "def f(m, n): return m + n"
+      ]
+    }
+  ],
+  "avg_escape_velocity": 0.17750000000000005,
+  "mass_distribution": {
+    "mean": 10.457627118644067,
+    "max": 39,
+    "min": 3
+  },
+  "elapsed": 3.776439666748047,
+  "timestamp": "2026-05-06T00:11:46"
+}

@@ -1,0 +1,65 @@
+{
+  "phase": 45,
+  "name": "Latent Arithmetic Completeness",
+  "analogies": [
+    {
+      "desc": "add:sub :: mul:?=div",
+      "predicted": "defdef(x, y): return x % y",
+      "expected": "def f(x, y): return x / y",
+      "cos": 0.5121021866798401
+    },
+    {
+      "desc": "add:mul :: sub:?=div",
+      "predicted": "defdef(x, y): return x % y",
+      "expected": "def f(x, y): return x / y",
+      "cos": 0.5121021270751953
+    },
+    {
+      "desc": "add:abs :: sub:?=abs(sub)",
+      "predicted": "def f(m, n): return abs(m * n)",
+      "expected": "def f(x, y): return abs(x - y)",
+      "cos": 0.7043437361717224
+    },
+    {
+      "desc": "neg:abs :: sub:?=abs(sub)",
+      "predicted": "def f(p, q): return p // q",
+      "expected": "def f(x, y): return abs(x - y)",
+      "cos": 0.8242669105529785
+    }
+  ],
+  "compositions": [
+    {
+      "desc": "abs + add = abs(add)?",
+      "result": "def f(a, b): return a == b"
+    },
+    {
+      "desc": "neg + abs = ?",
+      "result": "def f(nums): return sum(nums)"
+    },
+    {
+      "desc": "add + add = double?",
+      "result": "def f(m, n): return m + n"
+    },
+    {
+      "desc": "mul + mul = square?",
+      "result": "def f(a, b): return a * b"
+    }
+  ],
+  "identities": [
+    {
+      "desc": "add - add",
+      "result": "def f(x, y): return x // y"
+    },
+    {
+      "desc": "neg + abs",
+      "result": "def f(arr): return list(reversed(lst))"
+    },
+    {
+      "desc": "2*add - sub",
+      "result": "def f(a): return int(a)"
+    }
+  ],
+  "span_ratio": 0.24,
+  "elapsed": 0.4775204658508301,
+  "timestamp": "2026-05-06T00:11:49"
+}
