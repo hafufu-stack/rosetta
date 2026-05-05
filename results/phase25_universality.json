@@ -1,0 +1,112 @@
+{
+  "phase": 25,
+  "name": "Rosetta Universality Test",
+  "distances": [
+    {
+      "desc": "add/sub",
+      "dist": 1.8814890384674072,
+      "cos": -0.7700003981590271
+    },
+    {
+      "desc": "mul/div",
+      "dist": 1.6711156368255615,
+      "cos": -0.39631348848342896
+    },
+    {
+      "desc": "gt/lt",
+      "dist": 1.8149648904800415,
+      "cos": -0.6470488905906677
+    },
+    {
+      "desc": "eq/neq",
+      "dist": 1.0262800455093384,
+      "cos": 0.4733746647834778
+    },
+    {
+      "desc": "upper/lower",
+      "dist": 0.0,
+      "cos": 1.0
+    }
+  ],
+  "triangle": [
+    {
+      "desc": "add/sub/mul",
+      "d_ab": 1.8814890384674072,
+      "d_bc": 1.564298152923584,
+      "d_ac": 1.3214665651321411,
+      "holds": true
+    },
+    {
+      "desc": "gt/eq/lt",
+      "d_ab": 1.5369646549224854,
+      "d_bc": 1.1002874374389648,
+      "d_ac": 1.8149648904800415,
+      "holds": true
+    }
+  ],
+  "analogies": [
+    {
+      "desc": "add:sub :: mul:div",
+      "cos": 0.5566157698631287
+    },
+    {
+      "desc": "gt:lt :: gte:lte",
+      "cos": 0.33801552653312683
+    }
+  ],
+  "avg_stability": 0.8356501311063766,
+  "stabilities": [
+    {
+      "src": "def f(x, y): return x + y",
+      "decoded": "def f(m, n): return m + n",
+      "cos": 1.0
+    },
+    {
+      "src": "def f(x, y): return abs(x + y)",
+      "decoded": "def f(a, b): return abs(a + b)",
+      "cos": 1.0
+    },
+    {
+      "src": "def f(a, b): return a + b",
+      "decoded": "def f(m, n): return m + n",
+      "cos": 1.0
+    },
+    {
+      "src": "def f(a, b): return abs(a + b)",
+      "decoded": "def f(a, b): return abs(a + b)",
+      "cos": 1.0
+    },
+    {
+      "src": "def f(m, n): return m + n",
+      "decoded": "def f(m, n): return m + n",
+      "cos": 1.0
+    },
+    {
+      "src": "def f(m, n): return abs(m + n)",
+      "decoded": "def f(a, b): return abs(a + b)",
+      "cos": 1.0
+    },
+    {
+      "src": "def f(p, q): return p + q",
+      "decoded": "def f(m, n): return m + n",
+      "cos": 1.0
+    },
+    {
+      "src": "def f(p, q): return abs(p + q)",
+      "decoded": "def f(a, b): return abs(a + b)",
+      "cos": 1.0
+    },
+    {
+      "src": "def f(x, y): return x - y",
+      "decoded": "def f(a, b): return a - b",
+      "cos": 1.0
+    },
+    {
+      "src": "def f(x, y): return abs(x - y)",
+      "decoded": "def f(a, b): return abs(a // b)",
+      "cos": 0.17825059592723846
+    }
+  ],
+  "elapsed": 0.560662031173706,
+  "timestamp": "2026-05-05T23:13:40"
+}
