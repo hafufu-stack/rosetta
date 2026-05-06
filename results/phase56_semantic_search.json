@@ -1,0 +1,208 @@
+{
+  "phase": 56,
+  "name": "Semantic Code Search Engine",
+  "n_functions": 236,
+  "nl_search_top1": 0.4444444444444444,
+  "nl_search_top5": 0.8888888888888888,
+  "io_search_accuracy": 1.0,
+  "nl_results": [
+    {
+      "query": "add two numbers",
+      "expected": "def f(x, y): return x + y",
+      "result": "def f(a, b): return a + b",
+      "top1_correct": false,
+      "top5_correct": true,
+      "rank": 2
+    },
+    {
+      "query": "subtract",
+      "expected": "def f(x, y): return x - y",
+      "result": "def f(p, q): return p - q",
+      "top1_correct": false,
+      "top5_correct": true,
+      "rank": 3
+    },
+    {
+      "query": "multiply",
+      "expected": "def f(x, y): return x * y",
+      "result": "def f(p, q): return p * q",
+      "top1_correct": false,
+      "top5_correct": true,
+      "rank": 3
+    },
+    {
+      "query": "absolute value",
+      "expected": "def f(x): return abs(x)",
+      "result": "def f(lst): return min(lst)",
+      "top1_correct": false,
+      "top5_correct": false,
+      "rank": 28
+    },
+    {
+      "query": "negate a number",
+      "expected": "def f(x): return -x",
+      "result": "def f(x): return -x",
+      "top1_correct": true,
+      "top5_correct": true,
+      "rank": 1
+    },
+    {
+      "query": "compare greater than",
+      "expected": "def f(x, y): return x > y",
+      "result": "def f(x, y): return x > y",
+      "top1_correct": true,
+      "top5_correct": true,
+      "rank": 1
+    },
+    {
+      "query": "compare less than",
+      "expected": "def f(x, y): return x < y",
+      "result": "def f(p, q): return p < q",
+      "top1_correct": false,
+      "top5_correct": true,
+      "rank": 4
+    },
+    {
+      "query": "check equality",
+      "expected": "def f(x, y): return x == y",
+      "result": "def f(x, y): return x == y",
+      "top1_correct": true,
+      "top5_correct": true,
+      "rank": 1
+    },
+    {
+      "query": "square a number",
+      "expected": "def f(x): return x * x",
+      "result": "def f(x): return x * x",
+      "top1_correct": true,
+      "top5_correct": true,
+      "rank": 1
+    }
+  ],
+  "io_results": [
+    {
+      "query": "what adds?",
+      "expected": "def f(x, y): return x + y",
+      "result": "def f(x, y): return x + y",
+      "correct": true,
+      "io_score": 3,
+      "total_io": 3,
+      "n_candidates": 8
+    },
+    {
+      "query": "what negates?",
+      "expected": "def f(x): return -x",
+      "result": "def f(x): return -x",
+      "correct": true,
+      "io_score": 3,
+      "total_io": 3,
+      "n_candidates": 4
+    },
+    {
+      "query": "what squares?",
+      "expected": "def f(x): return x * x",
+      "result": "def f(x): return x * x",
+      "correct": true,
+      "io_score": 3,
+      "total_io": 3,
+      "n_candidates": 4
+    },
+    {
+      "query": "what doubles?",
+      "expected": "def f(x): return x * 2",
+      "result": "def f(x): return x * 2",
+      "correct": true,
+      "io_score": 3,
+      "total_io": 3,
+      "n_candidates": 4
+    },
+    {
+      "query": "what mods?",
+      "expected": "def f(x, y): return x % y",
+      "result": "def f(x, y): return x % y",
+      "correct": true,
+      "io_score": 3,
+      "total_io": 3,
+      "n_candidates": 8
+    }
+  ],
+  "similarity_results": [
+    {
+      "query": "def f(x, y): return x + y",
+      "neighbors": [
+        {
+          "src": "def f(a, b): return a + b",
+          "dist": 0.0
+        },
+        {
+          "src": "def f(p, q): return p + q",
+          "dist": 0.0
+        },
+        {
+          "src": "def f(m, n): return m + n",
+          "dist": 0.0
+        },
+        {
+          "src": "def f(a): return a + 1",
+          "dist": 0.6202072501182556
+        },
+        {
+          "src": "def f(x): return x + 1",
+          "dist": 0.6202072501182556
+        }
+      ]
+    },
+    {
+      "query": "def f(x): return abs(x)",
+      "neighbors": [
+        {
+          "src": "def f(n): return int(n)",
+          "dist": 0.0
+        },
+        {
+          "src": "def f(n): return float(n)",
+          "dist": 0.0
+        },
+        {
+          "src": "def f(x): return float(x)",
+          "dist": 0.0
+        },
+        {
+          "src": "def f(n): return bool(n)",
+          "dist": 0.0
+        },
+        {
+          "src": "def f(x): return bool(x)",
+          "dist": 0.0
+        }
+      ]
+    },
+    {
+      "query": "def f(x, y): return x > y",
+      "neighbors": [
+        {
+          "src": "def f(m, n): return m > n",
+          "dist": 0.0
+        },
+        {
+          "src": "def f(a, b): return a > b",
+          "dist": 0.0
+        },
+        {
+          "src": "def f(x, y): return x > y",
+          "dist": 0.0
+        },
+        {
+          "src": "def f(x, y): return x ** y",
+          "dist": 0.7559921741485596
+        },
+        {
+          "src": "def f(a, b): return a ** b",
+          "dist": 0.7559921741485596
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.1022193431854248,
+  "timestamp": "2026-05-06T21:09:28"
+}

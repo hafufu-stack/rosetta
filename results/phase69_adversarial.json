@@ -1,0 +1,20 @@
+{
+  "phase": 69,
+  "name": "The Adversarial Frontier",
+  "equiv_robust": 1,
+  "equiv_total": 1,
+  "trojan_detected": 1,
+  "trojan_total": 1,
+  "obf_robust": 0,
+  "obf_total": 0,
+  "equiv_results": [
+    {
+      "group": [
+        "def f(x, y): return x + y",
+        "def f(a, b): return a + b",
+        "def f(m, n): return m + n",
+        "def f(p, q): return p + q"
+      ],
+      "avg_dist": 0.0,
+      "avg_cos": 1.0,
+      "fooled": 

@@ -1,0 +1,28 @@
+{
+  "phase": 74,
+  "name": "The Symmetry Groups",
+  "groups": {
+    "Variable Renaming": {
+      "avg_cos": 0.9999999701976776,
+      "avg_dist": 1.0239843343621638e-08,
+      "is_symmetry": true,
+      "n_pairs": 6
+    },
+    "Argument Naming (4 vars)": {
+      "avg_cos": 0.9999999701976776,
+      "avg_dist": 0.0,
+      "is_symmetry": true,
+      "n_pairs": 4
+    },
+    "Anti-Symmetry (Inverse)": {
+      "avg_cos": -0.3728551119565964,
+      "avg_dist": 1.5219180285930634,
+      "is_symmetry": false,
+      "n_pairs": 4
+    }
+  },
+  "n_symmetries": 2,
+  "n_total": 3,
+  "elapsed": 0.9510231018066406,
+  "timestamp": "2026-05-06T22:47:41"
+}

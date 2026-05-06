@@ -1,0 +1,331 @@
+{
+  "phase": 62,
+  "name": "The Silicon Translation",
+  "n_pairs": 236,
+  "asm_vec_dim": 144,
+  "acc_5d": 0.6440677966101694,
+  "acc_64d": 0.7669491525423728,
+  "instr_accuracy": 0.7652777777777777,
+  "n_opcodes": 18,
+  "sample_translations": [
+    {
+      "src": "def f(x, y): return x + y",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(x, y): return abs(x + y)",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(a, b): return a + b",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(a, b): return abs(a + b)",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(m, n): return m + n",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(m, n): return abs(m + n)",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(p, q): return p + q",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(p, q): return abs(p + q)",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "ADD",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(x, y): return x - y",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "SUB",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "SUB",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(x, y): return abs(x - y)",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "SUB",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "SUB",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(a, b): return a - b",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "SUB",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "SUB",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(a, b): return abs(a - b)",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "SUB",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "SUB",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(m, n): return m - n",
+      "true_asm": [
+        "MOV_R0",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "SUB",
+        "RET"
+      ],
+      "correct": false
+    },
+    {
+      "src": "def f(m, n): return abs(m - n)",
+      "true_asm": [
+        "MOV_R0",
+        "ABS",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "SUB",
+        "RET"
+      ],
+      "correct": false
+    },
+    {
+      "src": "def f(p, q): return p - q",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "SUB",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "SUB",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(p, q): return abs(p - q)",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "SUB",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "SUB",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(x, y): return x * y",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "MUL",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "MUL",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(x, y): return abs(x * y)",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "MUL",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "ABS",
+        "RET",
+        "RET"
+      ],
+      "correct": false
+    },
+    {
+      "src": "def f(a, b): return a * b",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "MUL",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "MOV_R1",
+        "MUL",
+        "RET"
+      ],
+      "correct": true
+    },
+    {
+      "src": "def f(a, b): return abs(a * b)",
+      "true_asm": [
+        "MOV_R0",
+        "MOV_R1",
+        "MUL",
+        "RET"
+      ],
+      "pred_5d": [
+        "MOV_R0",
+        "ABS",
+        "RET",
+        "RET"
+      ],
+      "correct": false
+    }
+  ],
+  "elapsed": 2.5811548233032227,
+  "timestamp": "2026-05-06T22:09:47"
+}

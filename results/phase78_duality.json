@@ -1,0 +1,74 @@
+{
+  "phase": 78,
+  "name": "The Duality Theorem",
+  "n_functions": 236,
+  "n_pairs": 27730,
+  "correlation": 0.033549210589364144,
+  "is_duality": false,
+  "same_examples": [
+    {
+      "f1": "def f(a, b): return a // b",
+      "f2": "def f(a, b): return (a - b) / a",
+      "struct_dist": 1.8696606159210205,
+      "behav_dist": 10.291474357177616
+    },
+    {
+      "f1": "def f(a, b): return a // b",
+      "f2": "def f(x, y): return (x - y) / x",
+      "struct_dist": 1.86966073513031,
+      "behav_dist": 10.291474357177616
+    },
+    {
+      "f1": "def f(m, n): return m // n",
+      "f2": "def f(x, y): return (x - y) / x",
+      "struct_dist": 1.86966073513031,
+      "behav_dist": 10.291474357177616
+    },
+    {
+      "f1": "def f(x, y): return x // y",
+      "f2": "def f(x, y): return (x - y) / x",
+      "struct_dist": 1.86966073513031,
+      "behav_dist": 10.291474357177616
+    },
+    {
+      "f1": "def f(p, q): return p // q",
+      "f2": "def f(x, y): return (x - y) / x",
+      "struct_dist": 1.86966073513031,
+      "behav_dist": 10.291474357177616
+    }
+  ],
+  "diff_examples": [
+    {
+      "f1": "def f(x, y): return abs(x - y)",
+      "f2": "def f(x, y): return abs(x ** y)",
+      "struct_dist": 0.3379708230495453,
+      "behav_dist": 78123.37211743998
+    },
+    {
+      "f1": "def f(x, y): return abs(x - y)",
+      "f2": "def f(p, q): return abs(p ** q)",
+      "struct_dist": 0.3379708230495453,
+      "behav_dist": 78123.37211743998
+    },
+    {
+      "f1": "def f(p, q): return abs(p - q)",
+      "f2": "def f(p, q): return abs(p ** q)",
+      "struct_dist": 0.3379708230495453,
+      "behav_dist": 78123.37211743998
+    },
+    {
+      "f1": "def f(a, b): return abs(a - b)",
+      "f2": "def f(a, b): return abs(a ** b)",
+      "struct_dist": 0.3379708230495453,
+      "behav_dist": 78123.37211743998
+    },
+    {
+      "f1": "def f(a, b): return abs(a - b)",
+      "f2": "def f(x, y): return abs(x ** y)",
+      "struct_dist": 0.3379708230495453,
+      "behav_dist": 78123.37211743998
+    }
+  ],
+  "elapsed": 0.18637895584106445,
+  "timestamp": "2026-05-06T22:47:43"
+}

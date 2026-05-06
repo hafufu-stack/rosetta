@@ -1,0 +1,13 @@
+{
+  "phase": 86,
+  "name": "The Entanglement Map",
+  "n_functions": 236,
+  "n_identity_pairs": 261,
+  "n_reflection_pairs": 0,
+  "entanglement_entropy": 22.54146778407702,
+  "mean_nn_dist": 3.6538397830013725e-09,
+  "n_strongly_entangled": 236,
+  "pct_entangled": 100.0,
+  "elapsed": 0.08686017990112305,
+  "timestamp": "2026-05-06T22:57:59"
+}

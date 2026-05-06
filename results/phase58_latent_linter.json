@@ -1,0 +1,85 @@
+{
+  "phase": 58,
+  "name": "The Latent Linter",
+  "detection_rate": 0.875,
+  "n_detected": 7,
+  "n_total": 8,
+  "self_similarity_mean": 1.0000000345706939,
+  "related_similarity_mean": -0.1390164097150167,
+  "lint_cases": [
+    {
+      "intent": "add two numbers",
+      "correct_code": "def f(x, y): return x + y",
+      "buggy_code": "def f(x, y): return x - y",
+      "score_correct": 1.0,
+      "score_buggy": -0.7700003981590271,
+      "delta": 1.770000398159027,
+      "detected": true
+    },
+    {
+      "intent": "add two numbers",
+      "correct_code": "def f(x, y): return x + y",
+      "buggy_code": "def f(x, y): return x * y",
+      "score_correct": 1.0,
+      "score_buggy": 0.12686309218406677,
+      "delta": 0.8731369078159332,
+      "detected": true
+    },
+    {
+      "intent": "subtract",
+      "correct_code": "def f(x, y): return x - y",
+      "buggy_code": "def f(x, y): return x + y",
+      "score_correct": 1.0,
+      "score_buggy": -0.7700003981590271,
+      "delta": 1.770000398159027,
+      "detected": true
+    },
+    {
+      "intent": "negate",
+      "correct_code": "def f(x): return -x",
+      "buggy_code": "def f(x): return abs(x)",
+      "score_correct": 0.9999999403953552,
+      "score_buggy": 0.36980849504470825,
+      "delta": 0.630191445350647,
+      "detected": true
+    },
+    {
+      "intent": "absolute value",
+      "correct_code": "def f(x): return abs(x)",
+      "buggy_code": "def f(x): return -x",
+      "score_correct": 0.9999998807907104,
+      "score_buggy": 0.36980849504470825,
+      "delta": 0.6301913857460022,
+      "detected": true
+    },
+    {
+      "intent": "compare greater",
+      "correct_code": "def f(x, y): return x > y",
+      "buggy_code": "def f(x, y): return x < y",
+      "score_correct": 1.0,
+      "score_buggy": -0.647048830986023,
+      "delta": 1.647048830986023,
+      "detected": true
+    },
+    {
+      "intent": "multiply",
+      "correct_code": "def f(x, y): return x * y",
+      "buggy_code": "def f(x, y): return x + y",
+      "score_correct": 1.0,
+      "score_buggy": 0.12686309218406677,
+      "delta": 0.8731369078159332,
+      "detected": true
+    },
+    {
+      "intent": "maximum",
+      "correct_code": "def f(x, y): return max(x, y)",
+      "buggy_code": "def f(x, y): return min(x, y)",
+      "score_correct": 0.0,
+      "score_buggy": 0.0,
+      "delta": 0.0,
+      "detected": false
+    }
+  ],
+  "elapsed": 0.05788993835449219,
+  "timestamp": "2026-05-06T21:38:52"
+}

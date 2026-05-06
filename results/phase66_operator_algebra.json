@@ -1,0 +1,39 @@
+{
+  "phase": 66,
+  "name": "The Operator Algebra",
+  "n_pairs": 3208,
+  "n_test": 642,
+  "acc_addition": 9.034267912772584,
+  "acc_operator": 64.01869158878505,
+  "improvement": 54.98442367601246,
+  "noncommutative_rate": 40.0,
+  "noncommute_examples": [
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(x): return -x",
+      "dist": 0.5313699841499329
+    },
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(a): return -a",
+      "dist": 0.5313699841499329
+    },
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(n): return -n",
+      "dist": 0.5313699841499329
+    },
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(v): return -v",
+      "dist": 0.5313699841499329
+    },
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(x): return x if x >= 0 else 0",
+      "dist": 0.2945810854434967
+    }
+  ],
+  "elapsed": 28.56556725502014,
+  "timestamp": "2026-05-06T22:31:41"
+}

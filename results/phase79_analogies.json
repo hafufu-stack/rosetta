@@ -1,0 +1,56 @@
+{
+  "phase": 79,
+  "name": "Program Analogies",
+  "n_analogies": 5,
+  "n_meaningful": 2,
+  "pct_meaningful": 40.0,
+  "analogies": [
+    {
+      "A": "def f(x, y): return x + y",
+      "B": "def f(x, y): return x - y",
+      "C": "def f(x, y): return x * y",
+      "result": "def f(x, y): return x // y",
+      "expected": "x / y (inverse of mult)",
+      "distance": 1.4433517456054688,
+      "meaningful": false
+    },
+    {
+      "A": "def f(x, y): return x + y",
+      "B": "def f(x): return abs(x)",
+      "C": "def f(x, y): return x * y",
+      "result": "def f(a, b): return a * b",
+      "expected": "something binary from unary",
+      "distance": 1.1722477674484253,
+      "meaningful": false
+    },
+    {
+      "A": "def f(x, y): return x + y",
+      "B": "def f(a, b): return a + b",
+      "C": "def f(x, y): return x * y",
+      "result": "def f(a, b): return a * b",
+      "expected": "a * b (rename transfer)",
+      "distance": 0.0,
+      "meaningful": true
+    },
+    {
+      "A": "def f(x, y): return x > y",
+      "B": "def f(x, y): return x < y",
+      "C": "def f(x, y): return x >= y",
+      "result": "def f(a, b): return a > b",
+      "expected": "x <= y (flip transfer)",
+      "distance": 1.4634157419204712,
+      "meaningful": false
+    },
+    {
+      "A": "def f(x, y): return x + y",
+      "B": "def f(x, y): return x * y",
+      "C": "def f(x, y): return x - y",
+      "result": "def f(x, y): return x != y",
+      "expected": "x / y (add:mult as sub:?)",
+      "distance": 0.5684183835983276,
+      "meaningful": true
+    }
+  ],
+  "elapsed": 1.2989482879638672,
+  "timestamp": "2026-05-06T22:53:05"
+}

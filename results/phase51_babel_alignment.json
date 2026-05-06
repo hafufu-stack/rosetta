@@ -1,0 +1,107 @@
+{
+  "phase": 51,
+  "name": "Isomorphic Babel Alignment",
+  "limitation": "Cross-language (JS 3% wall)",
+  "n_matched_pairs": 26,
+  "procrustes_scale": 0.00020247764769010246,
+  "cosine_before_procrustes": -0.008891548961400986,
+  "cosine_after_procrustes": 0.2864144444465637,
+  "exact_decode_rate": 0.0,
+  "semantic_nn_rate": 0.07692307692307693,
+  "p22_baseline": 0.03,
+  "improvement_over_p22": "2.6x",
+  "examples": [
+    {
+      "python": "def f(x, y): return x + y",
+      "true_js": "function f(x, y) { return x + y; }",
+      "decoded_js": "function f(x, b) { return x + n + 1; }",
+      "nn_js": "function f(x, y) { return x * y; }",
+      "exact_match": false,
+      "semantic_match": false,
+      "desc": "add"
+    },
+    {
+      "python": "def f(x, y): return x - y",
+      "true_js": "function f(x, y) { return x - y; }",
+      "decoded_js": "function f(x, b) { return x + n + 1; }",
+      "nn_js": "function f(x, y) { return x + y; }",
+      "exact_match": false,
+      "semantic_match": false,
+      "desc": "sub"
+    },
+    {
+      "python": "def f(x, y): return x * y",
+      "true_js": "function f(x, y) { return x * y; }",
+      "decoded_js": "function f(x, b) { return x + n + 1; }",
+      "nn_js": "function f(x, y) { return x * y; }",
+      "exact_match": false,
+      "semantic_match": true,
+      "desc": "mul"
+    },
+    {
+      "python": "def f(x, y): return x / y",
+      "true_js": "function f(x, y) { return x / y; }",
+      "decoded_js": "function f(x, b) { return x + n + 1; }",
+      "nn_js": "function f(x, y) { return x * y; }",
+      "exact_match": false,
+      "semantic_match": false,
+      "desc": "div"
+    },
+    {
+      "python": "def f(x, y): return x % y",
+      "true_js": "function f(x, y) { return x % y; }",
+      "decoded_js": "function f(x, b) { return x + n + 1; }",
+      "nn_js": "function f(x, y) { return x * y; }",
+      "exact_match": false,
+      "semantic_match": false,
+      "desc": "mod"
+    },
+    {
+      "python": "def f(x, y): return x ** y",
+      "true_js": "function f(x, y) { return Math.pow(x, y); }",
+      "decoded_js": "function f(x, b) { return x + n + 1; }",
+      "nn_js": "function f(x, y) { return x * y; }",
+      "exact_match": false,
+      "semantic_match": false,
+      "desc": "pow"
+    },
+    {
+      "python": "def f(x, y): return x > y",
+      "true_js": "function f(x, y) { return x > y; }",
+      "decoded_js": "function f(x, b) { return x + n + 1; }",
+      "nn_js": "function f(x, y) { return x * y; }",
+      "exact_match": false,
+      "semantic_match": false,
+      "desc": "gt"
+    },
+    {
+      "python": "def f(x, y): return x < y",
+      "true_js": "function f(x, y) { return x < y; }",
+      "decoded_js": "function f(x, b) { return x + n + 1; }",
+      "nn_js": "function f(x, y) { return x * y; }",
+      "exact_match": false,
+      "semantic_match": false,
+      "desc": "lt"
+    },
+    {
+      "python": "def f(x, y): return x == y",
+      "true_js": "function f(x, y) { return x === y; }",
+      "decoded_js": "function f(x, b) { return x + n + 1; }",
+      "nn_js": "function f(x, y) { return x * y; }",
+      "exact_match": false,
+      "semantic_match": false,
+      "desc": "eq"
+    },
+    {
+      "python": "def f(x, y): return x != y",
+      "true_js": "function f(x, y) { return x !== y; }",
+      "decoded_js": "function f(x, b) { return x + n + 1; }",
+      "nn_js": "function f(x, y) { return x * y; }",
+      "exact_match": false,
+      "semantic_match": false,
+      "desc": "neq"
+    }
+  ],
+  "elapsed": 5.925232410430908,
+  "timestamp": "2026-05-06T20:36:21"
+}

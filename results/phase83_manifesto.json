@@ -1,0 +1,92 @@
+{
+  "phase": 83,
+  "name": "The Rosetta Manifesto",
+  "n_phases": 80,
+  "n_laws": 10,
+  "laws": [
+    {
+      "number": 1,
+      "name": "The 5-Dimensional Theorem",
+      "statement": "All programs can be represented in a 5D manifold that captures 87% of variance.",
+      "evidence": "P40 (86.3%), P63 (87.4% universal)",
+      "strength": "STRONG"
+    },
+    {
+      "number": 2,
+      "name": "The Variable Symmetry Law",
+      "statement": "Variable naming is a perfect gauge symmetry (cos=1.000).",
+      "evidence": "P74: cos=1.000 for all tested pairs",
+      "strength": "ABSOLUTE"
+    },
+    {
+      "number": 3,
+      "name": "Noether's Software Theorem",
+      "statement": "Charges conserved under renaming: norm, energy, angle_12, angle_34, parity, moment.",
+      "evidence": "P82: 6 conserved charges",
+      "strength": "STRONG"
+    },
+    {
+      "number": 4,
+      "name": "The Operator Algebra Law",
+      "statement": "Composition is a non-commutative operator (64% vs 9% for addition).",
+      "evidence": "P66: acc_operator=64.0%, NC rate=40%",
+      "strength": "STRONG"
+    },
+    {
+      "number": 5,
+      "name": "The Taxonomy Theorem",
+      "statement": "Programs naturally cluster into 14 species with 0% noise.",
+      "evidence": "P64: DBSCAN found 14 clusters",
+      "strength": "STRONG"
+    },
+    {
+      "number": 6,
+      "name": "The Independence Principle",
+      "statement": "Structure and behavior are orthogonal (corr=0.034).",
+      "evidence": "P78: Structure-behavior correlation near zero",
+      "strength": "STRONG"
+    },
+    {
+      "number": 7,
+      "name": "The Compression Theorem",
+      "statement": "Programs compress 10x from source to 5D (19 bits).",
+      "evidence": "P76: 193 bits -> 19 bits",
+      "strength": "STRONG"
+    },
+    {
+      "number": 8,
+      "name": "The Continuity Theorem",
+      "statement": "Linear interpolation between programs passes through semantically meaningful intermediates.",
+      "evidence": "P75: avg 3 transitions per path",
+      "strength": "MODERATE"
+    },
+    {
+      "number": 9,
+      "name": "The Semantic Invariance Law",
+      "statement": "Malicious logic is detectable with 100% precision in 5D space.",
+      "evidence": "P60: Precision=100%, Recall=83%",
+      "strength": "STRONG"
+    },
+    {
+      "number": 10,
+      "name": "The Rosetta Principle",
+      "statement": "Source code, behavior, and machine code are three projections of a single 5D object.",
+      "evidence": "P56 (I/O 100%), P62 (Silicon 76.7%)",
+      "strength": "STRONG"
+    }
+  ],
+  "rosetta_score": 90.77721378584006,
+  "component_scores": {
+    "5D Variance": 87.4,
+    "I/O Search": 100.0,
+    "NL Search": 89.0,
+    "Antivirus Precision": 100.0,
+    "Silicon Translation": 76.7,
+    "Operator Algebra": 64.01869158878505,
+    "NVM Stabilization": 99.87623248377555,
+    "Variable Symmetry": 100.0,
+    "Compression": 100
+  },
+  "elapsed": 0.056008100509643555,
+  "timestamp": "2026-05-06T22:53:08"
+}

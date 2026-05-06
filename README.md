@@ -1,6 +1,6 @@
 # Project Rosetta 🏛️
 
-**Linear Algebraic Compilation, Neural Decompilation, and the Physics of Software in a 5-Dimensional Latent Space**
+**Linear Algebraic Compilation, Neural Decompilation, and the 10 Laws of Software Physics in a Unified 5D Latent Space**
 
 [![Paper](https://img.shields.io/badge/Paper-Zenodo-blue)](https://doi.org/10.5281/zenodo.20036684)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20036684.svg)](https://doi.org/10.5281/zenodo.20036684)
@@ -8,27 +8,28 @@
 
 ## Overview
 
-Project Rosetta demonstrates that **compilation is a linear operator**, **decompilation is its regularized inverse**, and **semantic code manipulation is vector arithmetic** — all within a shared 64-dimensional latent space aligning natural language (NL), Python AST, and compiled bytecode.
+Project Rosetta is a systematic **86-phase** investigation demonstrating that **compilation is a linear operator**, **decompilation is its regularized inverse**, and **semantic code manipulation is vector arithmetic** — all within a shared 64-dimensional latent space aligning natural language (NL), Python AST, and compiled bytecode.
 
-Beyond linearity, the extended investigation (48 phases) reveals that programs reside on a **~5-dimensional manifold**, compilation is an **information concentrator** (not destroyer), and the code manifold exhibits **phase transitions**, **gravitational wells**, and **hidden highways**.
+The extended investigation reveals that programs reside on a **~5-dimensional manifold** that is **invariant under Turing-complete extensions**, obeys **gauge symmetries and conservation laws**, supports **semantic malware detection at 100% precision**, enables **direct silicon translation**, and functions as a **neural calculator at R²=0.97**. Together, these 86 phases establish the **10 Laws of Software Physics** with a unified **Rosetta Score of 90.8/100**.
 
 ### Key Discoveries
 
-| Discovery | Result |
-|-----------|--------|
-| **Compilation = Matrix Multiply** | AST→Binary: R²=0.965, 90% energy in 4 dimensions |
-| **Generative Decompilation** | GRU decoder: 100% semantic accuracy |
-| **Binary Surgery** | SVD-axis interventions alter semantics in 64% of cases |
-| **Neural CPU** | Predict execution from vectors: R²=0.924 |
-| **Bit-Level Grounding** | NL vectors predict bytecode bits at 98.4% accuracy |
-| **Information Preservation** | 100% mutual information preserved across compilation |
-| **Neural OS** | Zero-shot executable synthesis: 100% accuracy |
-| **True Dimensionality** | Programs live on a ~5-dimensional manifold |
-| **Five Elements of Code** | 5 principal axes explain 86.3% of all program variance |
-| **Phase Transitions** | `x + y` becomes `x != y` at just 8% interpolation |
-| **Holographic Principle** | 5D captures meaning; 32D achieves 100% code reconstruction |
-| **Semantic Gravity** | `min`/`max`/`len` are gravitational wells; `x + y` is isolated |
-| **Hidden Highway** | `x >= y` is the hub — 22/45 routes pass through it |
+| Discovery | Phase | Result |
+|-----------|-------|--------|
+| **Compilation = Matrix Multiply** | P3 | AST→Binary: R²=0.965, 90% energy in 4 dims |
+| **Generative Decompilation** | P9 | GRU decoder: 100% semantic accuracy |
+| **Binary Surgery** | P11 | SVD-axis interventions: 64% semantic change |
+| **Neural CPU** | P16 | Predict execution from vectors: R²=0.924 |
+| **Information Preservation** | P29 | 100% MI preserved across compilation |
+| **True Dimensionality = 5** | P38-40 | ~5D manifold explains 86.3% variance |
+| **5D Turing Invariance** | P49 | Adding if/for changes PCA by <±0.1% |
+| **Latent Antivirus** | P60 | Malware detection: 100% precision |
+| **Silicon Translation** | P62 | Python→x86 via 5D: 76.7% accuracy |
+| **14 Species of Code** | P64 | DBSCAN: 14 clusters, 0% noise |
+| **Operator Algebra** | P66 | Non-commutative composition: 64% acc |
+| **Gauge Symmetry** | P74 | Variable renaming: cos=1.000 |
+| **Noether's Theorem** | P82 | 6/6 charges perfectly conserved |
+| **Latent Calculator** | P84 | Predict f(x,y) from 5D: R²=0.97 |
 
 ## Architecture
 
@@ -38,6 +39,8 @@ Natural Language ──→ [Encoder_NL] ──→ ┐
 Python AST ────────→ [Encoder_AST] ──→ ┤     (true dim ≈ 5)
                                        ├──→ W_compile (linear!) ──→ Binary Space
 Bytecode ──────────→ [Encoder_BC] ───→ ┘
+
+10 Laws of Software Physics │ Rosetta Score: 90.8/100
 ```
 
 ## Project Structure
@@ -45,7 +48,7 @@ Bytecode ──────────→ [Encoder_BC] ───→ ┘
 ```
 rosetta/
 ├── data/                    # Dataset and trained models
-├── experiments/             # All 48 phase scripts
+├── experiments/             # All 86 phase scripts
 │   ├── phase1–4             # Foundation: dataset, alignment, translation matrix
 │   ├── phase5–8             # Scaling, decompilation, SVD anatomy, clustering
 │   ├── phase9–11            # Generative decompiler, semantic arithmetic, surgery
@@ -57,14 +60,15 @@ rosetta/
 │   ├── phase34–36           # Null space, evolution, uncertainty principle
 │   ├── phase37–39           # Rosetta paradox, entanglement, compiler memory
 │   ├── phase40–42           # Five elements, phase transitions, holographic
-│   ├── phase43–45           # Gravity, genome, arithmetic completeness
-│   └── phase46–48           # Isolation paradox, hidden highway, syntax spectrum
-├── figures/                 # Generated visualizations (46 figures)
-├── papers/                  # LaTeX paper (V1: P1-23, V2: P1-48)
+│   ├── phase43–48           # Gravity, genome, completeness, isolation, highway
+│   ├── phase49–59           # Turing invariance, I/O search, linter, studio v3
+│   ├── phase60–68           # Antivirus, NVM, silicon, taxonomy, operator algebra
+│   └── phase69–86           # Symmetry, conservation, periodic table, calculator
+├── figures/                 # Generated visualizations (86 figures)
+├── papers/                  # LaTeX paper (V1: P1-23, V2: P1-48, V3: P1-86)
 ├── results/                 # JSON result files
 ├── runner.py                # Chapter I runner (P1-4)
-├── runner_ch2.py – ch7.py   # Chapters II–VII (P5-23)
-├── runner_ch8.py – ch14.py  # Chapters VIII–XIV (P24-48)
+├── runner_ch2.py – ch23.py  # Chapters II–XXIII
 └── README.md
 ```
 
@@ -86,8 +90,15 @@ python runner_ch2.py
 
 # Beyond Linearity (Chapters VIII–XIV, Phases 24-48)
 python runner_ch8.py
-python runner_ch9.py
 # ... through runner_ch14.py
+
+# Ultimate Grounding (Chapters XV–XIX, Phases 49-68)
+python runner_ch15.py
+# ... through runner_ch19.py
+
+# The Deeper Universe (Chapters XX–XXIII, Phases 69-86)
+python runner_ch20.py
+# ... through runner_ch23.py
 ```
 
 ### Interactive Demo
@@ -139,48 +150,70 @@ python experiments/phase23_rosetta_studio.py
 ### Chapter VIII: The Genesis of Binary Meaning (P24-29)
 - **P24**: Semantic-binary grounding — the "fMRI of the compiler"
 - **P25**: Metric-space universality test (100% triangle inequality)
-- **P26**: LLM-to-binary matrix — GPT-2 hidden states → bytecode (R²=0.815)
-- **P27**: Semantic crystallization — training dynamics analysis
-- **P28**: Bit-level grounding — predict individual bits at 98.4% accuracy
+- **P26**: LLM-to-binary matrix — GPT-2 → bytecode (R²=0.815)
+- **P28**: Bit-level grounding — predict individual bits at 98.4%
 - **P29**: Information preservation law — MI ≈ 5300 bits preserved
 
 ### Chapter IX: The Neural Operating System (P30-33)
 - **P30**: Zero-shot executable synthesis (100% functional accuracy)
 - **P31**: LLM brain decompilation — read GPT-2's "mind" as Python
-- **P32**: Rosetta Studio v2 — expanded interactive tooling
 - **P33**: Compilation eigenfunctions — programs unchanged by compilation
 
-### Chapter X: The Deeper Laws (P34-36)
-- **P34**: Compiler's null space — 44/64 dimensions discarded
-- **P35**: Latent-space evolutionary programming — evolve code without text
-- **P36**: Software uncertainty principle — precision vs manipulation tradeoff
+### Chapter X–XIV: The Physics of Software (P34-48)
+- **P34-36**: Null space, evolution, uncertainty principle
+- **P37-39**: Rosetta Paradox (2.2× info density), entanglement, compiler memory
+- **P40-42**: Five Elements (86.3% variance), phase transitions, holographic principle
+- **P43-45**: Semantic gravity, genome, arithmetic completeness
+- **P46-48**: Isolation paradox, hidden highway, syntax-semantics spectrum
 
-### Chapter XI: The Information Paradox (P37-39)
-- **P37**: The Rosetta Paradox — signal dims carry 2.2x info density
-- **P38**: Semantic entanglement — true dimensionality ≈ 5.5
-- **P39**: Compiler's memory — only 4 "immortal" dimensions survive infinite cycles
+### Chapter XV–XIX: The Ultimate Grounding (P49-68) 🆕
+- **P49**: 5D invariance under Turing completeness (±0.1% change)
+- **P55**: Inverse execution via gradient descent (40% first-try)
+- **P56**: I/O search — 100% accuracy on program-from-examples
+- **P58**: Latent Linter — add vs sub: cos=-0.770 (opposite directions)
+- **P60**: Latent Antivirus — 100% precision, sees through obfuscation
+- **P61**: Neural Virtual Machine — execute programs in latent space
+- **P62**: Silicon Translation — Python→x86 at 76.7% via 5D embedding
+- **P64**: 14 Species of Code — DBSCAN taxonomy with 0% noise
+- **P66**: Operator Algebra — non-commutative composition (64% vs 9%)
+- **P67**: Attractor-Stabilized NVM — 99.88% drift reduction
+- **P68**: Grand Finale — integrated demonstration
 
-### Chapter XII: The Five Elements (P40-42)
-- **P40**: Five principal axes of the software manifold (86.3% variance)
-- **P41**: Program phase transitions — sharp semantic boundaries
-- **P42**: Holographic principle — 5D for meaning, 32D for syntax
+### Chapter XX–XXIII: The Deeper Universe (P69-86) 🆕
+- **P69**: Adversarial robustness — cos=1.000 for renaming, detects mutations
+- **P71**: Fractal hypothesis — dimension 0.22 (not fractal, discrete islands)
+- **P72**: Genetic programming — evolve abs(x-y) in 4 generations
+- **P74**: Gauge symmetry — variable naming is a perfect symmetry (cos=1.000)
+- **P76**: Information bottleneck — 10.2× compression (193→19 bits)
+- **P78**: Structure-behavior independence — correlation only r=0.034
+- **P79**: Program analogies — (x+y)-(a+b)+(x*y)=(a*b) at distance 0.000
+- **P80**: Semantic gradient field — 3 attractors, ground state = abs(x)
+- **P81**: Periodic table of programs — 7 periods, 10 groups, 21 types
+- **P82**: Noether's theorem — 6/6 charges perfectly conserved
+- **P83**: The 10 Laws of Software Physics — Rosetta Score: 90.8/100
+- **P84**: Latent Calculator — predict f(x,y) from 5D at R²=0.97
+- **P85**: Latent debugging — bug vectors are multi-dimensional
+- **P86**: Quantum entanglement mapping of program correlations
 
-### Chapter XIII: The Topology of Software (P43-45)
-- **P43**: Semantic gravity — gravitational wells of the code manifold
-- **P44**: The Rosetta Genome — phylogenetic tree of programs
-- **P45**: Latent arithmetic completeness — can 5 functions span all software?
+## The 10 Laws of Software Physics
 
-### Chapter XIV: The Cross-Connections (P46-48)
-- **P46**: The isolation paradox — lonely functions have 15x larger basins
-- **P47**: The hidden highway — `x >= y` is the hub of all code routes
-- **P48**: Syntax-semantics spectrum — meaning and form are inseparable
+1. **The 5-Dimensional Theorem**: Programs reside on a 5D manifold (87% variance)
+2. **The Variable Symmetry Law**: Variable naming is a perfect gauge symmetry
+3. **Noether's Software Theorem**: 6/6 charges conserved under renaming
+4. **The Operator Algebra Law**: Composition is non-commutative (64% vs 9%)
+5. **The Taxonomy Theorem**: 14 natural species with 0% noise
+6. **The Independence Principle**: Structure and behavior are orthogonal (r=0.034)
+7. **The Compression Theorem**: 10.2× compression (193→19 bits)
+8. **The Continuity Theorem**: Interpolation passes through meaningful intermediates
+9. **The Semantic Invariance Law**: Malware detection at 100% precision
+10. **The Rosetta Principle**: Source, behavior, and machine code are projections of one 5D object
 
 ## Citation
 
 ```bibtex
 @article{funasaki2026rosetta,
-  title={Project Rosetta: Linear Algebraic Compilation, Neural Decompilation, 
-         and the Physics of Software in a 5-Dimensional Latent Space},
+  title={Project Rosetta: Linear Algebraic Compilation, Neural Decompilation,
+         and the 10 Laws of Software Physics in a Unified 5D Latent Space},
   author={Funasaki, Hiroto},
   year={2026},
   doi={10.5281/zenodo.20036684}

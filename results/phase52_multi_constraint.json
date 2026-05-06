@@ -1,0 +1,116 @@
+{
+  "phase": 52,
+  "name": "Multi-Constraint Inverse Synthesis",
+  "method": "7 diverse I/O + L2 regularization + 10 restarts",
+  "n_solved": 0,
+  "n_total": 6,
+  "solve_rate": 0.0,
+  "p50_solve_rate": 0.0,
+  "improvement": "0/6 vs 0/6",
+  "synthesis": [
+    {
+      "target": "add",
+      "true_src": "def f(x, y): return x + y",
+      "generated_code": "def f(a, b): return a == b",
+      "verified": false,
+      "tests_passed": 0,
+      "total_tests": 7,
+      "loss": 0.000506679411046207,
+      "gt_distance": "0.8021",
+      "z_5d": [
+        -0.3408837616443634,
+        -0.2773725986480713,
+        0.3611333966255188,
+        0.29782405495643616,
+        0.05980052053928375
+      ]
+    },
+    {
+      "target": "sub",
+      "true_src": "def f(x, y): return x - y",
+      "generated_code": "def f(x, y): return x >= y",
+      "verified": false,
+      "tests_passed": 1,
+      "total_tests": 7,
+      "loss": 0.0006634104065597057,
+      "gt_distance": "0.5627",
+      "z_5d": [
+        0.32865530252456665,
+        0.32506364583969116,
+        -0.2020609825849533,
+        -0.3518647253513336,
+        -0.32039275765419006
+      ]
+    },
+    {
+      "target": "mul",
+      "true_src": "def f(x, y): return x * y",
+      "generated_code": "def f(p, q): return p != q",
+      "verified": false,
+      "tests_passed": 0,
+      "total_tests": 7,
+      "loss": 0.0007095315959304571,
+      "gt_distance": "1.1177",
+      "z_5d": [
+        -0.2072802633047104,
+        -0.33160316944122314,
+        0.26848098635673523,
+        0.14062389731407166,
+        -0.4963151514530182
+      ]
+    },
+    {
+      "target": "neg",
+      "true_src": "def f(x): return -x",
+      "generated_code": "def f(m, n): return abs(m ** n)",
+      "verified": false,
+      "tests_passed": 0,
+      "total_tests": 7,
+      "loss": 0.0006915052654221654,
+      "gt_distance": "0.3983",
+      "z_5d": [
+        -0.26973965764045715,
+        -0.20937788486480713,
+        -0.008705156855285168,
+        -0.5704424977302551,
+        0.3927951455116272
+      ]
+    },
+    {
+      "target": "abs",
+      "true_src": "def f(x): return abs(x)",
+      "generated_code": "]]]]]]]]]]]]]]]-]]-]-]-]-]-]-]-]-]-]-]------------------]-]-]-----------]-]-]-o-",
+      "verified": false,
+      "tests_passed": 0,
+      "total_tests": 7,
+      "loss": 0.23975543677806854,
+      "gt_distance": "8.2317",
+      "z_5d": [
+        -1.8229669332504272,
+        -5.41790246963501,
+        -2.431678295135498,
+        -5.112843036651611,
+        -2.011942148208618
+      ]
+    },
+    {
+      "target": "max",
+      "true_src": "def f(x, y): return max(x, y)",
+      "generated_code": "def f(a, b): return abs(a + b)",
+      "verified": false,
+      "tests_passed": 1,
+      "total_tests": 7,
+      "loss": 0.0003581256605684757,
+      "gt_distance": "N/A",
+      "z_5d": [
+        -0.41540446877479553,
+        -0.25097745656967163,
+        -0.09603013843297958,
+        0.2295612096786499,
+        -0.12897759675979614
+      ]
+    }
+  ],
+  "elapsed": 325.26682782173157,
+  "timestamp": "2026-05-06T20:54:55"
+}

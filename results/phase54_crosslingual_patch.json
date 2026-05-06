@@ -1,0 +1,65 @@
+{
+  "phase": 54,
+  "name": "Cross-Lingual Auto-Patching",
+  "method": "Python patch vector @ Procrustes Q -> JS space",
+  "n_semantic": 0,
+  "n_exact": 0,
+  "n_total": 5,
+  "semantic_rate": 0.0,
+  "exact_rate": 0.0,
+  "p13_python_rate": 0.5714285714285714,
+  "patches": [
+    {
+      "bug_op": "add",
+      "fix_op": "sub",
+      "js_output": "function f(nums) { return Math.mam(nums); }",
+      "py_output": "def f(a, b): return a - b",
+      "true_js": "function f(x, y) { return x - y; }",
+      "js_exact": false,
+      "js_semantic": false,
+      "patch_norm": 1.8814890384674072
+    },
+    {
+      "bug_op": "sub",
+      "fix_op": "add",
+      "js_output": "function f(n) { return n * n; }",
+      "py_output": "def f(m, n): return m + n",
+      "true_js": "function f(x, y) { return x + y; }",
+      "js_exact": false,
+      "js_semantic": false,
+      "patch_norm": 1.8814890384674072
+    },
+    {
+      "bug_op": "mul",
+      "fix_op": "div",
+      "js_output": "function f(nums) { return Math.mam(nums); }",
+      "py_output": "def f(x, y): return x / y",
+      "true_js": "function f(x, y) { return x / y; }",
+      "js_exact": false,
+      "js_semantic": false,
+      "patch_norm": 1.6711156368255615
+    },
+    {
+      "bug_op": "gt",
+      "fix_op": "lt",
+      "js_output": "function f(n) { return n * n; }",
+      "py_output": "def f(x, y): return x < y",
+      "true_js": "function f(x, y) { return x < y; }",
+      "js_exact": false,
+      "js_semantic": false,
+      "patch_norm": 1.8149648904800415
+    },
+    {
+      "bug_op": "eq",
+      "fix_op": "neq",
+      "js_output": "function f(n) { return n * n; }",
+      "py_output": "def f(a, b): return a != b",
+      "true_js": "function f(x, y) { return x !== y; }",
+      "js_exact": false,
+      "js_semantic": false,
+      "patch_norm": 1.0262800455093384
+    }
+  ],
+  "elapsed": 0.3101468086242676,
+  "timestamp": "2026-05-06T20:55:21"
+}

@@ -1,0 +1,130 @@
+{
+  "phase": 50,
+  "name": "Holographic Inverse Synthesis",
+  "limitation": "Inverse Execution (P18 failed)",
+  "n_exec_samples": 33736,
+  "neural_cpu_5d_r2": 0.9989343082891567,
+  "synthesis_5d": [
+    {
+      "target": "add",
+      "code": "def f(a, b): return a - b",
+      "verified": false,
+      "loss": 1.0304257447302234e-15,
+      "z_5d": [
+        0.19240905344486237,
+        -0.11457283794879913,
+        0.033376891165971756,
+        -0.21630661189556122,
+        -0.494204044342041
+      ]
+    },
+    {
+      "target": "sub",
+      "code": "def f(x, y): return x <= y",
+      "verified": false,
+      "loss": 1.6939574742913521e-15,
+      "z_5d": [
+        -0.07655853033065796,
+        0.41298502683639526,
+        0.3024730384349823,
+        -0.189627543091774,
+        -0.4059387743473053
+      ]
+    },
+    {
+      "target": "mul",
+      "code": "!oo]%][[[[[[%.%.[[%.[%......ow.%.%.[ow.%.[%.....ow.%.[ow.%....ow.cw..w.cw..w.cw.",
+      "verified": false,
+      "loss": 9.512779070064425e-05,
+      "z_5d": [
+        2.5598113536834717,
+        -1.412192463874817,
+        0.20501631498336792,
+        -0.7029861211776733,
+        -0.6074274778366089
+      ]
+    },
+    {
+      "target": "neg",
+      "code": "def f(a, b): return a <= b",
+      "verified": false,
+      "loss": 4.528745557763614e-05,
+      "z_5d": [
+        0.7112472653388977,
+        1.067598819732666,
+        -0.041428569704294205,
+        0.36983177065849304,
+        -0.2585708498954773
+      ]
+    },
+    {
+      "target": "abs",
+      "code": "def f(m, n): return abs(m * n)",
+      "verified": false,
+      "loss": 0.0003719825472217053,
+      "z_5d": [
+        -0.2762102782726288,
+        -0.27502214908599854,
+        -0.01178696844726801,
+        0.07658255845308304,
+        0.08740300685167313
+      ]
+    },
+    {
+      "target": "square",
+      "code": "def f(x, y): return x % y",
+      "verified": false,
+      "loss": 0.002041323110461235,
+      "z_5d": [
+        0.2432468682527542,
+        -0.8492194414138794,
+        -0.3458743691444397,
+        -0.04076413810253143,
+        -0.03727108612656593
+      ]
+    }
+  ],
+  "synthesis_64d_baseline": [
+    {
+      "target": "add",
+      "code": " n x * y): return x / y",
+      "loss": 0.0028801998123526573,
+      "valid": false
+    },
+    {
+      "target": "sub",
+      "code": " n x * y): return x >= y) - x",
+      "loss": 0.001817976706661284,
+      "valid": false
+    },
+    {
+      "target": "mul",
+      "code": " f x): return x == y",
+      "loss": 0.0007067553815431893,
+      "valid": false
+    },
+    {
+      "target": "neg",
+      "code": "def f(p, q): return p and q",
+      "loss": 0.0013116974150761962,
+      "valid": true
+    },
+    {
+      "target": "abs",
+      "code": "def f(x, y): return abs(x * y)",
+      "loss": 2.475519789157943e-13,
+      "valid": true
+    },
+    {
+      "target": "square",
+      "code": "def f(a, b): return a == b",
+      "loss": 0.02180984430015087,
+      "valid": true
+    }
+  ],
+  "n_solved_5d": 0,
+  "n_total": 6,
+  "solve_rate_5d": 0.0,
+  "elapsed": 18.568876028060913,
+  "timestamp": "2026-05-06T20:35:33"
+}

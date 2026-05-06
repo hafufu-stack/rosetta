@@ -1,0 +1,265 @@
+{
+  "phase": 55,
+  "name": "Retrieval-Augmented Inverse Synthesis",
+  "method": "5D optimization + NN lookup (bypass decoder)",
+  "n_solved": 1,
+  "n_total": 10,
+  "solve_rate": 0.1,
+  "p52_solve_rate": 0.0,
+  "p50_solve_rate": 0.0,
+  "improvement": "P55: 1/10 vs P52: 0/6",
+  "synthesis": [
+    {
+      "target": "add",
+      "true_src": "def f(x, y): return x + y",
+      "nn_src": "def f(x): return x % 2 != 0",
+      "nn_dist": 0.3817210793495178,
+      "verified": false,
+      "semantic_match": false,
+      "tests_passed": 1,
+      "total_tests": 7,
+      "loss": 0.001139539759606123,
+      "top3": [
+        {
+          "src": "def f(x): return x % 2 != 0",
+          "dist": 0.3817210793495178
+        },
+        {
+          "src": "def f(a): return a % 2 != 0",
+          "dist": 0.3817210793495178
+        },
+        {
+          "src": "def f(v): return v % 2 != 0",
+          "dist": 0.3817210793495178
+        }
+      ]
+    },
+    {
+      "target": "sub",
+      "true_src": "def f(x, y): return x - y",
+      "nn_src": "def f(t): return t.upper()",
+      "nn_dist": 0.4686385989189148,
+      "verified": false,
+      "semantic_match": false,
+      "tests_passed": 0,
+      "total_tests": 7,
+      "loss": 0.0007963230600580573,
+      "top3": [
+        {
+          "src": "def f(t): return t.strip()",
+          "dist": 0.4686385989189148
+        },
+        {
+          "src": "def f(text): return text.strip()",
+          "dist": 0.4686385989189148
+        },
+        {
+          "src": "def f(t): return t.upper()",
+          "dist": 0.4686385989189148
+        }
+      ]
+    },
+    {
+      "target": "mul",
+      "true_src": "def f(x, y): return x * y",
+      "nn_src": "def f(x, y): return (x * y) - x",
+      "nn_dist": 0.4945613145828247,
+      "verified": false,
+      "semantic_match": false,
+      "tests_passed": 1,
+      "total_tests": 7,
+      "loss": 0.0024930937215685844,
+      "top3": [
+        {
+          "src": "def f(x, y): return (x * y) - x",
+          "dist": 0.4945613145828247
+        },
+        {
+          "src": "def f(a, b): return (a * b) - a",
+          "dist": 0.4945613145828247
+        },
+        {
+          "src": "def f(x, y): return (x - y) * x",
+          "dist": 0.49626949429512024
+        }
+      ]
+    },
+    {
+      "target": "neg",
+      "true_src": "def f(x): return -x",
+      "nn_src": "def f(x, y): return x == y",
+      "nn_dist": 0.7484477758407593,
+      "verified": false,
+      "semantic_match": false,
+      "tests_passed": 0,
+      "total_tests": 7,
+      "loss": 0.004478943068534136,
+      "top3": [
+        {
+          "src": "def f(p, q): return p == q",
+          "dist": 0.7484477758407593
+        },
+        {
+          "src": "def f(m, n): return m == n",
+          "dist": 0.7484477758407593
+        },
+        {
+          "src": "def f(a, b): return a == b",
+          "dist": 0.7484477758407593
+        }
+      ]
+    },
+    {
+      "target": "abs",
+      "true_src": "def f(x): return abs(x)",
+      "nn_src": "def f(x): return -x",
+      "nn_dist": 9.582758903503418,
+      "verified": false,
+      "semantic_match": false,
+      "tests_passed": 5,
+      "total_tests": 7,
+      "loss": 0.16964095830917358,
+      "top3": [
+        {
+          "src": "def f(v): return -v",
+          "dist": 9.582758903503418
+        },
+        {
+          "src": "def f(n): return -n",
+          "dist": 9.582758903503418
+        },
+        {
+          "src": "def f(a): return -a",
+          "dist": 9.582758903503418
+        }
+      ]
+    },
+    {
+      "target": "max",
+      "true_src": "def f(x, y): return max(x, y)",
+      "nn_src": "def f(x, y): return x - y",
+      "nn_dist": 0.5987107157707214,
+      "verified": false,
+      "semantic_match": false,
+      "tests_passed": 1,
+      "total_tests": 7,
+      "loss": 0.0005541718564927578,
+      "top3": [
+        {
+          "src": "def f(m, n): return m - n",
+          "dist": 0.5987107157707214
+        },
+        {
+          "src": "def f(p, q): return p - q",
+          "dist": 0.5987107157707214
+        },
+        {
+          "src": "def f(a, b): return a - b",
+          "dist": 0.5987107157707214
+        }
+      ]
+    },
+    {
+      "target": "mod",
+      "true_src": "def f(x, y): return x % y",
+      "nn_src": "def f(x, y): return x != y",
+      "nn_dist": 0.5119906067848206,
+      "verified": false,
+      "semantic_match": false,
+      "tests_passed": 4,
+      "total_tests": 7,
+      "loss": 0.0007728267810307443,
+      "top3": [
+        {
+          "src": "def f(x, y): return x != y",
+          "dist": 0.5119906067848206
+        },
+        {
+          "src": "def f(a, b): return a != b",
+          "dist": 0.5119906067848206
+        },
+        {
+          "src": "def f(m, n): return m != n",
+          "dist": 0.5119906067848206
+        }
+      ]
+    },
+    {
+      "target": "pow",
+      "true_src": "def f(x, y): return x ** y",
+      "nn_src": "def f(x, y): return abs(x * y)",
+      "nn_dist": 1.032895565032959,
+      "verified": false,
+      "semantic_match": false,
+      "tests_passed": 1,
+      "total_tests": 7,
+      "loss": 0.017856715247035027,
+      "top3": [
+        {
+          "src": "def f(m, n): return abs(m * n)",
+          "dist": 1.032895565032959
+        },
+        {
+          "src": "def f(p, q): return abs(p * q)",
+          "dist": 1.032895565032959
+        },
+        {
+          "src": "def f(a, b): return abs(a * b)",
+          "dist": 1.032895565032959
+        }
+      ]
+    },
+    {
+      "target": "square",
+      "true_src": "def f(x): return x * x",
+      "nn_src": "def f(x, y): return x ** y",
+      "nn_dist": 0.7301602363586426,
+      "verified": false,
+      "semantic_match": false,
+      "tests_passed": 1,
+      "total_tests": 7,
+      "loss": 0.0035734137054532766,
+      "top3": [
+        {
+          "src": "def f(x, y): return x ** y",
+          "dist": 0.7301602363586426
+        },
+        {
+          "src": "def f(a, b): return a ** b",
+          "dist": 0.7301602363586426
+        },
+        {
+          "src": "def f(p, q): return p ** q",
+          "dist": 0.7301602363586426
+        }
+      ]
+    },
+    {
+      "target": "double",
+      "true_src": "def f(x): return x * 2",
+      "nn_src": "def f(x): return x * 2",
+      "nn_dist": 0.5964294075965881,
+      "verified": true,
+      "semantic_match": true,
+      "tests_passed": 7,
+      "total_tests": 7,
+      "loss": 0.0010016410378739238,
+      "top3": [
+        {
+          "src": "def f(a): return a * 2",
+          "dist": 0.5964294075965881
+        },
+        {
+          "src": "def f(x): return x * 2",
+          "dist": 0.5964294075965881
+        },
+        {
+          "src": "def f(v): return v * 2",
+          "dist": 0.5964294075965881
+        }
+      ]
+    }
+  ],
+  "elapsed": 573.7649502754211,
+  "timestamp": "2026-05-06T21:09:27"
+}

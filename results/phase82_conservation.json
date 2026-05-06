@@ -1,0 +1,65 @@
+{
+  "phase": 82,
+  "name": "The Conservation Laws",
+  "conserved_charges": [
+    {
+      "name": "norm",
+      "avg_diff": 1.4901161193847656e-08,
+      "is_conserved": true
+    },
+    {
+      "name": "energy",
+      "avg_diff": 1.4901161193847656e-08,
+      "is_conserved": true
+    },
+    {
+      "name": "angle_12",
+      "avg_diff": 0.0,
+      "is_conserved": true
+    },
+    {
+      "name": "angle_34",
+      "avg_diff": 0.0,
+      "is_conserved": true
+    },
+    {
+      "name": "parity",
+      "avg_diff": 0.0,
+      "is_conserved": true
+    },
+    {
+      "name": "moment",
+      "avg_diff": 1.862645149230957e-09,
+      "is_conserved": true
+    }
+  ],
+  "semantic_conservation": [],
+  "charge_stats": {
+    "norm": {
+      "mean": 0.9214330810611531,
+      "std": 0.08170648712078182
+    },
+    "energy": {
+      "mean": 0.8557148702063803,
+      "std": 0.1508033133647111
+    },
+    "angle_12": {
+      "mean": 0.6038306244506927,
+      "std": 1.6844427954013108
+    },
+    "angle_34": {
+      "mean": 0.764355317894685,
+      "std": 1.7020541778286258
+    },
+    "parity": {
+      "mean": 0.15254237288135594,
+      "std": 0.9882969313297119
+    },
+    "moment": {
+      "mean": 0.09649692456853592,
+      "std": 1.8717152352608244
+    }
+  },
+  "elapsed": 0.046312570571899414,
+  "timestamp": "2026-05-06T22:53:08"
+}

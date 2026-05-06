@@ -1,0 +1,136 @@
+{
+  "phase": 57,
+  "name": "Semantic Rosetta-RAG",
+  "n_scenarios": 5,
+  "n_direct_solve": 3,
+  "direct_solve_rate": 0.6,
+  "scenarios": [
+    {
+      "name": "addition",
+      "request": "A function that adds two numbers",
+      "retrieved": [
+        [
+          "def f(m, n): return m + n",
+          4.0,
+          0.9939747452735901
+        ],
+        [
+          "def f(m, n): return abs(m + n)",
+          4.0,
+          0.9512025713920593
+        ],
+        [
+          "def f(p, q): return p + q",
+          4.0,
+          0.9939747452735901
+        ]
+      ],
+      "best_src": "def f(m, n): return m + n",
+      "verified": true,
+      "prompt_length": 806,
+      "prompt_preview": "# Semantic Rosetta-RAG Code Synthesis\n\n## User Request\nA function that adds two numbers\n\n## Required I/O Behavior\n  f(1, 2) == 3\n  f(5, 3) == 8\n  f(-1, 1) == 0\n  f(0, 0) == 0\n\n## Verified Reference Functions (from Rosetta Space)\nThese functions are mathematically verified anchors:\n\n  1. `def f(m, n)"
+    },
+    {
+      "name": "absolute_value",
+      "request": "A function that returns the absolute value",
+      "retrieved": [
+        [
+          "def f(p): return p if p > 0 else -p",
+          4.0,
+          0.9456594586372375
+        ],
+        [
+          "def f(m): return m if m > 0 else -m",
+          4.0,
+          0.9456594586372375
+        ],
+        [
+          "def f(x): return x if x > 0 else -x",
+          4.0,
+          0.9456594586372375
+        ]
+      ],
+      "best_src": "def f(p): return p if p > 0 else -p",
+      "verified": true,
+      "prompt_length": 834,
+      "prompt_preview": "# Semantic Rosetta-RAG Code Synthesis\n\n## User Request\nA function that returns the absolute value\n\n## Required I/O Behavior\n  f(-5) == 5\n  f(3) == 3\n  f(0) == 0\n  f(-100) == 100\n\n## Verified Reference Functions (from Rosetta Space)\nThese functions are mathematically verified anchors:\n\n  1. `def f(p)"
+    },
+    {
+      "name": "difference_of_squares",
+      "request": "A function that computes x^2 - y^2",
+      "retrieved": [
+        [
+          "def f(a, b): return (a - b) * a",
+          2.0,
+          1.055569052696228
+        ],
+        [
+          "def f(x, y): return (x - y) * x",
+          2.0,
+          1.055569052696228
+        ],
+        [
+          "def f(a, b): return (a / b) - a",
+          1.0,
+          1.0495295524597168
+        ]
+      ],
+      "best_src": "def f(a, b): return (a - b) * a",
+      "verified": false,
+      "prompt_length": 822,
+      "prompt_preview": "# Semantic Rosetta-RAG Code Synthesis\n\n## User Request\nA function that computes x^2 - y^2\n\n## Required I/O Behavior\n  f(3, 2) == 5\n  f(5, 3) == 16\n  f(1, 1) == 0\n  f(4, 0) == 16\n\n## Verified Reference Functions (from Rosetta Space)\nThese functions are mathematically verified anchors:\n\n  1. `def f(a,"
+    },
+    {
+      "name": "clamp_positive",
+      "request": "A function that returns x if positive, else 0",
+      "retrieved": [
+        [
+          "def f(p): return p if p >= 0 else 0",
+          4.0,
+          0.7545557618141174
+        ],
+        [
+          "def f(m): return m if m >= 0 else 0",
+          4.0,
+          0.7545557618141174
+        ],
+        [
+          "def f(x): return x if x >= 0 else 0",
+          4.0,
+          0.7545557618141174
+        ]
+      ],
+      "best_src": "def f(p): return p if p >= 0 else 0",
+      "verified": true,
+      "prompt_length": 834,
+      "prompt_preview": "# Semantic Rosetta-RAG Code Synthesis\n\n## User Request\nA function that returns x if positive, else 0\n\n## Required I/O Behavior\n  f(5) == 5\n  f(-3) == 0\n  f(0) == 0\n  f(10) == 10\n\n## Verified Reference Functions (from Rosetta Space)\nThese functions are mathematically verified anchors:\n\n  1. `def f(p)"
+    },
+    {
+      "name": "average",
+      "request": "A function that returns the average of two numbers",
+      "retrieved": [
+        [
+          "def f(a, b): return (a - b) + a",
+          1.0,
+          1.0068250894546509
+        ],
+        [
+          "def f(x, y): return (x - y) + x",
+          1.0,
+          1.0068250894546509
+        ],
+        [
+          "def f(x, y): return (x * y) + x",
+          1.0,
+          1.0716931819915771
+        ]
+      ],
+      "best_src": "def f(a, b): return (a - b) + a",
+      "verified": false,
+      "prompt_length": 830,
+      "prompt_preview": "# Semantic Rosetta-RAG Code Synthesis\n\n## User Request\nA function that returns the average of two numbers\n\n## Required I/O Behavior\n  f(2, 4) == 3.0\n  f(0, 0) == 0.0\n  f(10, 20) == 15.0\n\n## Verified Reference Functions (from Rosetta Space)\nThese functions are mathematically verified anchors:\n\n  1. `"
+    }
+  ],
+  "elapsed": 0.060118675231933594,
+  "timestamp": "2026-05-06T21:38:51"
+}

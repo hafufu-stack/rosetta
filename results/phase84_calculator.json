@@ -1,0 +1,93 @@
+{
+  "phase": 84,
+  "name": "The Latent Calculator",
+  "n_train": 1732,
+  "r2": 0.9694245714795849,
+  "avg_error": 3.4449360966682434,
+  "n_close": 3,
+  "n_total": 8,
+  "test_results": [
+    {
+      "src": "def f(x, y): return x + y",
+      "args": [
+        3,
+        5
+      ],
+      "expected": 8,
+      "predicted": 6.799583911895752,
+      "error": 1.200416088104248
+    },
+    {
+      "src": "def f(x, y): return x + y",
+      "args": [
+        10,
+        3
+      ],
+      "expected": 13,
+      "predicted": 11.009927749633789,
+      "error": 1.990072250366211
+    },
+    {
+      "src": "def f(x, y): return x * y",
+      "args": [
+        3,
+        5
+      ],
+      "expected": 15,
+      "predicted": 8.76633358001709,
+      "error": 6.23366641998291
+    },
+    {
+      "src": "def f(x, y): return x * y",
+      "args": [
+        7,
+        2
+      ],
+      "expected": 14,
+      "predicted": 11.119120597839355,
+      "error": 2.8808794021606445
+    },
+    {
+      "src": "def f(x, y): return x - y",
+      "args": [
+        7,
+        3
+      ],
+      "expected": 4,
+      "predicted": -1.0916690826416016,
+      "error": 5.091669082641602
+    },
+    {
+      "src": "def f(x): return abs(x)",
+      "args": [
+        -7,
+        0
+      ],
+      "expected": 7,
+      "predicted": 0.7838191986083984,
+      "error": 6.216180801391602
+    },
+    {
+      "src": "def f(x): return -x",
+      "args": [
+        5,
+        0
+      ],
+      "expected": -5,
+      "predicted": -2.325028419494629,
+      "error": 2.674971580505371
+    },
+    {
+      "src": "def f(x, y): return x ** y",
+      "args": [
+        2,
+        3
+      ],
+      "expected": 8,
+      "predicted": 6.728366851806641,
+      "error": 1.2716331481933594
+    }
+  ],
+  "elapsed": 7.06736159324646,
+  "timestamp": "2026-05-06T22:57:57"
+}

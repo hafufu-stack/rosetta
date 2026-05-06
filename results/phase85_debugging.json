@@ -1,0 +1,51 @@
+{
+  "phase": 85,
+  "name": "Latent Debugging",
+  "n_pairs": 4,
+  "avg_bug_cos": -0.29666343331336975,
+  "avg_bug_vector": [
+    -0.10927419364452362,
+    -0.2567639946937561,
+    -0.11339464783668518,
+    0.12091945111751556,
+    -0.0034558139741420746
+  ],
+  "n_fixed": 0,
+  "n_total": 4,
+  "repairs": [
+    {
+      "desc": "wrong operator (sub->add)",
+      "buggy": "def f(x, y): return x - y",
+      "correct": "def f(x, y): return x + y",
+      "repaired": "def f(x, y): return x - y",
+      "fixed": false,
+      "distance": 0.3245926797389984
+    },
+    {
+      "desc": "wrong operator (add->mul)",
+      "buggy": "def f(x, y): return x + y",
+      "correct": "def f(x, y): return x * y",
+      "repaired": "def f(x, y): return x + y",
+      "fixed": false,
+      "distance": 0.3245926797389984
+    },
+    {
+      "desc": "logic inversion",
+      "buggy": "def f(x, y): return x < y",
+      "correct": "def f(x, y): return x > y",
+      "repaired": "def f(x, y): return x < y",
+      "fixed": false,
+      "distance": 0.3245927095413208
+    },
+    {
+      "desc": "equality inversion",
+      "buggy": "def f(x, y): return x != y",
+      "correct": "def f(x, y): return x == y",
+      "repaired": "def f(x, y): return x != y",
+      "fixed": false,
+      "distance": 0.3245926797389984
+    }
+  ],
+  "elapsed": 0.04530501365661621,
+  "timestamp": "2026-05-06T22:57:58"
+}

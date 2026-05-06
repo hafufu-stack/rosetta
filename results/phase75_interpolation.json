@@ -1,0 +1,216 @@
+{
+  "phase": 75,
+  "name": "Program Interpolation",
+  "n_paths": 5,
+  "avg_unique_visited": 3.6,
+  "avg_transitions": 2.6,
+  "morphs": [
+    {
+      "desc": "Addition -> Multiplication",
+      "src_a": "def f(x, y): return x + y",
+      "src_b": "def f(x, y): return x * y",
+      "unique_visited": 3,
+      "transitions": 2,
+      "avg_dist": 0.26704222957293194,
+      "max_dist": 0.4534253776073456,
+      "path": [
+        {
+          "t": 0.0,
+          "fn": "def f(x, y): return x + y",
+          "dist": 0.0
+        },
+        {
+          "t": 0.2,
+          "fn": "def f(x, y): return x + y",
+          "dist": 0.2511082887649536
+        },
+        {
+          "t": 0.4,
+          "fn": "def f(x, y): return x // y",
+          "dist": 0.4534253776073456
+        },
+        {
+          "t": 0.6,
+          "fn": "def f(x, y): return x // y",
+          "dist": 0.4089016616344452
+        },
+        {
+          "t": 0.8,
+          "fn": "def f(x, y): return x * y",
+          "dist": 0.2511082887649536
+        },
+        {
+          "t": 1.0,
+          "fn": "def f(x, y): return x * y",
+          "dist": 0.0
+        }
+      ]
+    },
+    {
+      "desc": "Addition -> Subtraction",
+      "src_a": "def f(x, y): return x + y",
+      "src_b": "def f(x, y): return x - y",
+      "unique_visited": 5,
+      "transitions": 4,
+      "avg_dist": 0.38146602184999556,
+      "max_dist": 0.6562567949295044,
+      "path": [
+        {
+          "t": 0.0,
+          "fn": "def f(x, y): return x + y",
+          "dist": 0.0
+        },
+        {
+          "t": 0.2,
+          "fn": "def f(x, y): return x + y",
+          "dist": 0.3580540418624878
+        },
+        {
+          "t": 0.4,
+          "fn": "def f(x): return x if x >= 0 else 0",
+          "dist": 0.6264152526855469
+        },
+        {
+          "t": 0.6,
+          "fn": "def f(x): return x % 2 != 0",
+          "dist": 0.5699049830436707
+        },
+        {
+          "t": 0.8,
+          "fn": "def f(x, y): return x - y",
+          "dist": 0.3580540120601654
+        },
+        {
+          "t": 1.0,
+          "fn": "def f(x, y): return x - y",
+          "dist": 0.0
+        }
+      ]
+    },
+    {
+      "desc": "Absolute -> Negation",
+      "src_a": "def f(x): return abs(x)",
+      "src_b": "def f(x): return -x",
+      "unique_visited": 2,
+      "transitions": 1,
+      "avg_dist": 0.2452131085807369,
+      "max_dist": 0.5149475336074829,
+      "path": [
+        {
+          "t": 0.0,
+          "fn": "def f(x): return abs(x)",
+          "dist": 0.0
+        },
+        {
+          "t": 0.2,
+          "fn": "def f(x): return abs(x)",
+          "dist": 0.20597901940345764
+        },
+        {
+          "t": 0.4,
+          "fn": "def f(x): return abs(x)",
+          "dist": 0.4119580388069153
+        },
+        {
+          "t": 0.6,
+          "fn": "def f(x): return -x",
+          "dist": 0.4119580090045929
+        },
+        {
+          "t": 0.8,
+          "fn": "def f(x): return -x",
+          "dist": 0.20597901940345764
+        },
+        {
+          "t": 1.0,
+          "fn": "def f(x): return -x",
+          "dist": 0.0
+        }
+      ]
+    },
+    {
+      "desc": "Comparison -> Equality",
+      "src_a": "def f(x, y): return x > y",
+      "src_b": "def f(x, y): return x == y",
+      "unique_visited": 3,
+      "transitions": 2,
+      "avg_dist": 0.2319179322747957,
+      "max_dist": 0.427828848361969,
+      "path": [
+        {
+          "t": 0.0,
+          "fn": "def f(x, y): return x > y",
+          "dist": 0.0
+        },
+        {
+          "t": 0.2,
+          "fn": "def f(x, y): return x > y",
+          "dist": 0.2852192223072052
+        },
+        {
+          "t": 0.4,
+          "fn": "def f(x, y): return x != y",
+          "dist": 0.34726008772850037
+        },
+        {
+          "t": 0.6,
+          "fn": "def f(x, y): return x != y",
+          "dist": 0.235053151845932
+        },
+        {
+          "t": 0.8,
+          "fn": "def f(x, y): return x == y",
+          "dist": 0.2852192223072052
+        },
+        {
+          "t": 1.0,
+          "fn": "def f(x, y): return x == y",
+          "dist": 0.0
+        }
+      ]
+    },
+    {
+      "desc": "Addition -> Power",
+      "src_a": "def f(x, y): return x + y",
+      "src_b": "def f(x, y): return x ** y",
+      "unique_visited": 5,
+      "transitions": 4,
+      "avg_dist": 0.3778602331876755,
+      "max_dist": 0.6288464069366455,
+      "path": [
+        {
+          "t": 0.0,
+          "fn": "def f(x, y): return x + y",
+          "dist": 0.0
+        },
+        {
+          "t": 0.2,
+          "fn": "def f(x, y): return x + y",
+          "dist": 0.3524739444255829
+        },
+        {
+          "t": 0.4,
+          "fn": "def f(x, y): return x >= y",
+          "dist": 0.6085532903671265
+        },
+        {
+          "t": 0.6,
+          "fn": "def f(x, y): return x >= y",
+          "dist": 0.6288464069366455
+        },
+        {
+          "t": 0.8,
+          "fn": "def f(x, y): return x ** y",
+          "dist": 0.3524739444255829
+        },
+        {
+          "t": 1.0,
+          "fn": "def f(x, y): return x ** y",
+          "dist": 0.0
+        }
+      ]
+    }
+  ],
+  "elapsed": 0.023158788681030273,
+  "timestamp": "2026-05-06T22:47:42"
+}

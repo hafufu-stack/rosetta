@@ -1,0 +1,472 @@
+{
+  "phase": 64,
+  "name": "The Rosetta Taxonomy",
+  "best_k": 14,
+  "silhouette": 0.5399608016014099,
+  "silhouette_scores": {
+    "3": 0.3087172508239746,
+    "4": 0.3514252305030823,
+    "5": 0.37952306866645813,
+    "6": 0.3827386498451233,
+    "7": 0.41847023367881775,
+    "8": 0.4280475676059723,
+    "9": 0.44099608063697815,
+    "10": 0.47793155908584595,
+    "11": 0.48023346066474915,
+    "12": 0.4903184175491333,
+    "13": 0.5039559006690979,
+    "14": 0.5399608016014099
+  },
+  "species": [
+    {
+      "id": 0,
+      "name": "Additive",
+      "n_members": 16,
+      "centroid": [
+        0.24054937064647675,
+        0.09084165841341019,
+        -0.05145870894193649,
+        0.19988998770713806,
+        -0.8625109791755676
+      ],
+      "top_ops": [
+        [
+          "+",
+          8
+        ],
+        [
+          "-",
+          8
+        ],
+        [
+          ">",
+          8
+        ]
+      ],
+      "examples": [
+        "def f(x, y): return x if x > y else y",
+        "def f(x): return x if x > 0 else -x",
+        "def f(a, b): return a if a > b else b",
+        "def f(a): return a if a > 0 else -a",
+        "def f(m, n): return m if m > n else n"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Collection",
+      "n_members": 44,
+      "centroid": [
+        -0.7080085873603821,
+        0.15413567423820496,
+        -0.32022660970687866,
+        0.12381301820278168,
+        0.09766974300146103
+      ],
+      "top_ops": [
+        [
+          "len",
+          8
+        ],
+        [
+          "abs",
+          4
+        ],
+        [
+          "max",
+          4
+        ]
+      ],
+      "examples": [
+        "def f(x): return abs(x)",
+        "def f(a): return abs(a)",
+        "def f(n): return abs(n)",
+        "def f(v): return abs(v)",
+        "def f(x): return int(x)"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Equality",
+      "n_members": 20,
+      "centroid": [
+        0.5696545839309692,
+        0.4655863344669342,
+        0.38590842485427856,
+        -0.09525710344314575,
+        -0.15321816504001617
+      ],
+      "top_ops": [
+        [
+          "%",
+          8
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "/",
+          4
+        ]
+      ],
+      "examples": [
+        "def f(x, y): return x <= y",
+        "def f(a, b): return a <= b",
+        "def f(m, n): return m <= n",
+        "def f(p, q): return p <= q",
+        "def f(x): return x - 1"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Additive",
+      "n_members": 16,
+      "centroid": [
+        0.08775113523006439,
+        -0.5475481748580933,
+        0.13188618421554565,
+        0.36125320196151733,
+        -0.5451787114143372
+      ],
+      "top_ops": [
+        [
+          "+",
+          8
+        ],
+        [
+          "*",
+          8
+        ],
+        [
+          ">",
+          4
+        ]
+      ],
+      "examples": [
+        "def f(x, y): return abs(x + y)",
+        "def f(a, b): return abs(a + b)",
+        "def f(m, n): return abs(m + n)",
+        "def f(p, q): return abs(p + q)",
+        "def f(x): return x * x * x"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "String",
+      "n_members": 20,
+      "centroid": [
+        -0.03683930262923241,
+        0.36760708689689636,
+        0.6954602003097534,
+        0.3416586220264435,
+        0.35513827204704285
+      ],
+      "top_ops": [
+        [
+          "upper",
+          4
+        ],
+        [
+          "lower",
+          4
+        ],
+        [
+          "strip",
+          4
+        ]
+      ],
+      "examples": [
+        "def f(s): return s.upper()",
+        "def f(t): return t.upper()",
+        "def f(w): return w.upper()",
+        "def f(text): return text.upper()",
+        "def f(s): return s.lower()"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Species-5",
+      "n_members": 16,
+      "centroid": [
+        0.5513611435890198,
+        -0.07802196592092514,
+        -0.5226359367370605,
+        -0.1743174046278,
+        0.11501681059598923
+      ],
+      "top_ops": [
+        [
+          "-",
+          4
+        ],
+        [
+          "*",
+          4
+        ],
+        [
+          "%",
+          4
+        ]
+      ],
+      "examples": [
+        "def f(x, y): return x - y",
+        "def f(a, b): return a - b",
+        "def f(m, n): return m - n",
+        "def f(p, q): return p - q",
+        "def f(x, y): return x % y"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Multiplicative",
+      "n_members": 20,
+      "centroid": [
+        -0.04231468215584755,
+        -0.7335293292999268,
+        0.09427744150161743,
+        0.07896506786346436,
+        0.15893664956092834
+      ],
+      "top_ops": [
+        [
+          "*",
+          8
+        ],
+        [
+          "/",
+          4
+        ],
+        [
+          ">",
+          4
+        ]
+      ],
+      "examples": [
+        "def f(x, y): return x * y",
+        "def f(a, b): return a * b",
+        "def f(m, n): return m * n",
+        "def f(p, q): return p * q",
+        "def f(x, y): return x // y"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Subtractive",
+      "n_members": 16,
+      "centroid": [
+        0.798457682132721,
+        0.34376630187034607,
+        -0.0951702669262886,
+        0.3089677691459656,
+        -0.22869127988815308
+      ],
+      "top_ops": [
+        [
+          "/",
+          12
+        ],
+        [
+          "-",
+          8
+        ],
+        [
+          "*",
+          8
+        ]
+      ],
+      "examples": [
+        "def f(x, y): return x / y",
+        "def f(a, b): return a / b",
+        "def f(m, n): return m / n",
+        "def f(p, q): return p / q",
+        "def f(x, y): return (x - y) * x"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Multiplicative",
+      "n_members": 8,
+      "centroid": [
+        0.027636248618364334,
+        -0.3488468825817108,
+        -0.06471782177686691,
+        0.7931597232818604,
+        -0.04235631972551346
+      ],
+      "top_ops": [
+        [
+          "abs",
+          8
+        ],
+        [
+          "*",
+          4
+        ],
+        [
+          "/",
+          4
+        ]
+      ],
+      "examples": [
+        "def f(x, y): return abs(x * y)",
+        "def f(a, b): return abs(a * b)",
+        "def f(m, n): return abs(m * n)",
+        "def f(p, q): return abs(p * q)",
+        "def f(x, y): return abs(x // y)"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Subtractive",
+      "n_members": 8,
+      "centroid": [
+        -0.08360512554645538,
+        0.002282027155160904,
+        0.49234098196029663,
+        -0.5610369443893433,
+        0.3168763220310211
+      ],
+      "top_ops": [
+        [
+          "-",
+          4
+        ],
+        [
+          "<",
+          4
+        ]
+      ],
+      "examples": [
+        "def f(x, y): return x < y",
+        "def f(a, b): return a < b",
+        "def f(m, n): return m < n",
+        "def f(p, q): return p < q",
+        "def f(x): return -x"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Multiplicative",
+      "n_members": 12,
+      "centroid": [
+        0.25197353959083557,
+        -0.1477527916431427,
+        0.7013020515441895,
+        0.24453642964363098,
+        -0.3451230823993683
+      ],
+      "top_ops": [
+        [
+          "*",
+          4
+        ]
+      ],
+      "examples": [
+        "def f(x, y): return x and y",
+        "def f(x, y): return x or y",
+        "def f(a, b): return a and b",
+        "def f(a, b): return a or b",
+        "def f(m, n): return m and n"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Absolute",
+      "n_members": 16,
+      "centroid": [
+        0.3877943158149719,
+        0.259237676858902,
+        -0.3656875193119049,
+        0.611652672290802,
+        -0.0460987314581871
+      ],
+      "top_ops": [
+        [
+          "abs",
+          16
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "*",
+          4
+        ]
+      ],
+      "examples": [
+        "def f(x, y): return abs(x - y)",
+        "def f(a, b): return abs(a - b)",
+        "def f(m, n): return abs(m - n)",
+        "def f(p, q): return abs(p - q)",
+        "def f(x, y): return abs(x / y)"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Additive",
+      "n_members": 16,
+      "centroid": [
+        -0.23227353394031525,
+        -0.1064220443367958,
+        0.5279091596603394,
+        -0.22775991261005402,
+        -0.5649117231369019
+      ],
+      "top_ops": [
+        [
+          "+",
+          8
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "<",
+          4
+        ]
+      ],
+      "examples": [
+        "def f(x, y): return x + y",
+        "def f(a, b): return a + b",
+        "def f(m, n): return m + n",
+        "def f(p, q): return p + q",
+        "def f(s): return s[::-1]"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Equality",
+      "n_members": 8,
+      "centroid": [
+        -0.2879456579685211,
+        0.47638756036758423,
+        -0.04518432170152664,
+        -0.4840148687362671,
+        -0.209427148103714
+      ],
+      "top_ops": [
+        [
+          "==",
+          4
+        ],
+        [
+          "!=",
+          4
+        ]
+      ],
+      "examples": [
+        "def f(x, y): return x == y",
+        "def f(a, b): return a == b",
+        "def f(m, n): return m == n",
+        "def f(p, q): return p == q",
+        "def f(x, y): return x != y"
+      ]
+    }
+  ],
+  "n_dbscan_clusters": 33,
+  "n_outliers": 0,
+  "elapsed": 2.100125551223755,
+  "timestamp": "2026-05-06T22:14:17"
+}

@@ -1,0 +1,65 @@
+{
+  "phase": 73,
+  "name": "Program Dreaming",
+  "n_dreams": 200,
+  "dream_categories": {
+    "Subtraction": 25,
+    "Division": 14,
+    "Equality": 21,
+    "Addition": 25,
+    "Multiplication": 22,
+    "Absolute": 22,
+    "Comparison": 34,
+    "Other": 34,
+    "Logic": 3
+  },
+  "top_dreams": [
+    [
+      "def f(lst): return list(reversed(lst))",
+      14
+    ],
+    [
+      "def f(x, y): return x if x > y else y",
+      10
+    ],
+    [
+      "def f(x, y): return abs(x + y)",
+      10
+    ],
+    [
+      "def f(x, y): return abs(x % y)",
+      9
+    ],
+    [
+      "def f(x, y): return x if x < y else y",
+      8
+    ],
+    [
+      "def f(x, y): return x > y",
+      8
+    ],
+    [
+      "def f(x, y): return x == y",
+      7
+    ],
+    [
+      "def f(a): return a * a * a",
+      7
+    ],
+    [
+      "def f(a): return abs(a)",
+      7
+    ],
+    [
+      "def f(x, y): return x >= y",
+      7
+    ]
+  ],
+  "avg_density_random": 0.012165749004051462,
+  "avg_density_data": 0.24462653635320836,
+  "density_ratio": 0.049731924786632645,
+  "n_voids": 93,
+  "mode_function": "def f(x): return abs(x)",
+  "elapsed": 0.06302428245544434,
+  "timestamp": "2026-05-06T22:42:41"
+}

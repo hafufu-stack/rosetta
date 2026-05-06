@@ -1,0 +1,68 @@
+{
+  "phase": 49,
+  "name": "Topology of Control Flow",
+  "limitation": "Scale (single-expression limit)",
+  "n_new_functions": 25,
+  "categories": {
+    "conditional": 8,
+    "loop": 8,
+    "functional": 4,
+    "multi_op": 5
+  },
+  "pca_orig_variance": [
+    0.2547113001346588,
+    0.23375427722930908,
+    0.18965259194374084,
+    0.09348764270544052,
+    0.09174910932779312,
+    0.06553374230861664,
+    0.02486249804496765,
+    0.013900244608521461,
+    0.011263231746852398,
+    0.007760162930935621
+  ],
+  "pca_combined_variance": [
+    0.25488500681771503,
+    0.23229380338391964,
+    0.1891720335948655,
+    0.0942236452639399,
+    0.09292953877097296,
+    0.06553523820530825,
+    0.024707514492983813,
+    0.01392086902772109,
+    0.011184478040844836,
+    0.007773206792351078
+  ],
+  "pc5_walk": [
+    {
+      "t": -3,
+      "code": "def f(m, n): return abs(m ** n)"
+    },
+    {
+      "t": -2,
+      "code": "def f(m, n): return abs(m ** n)"
+    },
+    {
+      "t": -1,
+      "code": "def f(m, n): return abs(m ** n)"
+    },
+    {
+      "t": 0,
+      "code": "def f(m, n): return m < n"
+    },
+    {
+      "t": 1,
+      "code": "def f(m, n): return m + n"
+    },
+    {
+      "t": 2,
+      "code": "def f(m, n): return m + n"
+    },
+    {
+      "t": 3,
+      "code": "def f(x, y): return x != y"
+    }
+  ],
+  "elapsed": 5.352360725402832,
+  "timestamp": "2026-05-06T20:35:08"
+}

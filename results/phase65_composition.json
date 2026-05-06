@@ -1,0 +1,136 @@
+{
+  "phase": 65,
+  "name": "The Composition Algebra",
+  "n_compositions": 858,
+  "avg_match_rate": 0.3123543123543124,
+  "n_perfect": 140,
+  "avg_nn_dist": 0.7029498386216331,
+  "avg_cos": 0.8968519433672889,
+  "is_algebraic": true,
+  "best_compositions": [
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(a): return abs(a)",
+      "nn_src": "def f(x): return abs(x)",
+      "nn_dist": 0.8403481841087341,
+      "match_rate": 1.0,
+      "cos_5d": 1.0
+    },
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(n): return abs(n)",
+      "nn_src": "def f(x): return abs(x)",
+      "nn_dist": 0.8403481841087341,
+      "match_rate": 1.0,
+      "cos_5d": 1.0
+    },
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(v): return abs(v)",
+      "nn_src": "def f(x): return abs(x)",
+      "nn_dist": 0.8403481841087341,
+      "match_rate": 1.0,
+      "cos_5d": 1.0
+    },
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(x): return int(x)",
+      "nn_src": "def f(x): return abs(x)",
+      "nn_dist": 0.8403481841087341,
+      "match_rate": 1.0,
+      "cos_5d": 1.0
+    },
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(a): return int(a)",
+      "nn_src": "def f(x): return abs(x)",
+      "nn_dist": 0.8403481841087341,
+      "match_rate": 1.0,
+      "cos_5d": 1.0
+    },
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(n): return int(n)",
+      "nn_src": "def f(x): return abs(x)",
+      "nn_dist": 0.8403481841087341,
+      "match_rate": 1.0,
+      "cos_5d": 1.0
+    },
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(v): return int(v)",
+      "nn_src": "def f(x): return abs(x)",
+      "nn_dist": 0.8403481841087341,
+      "match_rate": 1.0,
+      "cos_5d": 1.0
+    },
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(x): return float(x)",
+      "nn_src": "def f(x): return abs(x)",
+      "nn_dist": 0.8403481841087341,
+      "match_rate": 1.0,
+      "cos_5d": 1.0
+    },
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(a): return float(a)",
+      "nn_src": "def f(x): return abs(x)",
+      "nn_dist": 0.8403481841087341,
+      "match_rate": 1.0,
+      "cos_5d": 1.0
+    },
+    {
+      "f": "def f(x): return abs(x)",
+      "g": "def f(n): return float(n)",
+      "nn_src": "def f(x): return abs(x)",
+      "nn_dist": 0.8403481841087341,
+      "match_rate": 1.0,
+      "cos_5d": 1.0
+    }
+  ],
+  "worst_compositions": [
+    {
+      "f": "def f(x): return x if x >= 0 else 0",
+      "g": "def f(x): return bool(x)",
+      "nn_src": "def f(x, y): return abs(x + y)",
+      "nn_dist": 0.42814016342163086,
+      "match_rate": 0.0,
+      "cos_5d": 0.8982119560241699
+    },
+    {
+      "f": "def f(x): return x if x >= 0 else 0",
+      "g": "def f(a): return bool(a)",
+      "nn_src": "def f(x, y): return abs(x + y)",
+      "nn_dist": 0.42814019322395325,
+      "match_rate": 0.0,
+      "cos_5d": 0.8982120156288147
+    },
+    {
+      "f": "def f(x): return x if x >= 0 else 0",
+      "g": "def f(n): return bool(n)",
+      "nn_src": "def f(x, y): return abs(x + y)",
+      "nn_dist": 0.42814016342163086,
+      "match_rate": 0.0,
+      "cos_5d": 0.8982119560241699
+    },
+    {
+      "f": "def f(x): return x if x >= 0 else 0",
+      "g": "def f(v): return bool(v)",
+      "nn_src": "def f(x, y): return abs(x + y)",
+      "nn_dist": 0.42814019322395325,
+      "match_rate": 0.0,
+      "cos_5d": 0.8982120156288147
+    },
+    {
+      "f": "def f(x): return x if x >= 0 else 0",
+      "g": "def f(x): return x if x > 0 else -x",
+      "nn_src": "def f(x, y): return (x - y) + x",
+      "nn_dist": 0.5100827813148499,
+      "match_rate": 0.0,
+      "cos_5d": 0.9941314458847046
+    }
+  ],
+  "elapsed": 0.47657299041748047,
+  "timestamp": "2026-05-06T22:14:19"
+}

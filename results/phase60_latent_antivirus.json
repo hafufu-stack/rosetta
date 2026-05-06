@@ -1,0 +1,100 @@
+{
+  "phase": 60,
+  "name": "The Latent Antivirus",
+  "tp": 5,
+  "fp": 0,
+  "fn": 1,
+  "tn": 1,
+  "precision": 1.0,
+  "recall": 0.8333333333333334,
+  "threat_avg_cos": 0.0925229862332344,
+  "benign_avg_cos": 1.0,
+  "scenarios": [
+    {
+      "name": "auth_bypass",
+      "desc": "Password check -> always true backdoor",
+      "normal": "def f(x, y): return x == y",
+      "malicious": "def f(x, y): return x != y",
+      "attack": "Flipped equality to bypass auth",
+      "cosine": 0.4733746647834778,
+      "dist_5d": 0.6423946619033813,
+      "is_benign": false,
+      "detected": true,
+      "label": "DETECTED"
+    },
+    {
+      "name": "data_theft",
+      "desc": "Read value -> expose value",
+      "normal": "def f(x): return abs(x)",
+      "malicious": "def f(x): return -x",
+      "attack": "Negation instead of abs = data sign leak",
+      "cosine": 0.36980849504470825,
+      "dist_5d": 1.0298950672149658,
+      "is_benign": false,
+      "detected": true,
+      "label": "DETECTED"
+    },
+    {
+      "name": "logic_bomb",
+      "desc": "Normal addition -> conditional destruction",
+      "normal": "def f(x, y): return x + y",
+      "malicious": "def f(x, y): return x - y",
+      "attack": "Subtraction disguised as addition",
+      "cosine": -0.7700003981590271,
+      "dist_5d": 1.7902700901031494,
+      "is_benign": false,
+      "detected": true,
+      "label": "DETECTED"
+    },
+    {
+      "name": "comparison_inversion",
+      "desc": "Greater than -> less than (ACL bypass)",
+      "normal": "def f(x, y): return x > y",
+      "malicious": "def f(x, y): return x < y",
+      "attack": "Inverted comparison = ACL bypass",
+      "cosine": -0.647048830986023,
+      "dist_5d": 1.6686127185821533,
+      "is_benign": false,
+      "detected": true,
+      "label": "DETECTED"
+    },
+    {
+      "name": "coercion_attack",
+      "desc": "Type check -> type coercion",
+      "normal": "def f(x): return int(x)",
+      "malicious": "def f(x): return float(x)",
+      "attack": "int->float = precision exploit",
+      "cosine": 0.9999998807907104,
+      "dist_5d": 0.0,
+      "is_benign": false,
+      "detected": false,
+      "label": "MISSED"
+    },
+    {
+      "name": "overflow_exploit",
+      "desc": "Safe multiply -> unsafe power",
+      "normal": "def f(x, y): return x * y",
+      "malicious": "def f(x, y): return x ** y",
+      "attack": "mul->pow = integer overflow",
+      "cosine": 0.12900410592556,
+      "dist_5d": 1.1355540752410889,
+      "is_benign": false,
+      "detected": true,
+      "label": "DETECTED"
+    },
+    {
+      "name": "benign_mutation",
+      "desc": "Same function, different var names (FALSE POSITIVE test)",
+      "normal": "def f(x, y): return x + y",
+      "malicious": "def f(a, b): return a + b",
+      "attack": "NONE (should NOT be flagged)",
+      "cosine": 1.0,
+      "dist_5d": 0.0,
+      "is_benign": true,
+      "detected": false,
+      "label": "TRUE NEGATIVE (correct!)"
+    }
+  ],
+  "elapsed": 1.284677267074585,
+  "timestamp": "2026-05-06T22:08:36"
+}

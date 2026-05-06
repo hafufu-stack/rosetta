@@ -1,0 +1,88 @@
+{
+  "phase": 53,
+  "name": "Massive Isomorphic Babel",
+  "n_py_js_pairs": 236,
+  "n_augmented": 425,
+  "n_matched": 236,
+  "n_train": 188,
+  "n_test": 48,
+  "cos_before": -0.029326312243938446,
+  "cos_after": 0.11969012022018433,
+  "nn_accuracy": 0.0,
+  "p51_baseline": 0.077,
+  "p22_baseline": 0.03,
+  "examples": [
+    {
+      "python": "def f(p, q): return p < q",
+      "true_js": "function f(p, q) { return p < q; }",
+      "nn_js": "function f(n) { return n / 2; }",
+      "decoded_js": "function f(n) { return n * n; }",
+      "correct": false
+    },
+    {
+      "python": "def f(p, q): return p ** q",
+      "true_js": "function f(p, q) { return Math.pow(p ,  q); }",
+      "nn_js": "function f(n) { return n * 2; }",
+      "decoded_js": "function f(nums) { return Math.mam(nums); }",
+      "correct": false
+    },
+    {
+      "python": "def f(v): return bool(v)",
+      "true_js": "function f(v) { return bool(v); }",
+      "nn_js": "function f(nums) { return Math.min(nums); }",
+      "decoded_js": "function f(n) { return n * n; }",
+      "correct": false
+    },
+    {
+      "python": "def f(a, b): return a ** b",
+      "true_js": "function f(a, b) { return Math.pow(a ,  b); }",
+      "nn_js": "function f(n) { return n * 2; }",
+      "decoded_js": "function f(nums) { return Math.mam(nums); }",
+      "correct": false
+    },
+    {
+      "python": "def f(x, y): return (x - y) + x",
+      "true_js": "function f(x, y) { return (x - y) + x; }",
+      "nn_js": "function f(m, n) { return m != n; }",
+      "decoded_js": "function f(nums) { return Math.mam(nums); }",
+      "correct": false
+    },
+    {
+      "python": "def f(p): return p if p > 0 else -p",
+      "true_js": "function f(p) { return p if p > 0 else -p; }",
+      "nn_js": "function f(n) { return n - 1; }",
+      "decoded_js": "function f(nums) { return Math.mam(nums); }",
+      "correct": false
+    },
+    {
+      "python": "def f(a, b): return (a - b) + a",
+      "true_js": "function f(a, b) { return (a - b) + a; }",
+      "nn_js": "function f(m, n) { return m != n; }",
+      "decoded_js": "function f(nums) { return Math.mam(nums); }",
+      "correct": false
+    },
+    {
+      "python": "def f(a, b): return (a + b) - a",
+      "true_js": "function f(a, b) { return (a + b) - a; }",
+      "nn_js": "function f(m, n) { return m != n; }",
+      "decoded_js": "function f(nums) { return Math.mam(nums); }",
+      "correct": false
+    },
+    {
+      "python": "def f(v): return v * 2",
+      "true_js": "function f(v) { return v * 2; }",
+      "nn_js": "function f(n) { return n * 2; }",
+      "decoded_js": "function f(nums) { return Math.mam(nums); }",
+      "correct": false
+    },
+    {
+      "python": "def f(a, b): return (a / b) + a",
+      "true_js": "function f(a, b) { return (a / b) + a; }",
+      "nn_js": "function f(n) { return n % 2 == 0; }",
+      "decoded_js": "function f(nums) { return Math.mam(nums); }",
+      "correct": false
+    }
+  ],
+  "elapsed": 24.26536774635315,
+  "timestamp": "2026-05-06T20:55:20"
+}
