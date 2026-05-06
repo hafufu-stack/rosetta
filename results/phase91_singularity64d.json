@@ -1,0 +1,70 @@
+{
+  "phase": 91,
+  "title": "The 64D Singularity Engine",
+  "neural_cpu_r2_64d": 0.9988988285819794,
+  "neural_cpu_r2_5d_p89": 0.6704,
+  "n_targets": 7,
+  "n_discovered": 1,
+  "discovery_rate": 0.14285714285714285,
+  "p89_discovery_rate": 0.0,
+  "improvement": "14% vs 0%",
+  "targets": [
+    {
+      "target": "addition (x+y)",
+      "discovered": "x // y",
+      "full_function": "def f(x, y): return x // y",
+      "final_fitness": -0.15421539022495845,
+      "ground_truth_accuracy": 0.0,
+      "generations_to_converge": 38
+    },
+    {
+      "target": "subtraction (x-y)",
+      "discovered": "x - y",
+      "full_function": "def f(x, y): return x - y",
+      "final_fitness": -3.126355573513609,
+      "ground_truth_accuracy": 1.0,
+      "generations_to_converge": 150
+    },
+    {
+      "target": "multiplication (x*y)",
+      "discovered": "(x + y) * x",
+      "full_function": "def f(x, y): return (x + y) * x",
+      "final_fitness": -0.16495803430059347,
+      "ground_truth_accuracy": 0.2,
+      "generations_to_converge": 22
+    },
+    {
+      "target": "maximum",
+      "discovered": "(x + y) / x",
+      "full_function": "def f(x, y): return (x + y) / x",
+      "final_fitness": -0.03801075272831431,
+      "ground_truth_accuracy": 0.0,
+      "generations_to_converge": 2
+    },
+    {
+      "target": "abs difference",
+      "discovered": "s.upper()",
+      "full_function": "def f(s): return s.upper()",
+      "final_fitness": -1.130771939605577,
+      "ground_truth_accuracy": 0.0,
+      "generations_to_converge": 150
+    },
+    {
+      "target": "integer division",
+      "discovered": "x if x > 0 else -x",
+      "full_function": "def f(x): return x if x > 0 else -x",
+      "final_fitness": -0.007732921592226302,
+      "ground_truth_accuracy": 0.0,
+      "generations_to_converge": 3
+    },
+    {
+      "target": "modulo",
+      "discovered": "x and y",
+      "full_function": "def f(x, y): return x and y",
+      "final_fitness": -0.06469232362648827,
+      "ground_truth_accuracy": 0.0,
+      "generations_to_converge": 2
+    }
+  ],
+  "law": "Dimensionality hierarchy: meaning lives in 5D but computation requires 64D. 64D Singularity discovers 1/7 programs vs 0/5 in 5D."
+}

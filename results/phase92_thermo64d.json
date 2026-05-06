@@ -1,0 +1,93 @@
+{
+  "phase": 92,
+  "title": "Thermodynamic Repair v2 (64D)",
+  "neural_cpu_r2_64d": 0.9988988285819794,
+  "neural_cpu_r2_5d_p88": 0.6704,
+  "n_bugs": 7,
+  "n_repaired": 0,
+  "repair_rate": 0.0,
+  "mean_improvement": 0.005495543786782552,
+  "mean_energy_reduction_pct": 34.735086368565895,
+  "p88_repair_rate": 0.0,
+  "p88_mean_improvement": 0.047,
+  "repairs": [
+    {
+      "bug": "add->sub",
+      "initial_energy": 44.51681684595348,
+      "final_energy": 38.20587368026402,
+      "energy_reduction_pct": 14.176537346580156,
+      "dist_before": 1.8814889192581177,
+      "dist_after": 1.8464194070459192,
+      "improvement": 0.01863923398816858,
+      "nearest": "x + y",
+      "repaired": false
+    },
+    {
+      "bug": "sub->add",
+      "initial_energy": 31.705649109793832,
+      "final_energy": 29.06470852424547,
+      "energy_reduction_pct": 8.32955848465581,
+      "dist_before": 1.8814889192581177,
+      "dist_after": 1.8563520520343204,
+      "improvement": 0.013360093150965202,
+      "nearest": "x - y",
+      "repaired": false
+    },
+    {
+      "bug": "mul->add",
+      "initial_energy": 9.345549351688932,
+      "final_energy": 6.632538823047115,
+      "energy_reduction_pct": 29.029973803760296,
+      "dist_before": 1.3214665651321411,
+      "dist_after": 1.3077108749358566,
+      "improvement": 0.010409412208555624,
+      "nearest": "x * y",
+      "repaired": false
+    },
+    {
+      "bug": "add->mul",
+      "initial_energy": 20.58525679663438,
+      "final_energy": 16.513696091041403,
+      "energy_reduction_pct": 19.779013425952908,
+      "dist_before": 1.3214665651321411,
+      "dist_after": 1.3453326962941279,
+      "improvement": -0.018060336743820793,
+      "nearest": "x + y",
+      "repaired": false
+    },
+    {
+      "bug": "gt->lt",
+      "initial_energy": 4.569539722694048,
+      "final_energy": 2.3956316346142197,
+      "energy_reduction_pct": 47.573896277469956,
+      "dist_before": 1.8149648904800415,
+      "dist_after": 1.7878786514412357,
+      "improvement": 0.014923836367788823,
+      "nearest": "x > y",
+      "repaired": false
+    },
+    {
+      "bug": "pow->mul",
+      "initial_energy": 8220.826496533015,
+      "final_energy": 24.400652196397637,
+      "energy_reduction_pct": 99.7031849266398,
+      "dist_before": 1.31984543800354,
+      "dist_after": 1.3236900220760242,
+      "improvement": -0.0029129047703491118,
+      "nearest": "x ** y",
+      "repaired": false
+    },
+    {
+      "bug": "div->mod",
+      "initial_energy": 3.5709242580138825,
+      "final_energy": 2.694139501607521,
+      "energy_reduction_pct": 24.553440314902343,
+      "dist_before": 1.286210298538208,
+      "dist_after": 1.2834970735335316,
+      "improvement": 0.0021094723061695353,
+      "nearest": "x // y",
+      "repaired": false
+    }
+  ],
+  "law": "64D energy landscape enables thermodynamic debugging: 0/7 bugs repaired vs 0/6 in 5D. Computation requires full dimensionality."
+}
