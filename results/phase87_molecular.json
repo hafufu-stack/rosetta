@@ -1,0 +1,114 @@
+{
+  "phase": 87,
+  "title": "Molecular Synthesis - Mass Defect in Code",
+  "n_molecules": 105,
+  "mean_mass_defect": 0.6702401041984558,
+  "std_mass_defect": 0.1662335991859436,
+  "fraction_positive_defect": 1.0,
+  "mean_binding_energy": 0.6702401041984558,
+  "angle_binding_correlation": -0.9218638332539224,
+  "mean_angle_degrees": 71.8921890258789,
+  "top_molecules": [
+    {
+      "atom_a": "abs(x + y)",
+      "atom_b": "abs(m + n)",
+      "mass_atoms": 1.7755851745605469,
+      "mass_sum": 1.7755851745605469,
+      "mass_actual": 0.8877925872802734,
+      "mass_defect": 0.8877925872802734,
+      "binding_energy": 0.8877925872802734,
+      "cosine_similarity": 1.0
+    },
+    {
+      "atom_a": "abs(x + y)",
+      "atom_b": "abs(p + q)",
+      "mass_atoms": 1.7755851745605469,
+      "mass_sum": 1.7755851745605469,
+      "mass_actual": 0.8877925872802734,
+      "mass_defect": 0.8877925872802734,
+      "binding_energy": 0.8877925872802734,
+      "cosine_similarity": 0.9999999403953552
+    },
+    {
+      "atom_a": "abs(x + y)",
+      "atom_b": "abs(a + b)",
+      "mass_atoms": 1.775583267211914,
+      "mass_sum": 1.775583267211914,
+      "mass_actual": 0.887791633605957,
+      "mass_defect": 0.887791633605957,
+      "binding_energy": 0.887791633605957,
+      "cosine_similarity": 1.0
+    },
+    {
+      "atom_a": "abs(m + n)",
+      "atom_b": "abs(p + q)",
+      "mass_atoms": 1.7755820751190186,
+      "mass_sum": 1.7755820751190186,
+      "mass_actual": 0.8877910375595093,
+      "mass_defect": 0.8877910375595093,
+      "binding_energy": 0.8877910375595093,
+      "cosine_similarity": 1.0
+    },
+    {
+      "atom_a": "abs(a + b)",
+      "atom_b": "abs(m + n)",
+      "mass_atoms": 1.7755801677703857,
+      "mass_sum": 1.7755800485610962,
+      "mass_actual": 0.8877900242805481,
+      "mass_defect": 0.8877900242805481,
+      "binding_energy": 0.8877900242805481,
+      "cosine_similarity": 1.0000001192092896
+    },
+    {
+      "atom_a": "abs(a + b)",
+      "atom_b": "abs(p + q)",
+      "mass_atoms": 1.7755800485610962,
+      "mass_sum": 1.7755800485610962,
+      "mass_actual": 0.8877900242805481,
+      "mass_defect": 0.8877900242805481,
+      "binding_energy": 0.8877900242805481,
+      "cosine_similarity": 1.0
+    },
+    {
+      "atom_a": "x + y",
+      "atom_b": "abs(x + y)",
+      "mass_atoms": 1.8889656066894531,
+      "mass_sum": 1.7344880104064941,
+      "mass_actual": 0.8672440052032471,
+      "mass_defect": 0.8672440052032471,
+      "binding_energy": 0.8672440052032471,
+      "cosine_similarity": 1.0
+    },
+    {
+      "atom_a": "x + y",
+      "atom_b": "abs(m + n)",
+      "mass_atoms": 1.8889625072479248,
+      "mass_sum": 1.7344847917556763,
+      "mass_actual": 0.8672423958778381,
+      "mass_defect": 0.8672423958778381,
+      "binding_energy": 0.8672423958778381,
+      "cosine_similarity": 1.0000001192092896
+    },
+    {
+      "atom_a": "x + y",
+      "atom_b": "abs(p + q)",
+      "mass_atoms": 1.8889625072479248,
+      "mass_sum": 1.734484314918518,
+      "mass_actual": 0.867242157459259,
+      "mass_defect": 0.867242157459259,
+      "binding_energy": 0.867242157459259,
+      "cosine_similarity": 1.0
+    },
+    {
+      "atom_a": "x + y",
+      "atom_b": "abs(a + b)",
+      "mass_atoms": 1.888960599899292,
+      "mass_sum": 1.7344824075698853,
+      "mass_actual": 0.8672412037849426,
+      "mass_defect": 0.8672412037849426,
+      "binding_energy": 0.8672412037849426,
+      "cosine_similarity": 1.0
+    }
+  ],
+  "law": "Code molecules exhibit mass defect: the combined vector is always shorter than the sum of atomic vectors"
+}

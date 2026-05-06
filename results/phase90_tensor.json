@@ -1,0 +1,16 @@
+{
+  "phase": 90,
+  "title": "The Rosetta Tensor - Multi-Body Interactions",
+  "n_triplets": 455,
+  "mean_3body_residual": 1.8800321299750067e-08,
+  "max_3body_residual": 8.56006536764653e-08,
+  "all_3body_near_zero": true,
+  "mean_emergent_ratio": 0.5802786946296692,
+  "n_body_means": {
+    "2": 0.6127027869224548,
+    "3": 1.72555694177845e-08,
+    "4": 2.6398017993756184e-08
+  },
+  "effective_rank": 3.661806905449563,
+  "law": "3-body interactions vanish: the 5D space is strictly pairwise-decomposable, no genuine multi-body physics exists"
+}

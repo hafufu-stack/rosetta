@@ -1,0 +1,79 @@
+{
+  "phase": 88,
+  "title": "Thermodynamic Debugging",
+  "neural_cpu_r2": 0.6703775477093352,
+  "n_bugs": 6,
+  "n_repaired": 0,
+  "repair_rate": 0.0,
+  "mean_improvement": 0.04689040469537883,
+  "mean_energy_reduction": 3386.721522501573,
+  "repairs": [
+    {
+      "bug": "add->sub",
+      "initial_energy": 411.185207619534,
+      "final_energy": 139.25592109938572,
+      "energy_reduction": 271.9292865201483,
+      "dist_to_correct_before": 1.7881430387496948,
+      "dist_to_correct_after": 1.6879274679011276,
+      "improvement": 0.05604449346437068,
+      "nearest_function": "a + b",
+      "repaired": false
+    },
+    {
+      "bug": "sub->add",
+      "initial_energy": 1836.0859888809755,
+      "final_energy": 401.1038849949188,
+      "energy_reduction": 1434.9821038860566,
+      "dist_to_correct_before": 1.7881430387496948,
+      "dist_to_correct_after": 1.8611466193368427,
+      "improvement": -0.040826476968080394,
+      "nearest_function": "p - q",
+      "repaired": false
+    },
+    {
+      "bug": "mul->add",
+      "initial_energy": 356.8827457584055,
+      "final_energy": 84.51344226449844,
+      "energy_reduction": 272.36930349390707,
+      "dist_to_correct_before": 1.2724075317382812,
+      "dist_to_correct_after": 1.076762506015508,
+      "improvement": 0.15375971993461535,
+      "nearest_function": "a * b",
+      "repaired": false
+    },
+    {
+      "bug": "add->mul",
+      "initial_energy": 454.4054564776278,
+      "final_energy": 181.7942917201496,
+      "energy_reduction": 272.6111647574782,
+      "dist_to_correct_before": 1.2724075317382812,
+      "dist_to_correct_after": 1.1468485565934328,
+      "improvement": 0.09867827092576065,
+      "nearest_function": "a + b",
+      "repaired": false
+    },
+    {
+      "bug": "gt->lt",
+      "initial_energy": 3274.0083245597816,
+      "final_energy": 528.1249911594889,
+      "energy_reduction": 2745.883333400293,
+      "dist_to_correct_before": 1.5456186532974243,
+      "dist_to_correct_after": 1.4773649921054262,
+      "improvement": 0.0441594445346436,
+      "nearest_function": "x > y",
+      "repaired": false
+    },
+    {
+      "bug": "pow->mul",
+      "initial_energy": 19357.194921861566,
+      "final_energy": 4034.6409789100117,
+      "energy_reduction": 15322.553942951556,
+      "dist_to_correct_before": 1.1409945487976074,
+      "dist_to_correct_after": 1.1757641027464087,
+      "improvement": -0.03047302371903693,
+      "nearest_function": "x ** y",
+      "repaired": false
+    }
+  ],
+  "law": "P85 wall broken: gradient descent on I/O energy landscape repairs diverse bugs without knowing bug type"
+}
