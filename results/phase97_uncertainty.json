@@ -1,0 +1,14 @@
+{
+  "phase": 97,
+  "title": "The Uncertainty Principle of Code",
+  "n_functions": 236,
+  "mean_ast_spread": 7.626731246546115e-08,
+  "mean_bc_spread": 7.995243578307054e-08,
+  "min_product": 0.0,
+  "percentile_5_product": 0.0,
+  "median_product": 8.503957527581946e-15,
+  "spread_correlation": 0.9724159228602001,
+  "commutator_norm": 5.839102453606541e-15,
+  "per_dim_mean_product": 0.015064801089465618,
+  "law": "Code uncertainty: AST-BC spread correlation=0.972, commutator_norm=0.000. Nearly commuting (classical)"
+}

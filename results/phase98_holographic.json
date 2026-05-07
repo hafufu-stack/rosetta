@@ -1,0 +1,15 @@
+{
+  "phase": 98,
+  "title": "The Holographic Boundary",
+  "mean_radius": 0.9762923717498779,
+  "std_radius": 0.06828422099351883,
+  "packing_fraction": 0.8550615310668945,
+  "nn_acc_original": 0.48148148148148145,
+  "nn_acc_sphere": 0.5185185185185185,
+  "info_preserved_pct": 107.6923076923077,
+  "shell_intrinsic_dim": 1.2414817909453044,
+  "intra_class_cosine": 0.6599140167236328,
+  "inter_class_cosine": -0.09278152137994766,
+  "angular_ratio": 0,
+  "law": "Holographic: sphere projection preserves 108% of info. Shell dim=1.2. Angular clustering=-7.11x."
+}

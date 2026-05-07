@@ -1,0 +1,57 @@
+{
+  "phase": 99,
+  "title": "Renormalization Group Flow",
+  "scales": [
+    {
+      "n_clusters": 236,
+      "effective_dim": 4.419985771179199,
+      "spectral_ratio": 0.2832925319671631,
+      "packing": 0.855061411857605,
+      "eigenvalue_gap": 1.5263876914978027
+    },
+    {
+      "n_clusters": 118,
+      "effective_dim": 4.5306596755981445,
+      "spectral_ratio": 0.2694486677646637,
+      "packing": 0.7437443137168884,
+      "eigenvalue_gap": 1.419532299041748
+    },
+    {
+      "n_clusters": 59,
+      "effective_dim": 4.448836803436279,
+      "spectral_ratio": 0.2730235755443573,
+      "packing": 0.8563823699951172,
+      "eigenvalue_gap": 1.2952324151992798
+    },
+    {
+      "n_clusters": 29,
+      "effective_dim": 4.752338886260986,
+      "spectral_ratio": 0.22243061661720276,
+      "packing": 0.9016228318214417,
+      "eigenvalue_gap": 1.0609605312347412
+    },
+    {
+      "n_clusters": 14,
+      "effective_dim": 4.77013635635376,
+      "spectral_ratio": 0.23620672523975372,
+      "packing": 0.8579894304275513,
+      "eigenvalue_gap": 1.122073769569397
+    },
+    {
+      "n_clusters": 7,
+      "effective_dim": 3.9733457565307617,
+      "spectral_ratio": 0.3241156339645386,
+      "packing": 0.8201998472213745,
+      "eigenvalue_gap": 1.0463401079177856
+    }
+  ],
+  "dim_stability_cv": 0.05917396681388237,
+  "packing_stability_cv": 0.05811347271848164,
+  "spectral_stability_cv": 0.12275037224116975,
+  "fixed_points": [
+    "eff_dim ~ 4.5",
+    "packing ~ 0.839",
+    "spectral ~ 0.268"
+  ],
+  "law": "RG flow: 3 fixed points. Packing CV=0.058, dim CV=0.059. Scale-invariant properties = true universal laws."
+}
