@@ -1,0 +1,25 @@
+{
+  "phase": 114,
+  "title": "The Periodic Table of Programs",
+  "n_element_types": 9,
+  "property_counts": {
+    "commutative": 36,
+    "has_identity": 22,
+    "idempotent": 24,
+    "monotonic": 88,
+    "symmetric": 36
+  },
+  "ari": 0.13796604615811567,
+  "element_types": {
+    "11011": 8,
+    "10011": 8,
+    "01010": 10,
+    "10001": 12,
+    "00010": 38,
+    "00000": 136,
+    "10111": 8,
+    "00110": 12,
+    "01110": 4
+  },
+  "law": "9 element types found. Properties predict clusters with ARI=0.138. Programs follow algebraic classification like elements follow chemical properties."
+}

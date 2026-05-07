@@ -1,0 +1,58 @@
+{
+  "phase": 108,
+  "title": "Cosmic Web Routing (Wormhole Debugging)",
+  "n_bugs": 6,
+  "n_repaired": 3,
+  "repair_rate": 0.5,
+  "repairs": [
+    {
+      "bug": "add->sub",
+      "path_length": 10,
+      "euclidean_dist": 1.8814889620077113,
+      "graph_dist": 6.009487549333115,
+      "best_waypoint": "x - y",
+      "repaired": true
+    },
+    {
+      "bug": "sub->add",
+      "path_length": 10,
+      "euclidean_dist": 1.8814889620077113,
+      "graph_dist": 6.009487549333114,
+      "best_waypoint": "x + y",
+      "repaired": true
+    },
+    {
+      "bug": "mul->add",
+      "path_length": 6,
+      "euclidean_dist": 1.3214665140875503,
+      "graph_dist": 3.259526261111639,
+      "best_waypoint": "x + y",
+      "repaired": true
+    },
+    {
+      "bug": "add->mul",
+      "path_length": 6,
+      "euclidean_dist": 1.3214665140875503,
+      "graph_dist": 3.259526261111639,
+      "best_waypoint": "x * x",
+      "repaired": false
+    },
+    {
+      "bug": "gt->lt",
+      "path_length": 9,
+      "euclidean_dist": 1.814964923096904,
+      "graph_dist": 6.409699983884841,
+      "best_waypoint": "x % 2 != 0",
+      "repaired": false
+    },
+    {
+      "bug": "pow->mul",
+      "path_length": 10,
+      "euclidean_dist": 1.319845369199177,
+      "graph_dist": 6.107716273816318,
+      "best_waypoint": "x * x",
+      "repaired": false
+    }
+  ],
+  "law": "Cosmic Web routing repairs 3/6 bugs via graph traversal. Wormholes bypass d^-3.4 gravity wells."
+}

@@ -1,0 +1,36 @@
+{
+  "phase": 115,
+  "title": "Geodesics in Curved Space",
+  "mean_curvature_ratio": 3.662525441374637,
+  "mean_deflection": 0.5809289831861252,
+  "geodesics": [
+    {
+      "pair": "x + y -> x - y",
+      "euclidean": 1.8814889192581177,
+      "geodesic_length": 5.873166809288744,
+      "curvature_ratio": 3.121552696470075,
+      "deflection": 0.44860590714781684,
+      "geo_encounters": 72,
+      "str_encounters": 76
+    },
+    {
+      "pair": "x + y -> x * y",
+      "euclidean": 1.3214665651321411,
+      "geodesic_length": 5.990216912524547,
+      "curvature_ratio": 4.533006790017082,
+      "deflection": 0.7145596111582121,
+      "geo_encounters": 92,
+      "str_encounters": 200
+    },
+    {
+      "pair": "x > y -> x < y",
+      "euclidean": 1.8149648904800415,
+      "geodesic_length": 6.049308539689526,
+      "curvature_ratio": 3.3330168376367544,
+      "deflection": 0.5796214312523468,
+      "geo_encounters": 32,
+      "str_encounters": 64
+    }
+  ],
+  "law": "Program space is curved: geodesics are 3.66x longer than Euclidean. Mean deflection=0.5809. Gravity bends the shortest path between programs."
+}

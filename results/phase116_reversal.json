@@ -1,0 +1,12 @@
+{
+  "phase": 116,
+  "title": "Time Reversal Symmetry",
+  "mean_reconstruction_error": 0.4003686472773552,
+  "mean_significant_components": 21.6,
+  "n_reversed": 15,
+  "n_total_reversal": 15,
+  "pc2_complexity_corr": 0.5627284466588206,
+  "same_comp_dist": 1.194875717163086,
+  "diff_comp_dist": 1.4327064752578735,
+  "law": "Time reversal: 15/15 simplified via PC2 reversal. Decomposition error=0.400. Reversible!"
+}

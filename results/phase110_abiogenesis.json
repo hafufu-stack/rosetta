@@ -1,0 +1,79 @@
+{
+  "phase": 110,
+  "title": "Dark Matter Abiogenesis",
+  "n_voids_probed": 20,
+  "max_isolation": 1.5797414121351845,
+  "alien_variance": 845063587.4979707,
+  "known_variance": 16.80666666666667,
+  "n_constant": 0,
+  "n_linear": 0,
+  "n_complex": 20,
+  "alien_samples": [
+    {
+      "void_id": 0,
+      "isolation": 1.5797414121351845,
+      "predictions": [
+        293.98,
+        342.56,
+        551.67,
+        1044.18,
+        330.53,
+        221.33
+      ],
+      "nearest_known": "x if x > 0 else -x"
+    },
+    {
+      "void_id": 1,
+      "isolation": 1.5746376848470178,
+      "predictions": [
+        347.7,
+        482.05,
+        1125.55,
+        687.02,
+        294.77,
+        332.78
+      ],
+      "nearest_known": "x != y"
+    },
+    {
+      "void_id": 2,
+      "isolation": 1.5655224519128332,
+      "predictions": [
+        239.42,
+        542.18,
+        515.77,
+        51303.55,
+        344.5,
+        317.62
+      ],
+      "nearest_known": "(a - b) + a"
+    },
+    {
+      "void_id": 3,
+      "isolation": 1.556827767209405,
+      "predictions": [
+        259.8,
+        473.0,
+        1155.41,
+        2787.36,
+        433.71,
+        306.86
+      ],
+      "nearest_known": "(a / b) + a"
+    },
+    {
+      "void_id": 4,
+      "isolation": 1.552917587983127,
+      "predictions": [
+        81.84,
+        124.59,
+        507.0,
+        12.93,
+        232.24,
+        205.32
+      ],
+      "nearest_known": "x != y"
+    }
+  ],
+  "law": "Dark matter abiogenesis: 20 complex aliens found in voids (isolation up to 1.580). Alien variance=845063587.50 vs known=16.81."
+}

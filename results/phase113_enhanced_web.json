@@ -1,0 +1,78 @@
+{
+  "phase": 113,
+  "title": "Enhanced Cosmic Web Routing",
+  "best_k": 10,
+  "best_rate": 0.3333333333333333,
+  "best_n_repaired": 2,
+  "k_results": {
+    "3": {
+      "rate": 0.0,
+      "n_repaired": 0
+    },
+    "5": {
+      "rate": 0.0,
+      "n_repaired": 0
+    },
+    "10": {
+      "rate": 0.3333333333333333,
+      "n_repaired": 2
+    },
+    "15": {
+      "rate": 0.3333333333333333,
+      "n_repaired": 2
+    },
+    "20": {
+      "rate": 0.3333333333333333,
+      "n_repaired": 2
+    },
+    "30": {
+      "rate": 0.3333333333333333,
+      "n_repaired": 2
+    }
+  },
+  "best_repairs": [
+    {
+      "bug": "add->sub",
+      "repaired": false,
+      "nearest": "x - 1",
+      "reachable": 179,
+      "path_len": 7
+    },
+    {
+      "bug": "sub->add",
+      "repaired": true,
+      "nearest": "x + y",
+      "reachable": 179,
+      "path_len": 7
+    },
+    {
+      "bug": "mul->add",
+      "repaired": true,
+      "nearest": "x + y",
+      "reachable": 179,
+      "path_len": 3
+    },
+    {
+      "bug": "add->mul",
+      "repaired": false,
+      "nearest": "x * x",
+      "reachable": 179,
+      "path_len": 3
+    },
+    {
+      "bug": "gt->lt",
+      "repaired": false,
+      "nearest": "abs(x // y)",
+      "reachable": 179,
+      "path_len": 4
+    },
+    {
+      "bug": "pow->mul",
+      "repaired": false,
+      "nearest": "x * x",
+      "reachable": 179,
+      "path_len": 5
+    }
+  ],
+  "law": "Enhanced k-NN web (k=10) repairs 2/6 (33%). Graph density is key: MST too sparse, high-k enables I/O-guided search."
+}

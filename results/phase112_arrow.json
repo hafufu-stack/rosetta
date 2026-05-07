@@ -1,0 +1,35 @@
+{
+  "phase": 112,
+  "title": "The Arrow of Time",
+  "n_chains": 1,
+  "n_monotonic": 1,
+  "mean_alignment": 1.0,
+  "comp_dist_corr": 0.006927636868706091,
+  "pc_complexity_corrs": [
+    0.48452166513120737,
+    0.5627284466588206,
+    -0.03592797381733922,
+    -0.4858893405390407,
+    0.09053950754197461
+  ],
+  "strongest_pc": 2,
+  "strongest_pc_corr": 0.5627284466588206,
+  "chains": [
+    {
+      "chain": "x + y -> x * y -> x ** y",
+      "length": 3,
+      "projections": [
+        0.0,
+        0.9055457711219788,
+        1.8087241649627686
+      ],
+      "monotonic": true,
+      "complexities": [
+        12,
+        12,
+        12
+      ]
+    }
+  ],
+  "law": "Arrow of time: 1/1 chains monotonic. Mean alignment=1.000. Complexity axis = PC2 (r=0.563)."
+}

@@ -1,0 +1,31 @@
+{
+  "phase": 109,
+  "title": "Black Hole Spaghettification",
+  "n_particles": 20,
+  "captured": 2,
+  "mean_final_dist": 0.8997972383255188,
+  "top_waypoints": [
+    [
+      "x + y",
+      125
+    ],
+    [
+      "text.strip()",
+      122
+    ],
+    [
+      "abs(x + y)",
+      82
+    ],
+    [
+      "a + 1",
+      68
+    ],
+    [
+      "x * x * x",
+      61
+    ]
+  ],
+  "compression_ratio": 0.6501074906497851,
+  "law": "2/20 particles captured by x+y singularity. Compression=0.65x. Gravity d^-3.4 creates inescapable wells."
+}

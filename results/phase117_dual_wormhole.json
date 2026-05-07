@@ -1,0 +1,61 @@
+{
+  "phase": 117,
+  "title": "The Dual-Space Wormhole",
+  "space_results": {
+    "AST": {
+      "n_repaired": 2,
+      "rate": 0.3333333333333333
+    },
+    "BC": {
+      "n_repaired": 3,
+      "rate": 0.5
+    },
+    "Combined": {
+      "n_repaired": 2,
+      "rate": 0.3333333333333333
+    },
+    "Wormhole": {
+      "n_repaired": 3,
+      "rate": 0.5
+    }
+  },
+  "n_wormholes": 1538,
+  "top_wormholes": [
+    [
+      "x + y",
+      "a + b",
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      "x + y",
+      "m + n",
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      "x + y",
+      "p + q",
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      "abs(x + y)",
+      "abs(a + b)",
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      "abs(x + y)",
+      "abs(m + n)",
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "law": "Dual-space routing: AST=33%, BC=50%, Combined=33%, Wormhole=50%. 1538 wormholes found."
+}
