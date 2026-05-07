@@ -15,8 +15,8 @@ from sklearn.decomposition import PCA
 EXP2_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(EXP2_DIR)
 DATA_DIR = os.path.join(BASE_DIR, 'data')
-RESULTS_DIR = os.path.join(EXP2_DIR, 'results')
-FIGURES_DIR = os.path.join(EXP2_DIR, 'figures')
+RESULTS_DIR = os.path.join(BASE_DIR, 'results')
+FIGURES_DIR = os.path.join(BASE_DIR, 'figures')
 
 def main():
     print("=" * 60)
