@@ -1,0 +1,11 @@
+{
+  "phase": 106,
+  "title": "The Gravity Equation",
+  "G": 0.752330167953372,
+  "alpha": 3.403315987017501,
+  "beta": -0.16203129192238624,
+  "r2": 0.43011779866973554,
+  "mass_degree_corr": 0.33102704930887306,
+  "mean_distance": 1.3941304683685303,
+  "law": "Software gravity: F = 0.7523 * M^-0.16 / d^3.40 (R2=0.430). Power law alpha=3.40"
+}
