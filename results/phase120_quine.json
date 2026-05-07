@@ -1,0 +1,66 @@
+{
+  "phase": 120,
+  "title": "Quine Singularities & CTCs",
+  "n_ctcs": 104,
+  "top_ctc_examples": [
+    {
+      "cycle": [
+        "x + y",
+        "a + b"
+      ]
+    },
+    {
+      "cycle": [
+        "abs(x + y)",
+        "abs(a + b)"
+      ]
+    },
+    {
+      "cycle": [
+        "a + b",
+        "x + y"
+      ]
+    },
+    {
+      "cycle": [
+        "abs(a + b)",
+        "abs(x + y)"
+      ]
+    },
+    {
+      "cycle": [
+        "x - y",
+        "a - b"
+      ]
+    }
+  ],
+  "quine_top5": [
+    {
+      "func": "(x / y) - x",
+      "self_similarity": 0.9987027645111084,
+      "pc2": 0.19410967826843262
+    },
+    {
+      "func": "(a / b) - a",
+      "self_similarity": 0.9987027645111084,
+      "pc2": 0.1941097229719162
+    },
+    {
+      "func": "(x - y) / x",
+      "self_similarity": 0.9986013174057007,
+      "pc2": 0.1934676319360733
+    },
+    {
+      "func": "(a - b) / a",
+      "self_similarity": 0.9986013174057007,
+      "pc2": 0.1934676170349121
+    },
+    {
+      "func": "abs(x)",
+      "self_similarity": 0.9985831379890442,
+      "pc2": 0.02105613239109516
+    }
+  ],
+  "max_curvature": 1.0,
+  "law": "Found 104 closed timelike curves. Top self-referential: (x / y) - x (sim=0.9987). Max curvature=1.0000."
+}

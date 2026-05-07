@@ -1,0 +1,28 @@
+{
+  "phase": 118,
+  "title": "The Language Multiverse",
+  "variance_5d": {
+    "AST": 0.8698458671569824,
+    "BC": 0.9519554376602173,
+    "NL": 0.861891508102417
+  },
+  "brane_distances": {
+    "AST_BC": 0.45781832933425903,
+    "AST_NL": 0.25601139664649963,
+    "BC_NL": 0.4312897324562073
+  },
+  "structure_correlation": {
+    "AST_BC": 0.9334491355203272,
+    "AST_NL": 0.9865693818861663
+  },
+  "principal_angles_deg": {
+    "AST_BC": [
+      3.459834337234497,
+      5.311276435852051,
+      7.456114768981934,
+      16.32465362548828,
+      23.293153762817383
+    ]
+  },
+  "law": "Three modalities form parallel branes: structure correlation AST-BC=0.933, AST-NL=0.987. Inter-brane distances: AST-BC=0.458, AST-NL=0.256."
+}

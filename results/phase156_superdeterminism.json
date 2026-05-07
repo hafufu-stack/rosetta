@@ -1,0 +1,12 @@
+{
+  "phase": 156,
+  "title": "Superdeterminism",
+  "trajectory_length": 60,
+  "mean_deviation": 0.7279285540035306,
+  "potential_correlation": 0.05610892089786494,
+  "S_actual": 54.57599907236726,
+  "S_geodesic": 865.8319015417131,
+  "action_ratio": 0.06303301942927042,
+  "superdetermined": false,
+  "law": "Potential corr=0.056. Action ratio=0.063. Free will preserved."
+}

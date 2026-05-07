@@ -1,0 +1,32 @@
+{
+  "phase": 152,
+  "title": "Reverse Engineering God",
+  "alpha_R_target": 1.48e-06,
+  "alpha_R_recovered": 1.4800000000000002e-06,
+  "recovered_constants": {
+    "G": 0.806001708042853,
+    "lambda": 4.002433118752258,
+    "mu": 4.821924442412535,
+    "H": 0.0016065722506286295,
+    "d_eff": 34.38455238308452
+  },
+  "true_constants": {
+    "G": 1.1732,
+    "lambda": 0.7282,
+    "mu": 1.0717,
+    "H": 0.0067,
+    "d_eff": 12
+  },
+  "errors_pct": {
+    "G": 31.29886566290036,
+    "lambda": 449.63377077070277,
+    "mu": 349.9322984428977,
+    "H": 76.02130969211001,
+    "d_eff": 186.5379365257043
+  },
+  "mean_error_pct": 218.68483621886304,
+  "success": false,
+  "info_bits_in": 19.36597139346995,
+  "info_bits_needed": 50,
+  "law": "alpha_R=1.48e-06 -> G=0.806(31%), lambda=4.002(450%), mu=4.822(350%), H=0.0016(76%), d_eff=34(187%). Mean error=218.7%. Hidden variables needed."
+}

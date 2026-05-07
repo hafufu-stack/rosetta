@@ -1,0 +1,86 @@
+{
+  "phase": 138,
+  "title": "Software Time Crystals",
+  "n_crystals": 0,
+  "total_tested": 15,
+  "crystal_results": [
+    {
+      "func_a": "abs(x ** y)",
+      "func_b": "x + 1",
+      "susy_distance": 0.5564877390861511,
+      "energy_variance": 0.19601159718194644,
+      "dominant_frequency": 10,
+      "fft_peak_ratio": 18.690020048783737,
+      "is_crystal": false
+    },
+    {
+      "func_a": "abs(a ** b)",
+      "func_b": "x + 1",
+      "susy_distance": 0.5564877390861511,
+      "energy_variance": 0.19601159718194644,
+      "dominant_frequency": 10,
+      "fft_peak_ratio": 18.690020048783737,
+      "is_crystal": false
+    },
+    {
+      "func_a": "abs(m ** n)",
+      "func_b": "x + 1",
+      "susy_distance": 0.5564877390861511,
+      "energy_variance": 0.19601159718194644,
+      "dominant_frequency": 10,
+      "fft_peak_ratio": 18.690020048783737,
+      "is_crystal": false
+    },
+    {
+      "func_a": "abs(p ** q)",
+      "func_b": "x + 1",
+      "susy_distance": 0.5564877390861511,
+      "energy_variance": 0.19601159718194644,
+      "dominant_frequency": 10,
+      "fft_peak_ratio": 18.690020048783737,
+      "is_crystal": false
+    },
+    {
+      "func_a": "x + 1",
+      "func_b": "abs(x ** y)",
+      "susy_distance": 0.5564877390861511,
+      "energy_variance": 0.19601159718194644,
+      "dominant_frequency": 10,
+      "fft_peak_ratio": 18.69002004878373,
+      "is_crystal": false
+    }
+  ],
+  "dtc_results": [
+    {
+      "pair": "abs(x ** y)<->x + 1",
+      "subharmonic": 4.8031140101196774e-15,
+      "fundamental": 46.58952890118964,
+      "period_doubled": false
+    },
+    {
+      "pair": "abs(a ** b)<->x + 1",
+      "subharmonic": 4.8031140101196774e-15,
+      "fundamental": 46.58952890118964,
+      "period_doubled": false
+    },
+    {
+      "pair": "abs(m ** n)<->x + 1",
+      "subharmonic": 4.8031140101196774e-15,
+      "fundamental": 46.58952890118964,
+      "period_doubled": false
+    },
+    {
+      "pair": "abs(p ** q)<->x + 1",
+      "subharmonic": 4.8031140101196774e-15,
+      "fundamental": 46.58952890118964,
+      "period_doubled": false
+    },
+    {
+      "pair": "x + 1<->abs(x ** y)",
+      "subharmonic": 4.6277400771087275e-15,
+      "fundamental": 46.58952890118964,
+      "period_doubled": false
+    }
+  ],
+  "law": "0/15 time crystals found. Best: abs(x ** y)<->x + 1 (E_var=0.1960)."
+}

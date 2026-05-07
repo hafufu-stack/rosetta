@@ -1,0 +1,13 @@
+{
+  "phase": 160,
+  "title": "The Last Theorem",
+  "theorem": "d(AST,BC) + d(BC,NL) >= d(AST,NL) for all f",
+  "n_tested": 236,
+  "violations": 0,
+  "theorem_holds": true,
+  "mean_gap": 0.6330966170940359,
+  "min_gap": 0.25258907675743103,
+  "total_phases": 160,
+  "total_laws": 71,
+  "law": "THE LAST THEOREM: d(AST,BC)+d(BC,NL)>=d(AST,NL). Tested 236 functions. 0 violations. Q.E.D.. Project Rosetta: 160 phases, 71 laws, alpha_R=1.48e-6."
+}

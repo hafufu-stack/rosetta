@@ -1,0 +1,86 @@
+{
+  "phase": 129,
+  "title": "Directed Panspermia",
+  "strategies": {
+    "none": {
+      "emerged": 0,
+      "total": 5,
+      "rate_pct": 0.0,
+      "mean_fitness": 0.5829622229189038,
+      "nearest_funcs": [
+        "x % 2 != 0",
+        "abs(x - y)",
+        "x * y",
+        "x != y",
+        "x >= y"
+      ]
+    },
+    "amino_1": {
+      "emerged": 0,
+      "total": 5,
+      "rate_pct": 0.0,
+      "mean_fitness": 0.5905173498401806,
+      "nearest_funcs": [
+        "x % 2 != 0",
+        "(x / y) * x",
+        "(x - y) * x",
+        "x - 1",
+        "x - 1"
+      ]
+    },
+    "amino_3": {
+      "emerged": 0,
+      "total": 5,
+      "rate_pct": 0.0,
+      "mean_fitness": 0.581118894699042,
+      "nearest_funcs": [
+        "x % 2 != 0",
+        "(x / y) * x",
+        "x ** y",
+        "x - y",
+        "x % y"
+      ]
+    },
+    "amino_5": {
+      "emerged": 0,
+      "total": 5,
+      "rate_pct": 0.0,
+      "mean_fitness": 0.600567354807724,
+      "nearest_funcs": [
+        "x % 2 != 0",
+        "(x - y) / x",
+        "x * x * x",
+        "x % 2 != 0",
+        "x % y"
+      ]
+    },
+    "donor_add": {
+      "emerged": 0,
+      "total": 5,
+      "rate_pct": 0.0,
+      "mean_fitness": 0.584215304193515,
+      "nearest_funcs": [
+        "x + y",
+        "x if x > 0 else",
+        "x * x * x",
+        "s[::-1]",
+        "x + 1"
+      ]
+    },
+    "centroid": {
+      "emerged": 0,
+      "total": 5,
+      "rate_pct": 0.0,
+      "mean_fitness": 0.5861059265335763,
+      "nearest_funcs": [
+        "x + 1",
+        "(x / y) + x",
+        "abs(x * y)",
+        "s[::-1]",
+        "x >= y"
+      ]
+    }
+  },
+  "best_strategy": "none",
+  "law": "Best strategy: none (0%). No-seed baseline: 0%. Seeding enables emergence in the void."
+}

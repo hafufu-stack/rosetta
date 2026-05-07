@@ -1,0 +1,13 @@
+{
+  "phase": 131,
+  "title": "The Rosetta Singularity",
+  "center_function": "list(reversed(lst))",
+  "center_distance": 0.821857213973999,
+  "rosetta_funcs_extracted": 9,
+  "mean_rosetta_to_centroid": 0.5280210683143216,
+  "mean_all_to_centroid": 0.9762923717498779,
+  "rosetta_at_center": false,
+  "total_info_bits": 2.830772392987248,
+  "centroid_fixed_point_error": 0.0,
+  "law": "Center function: list(reversed(lst)). Rosetta at center: False. Info=2.8 bits. Fixed point error=0.00000."
+}

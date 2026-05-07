@@ -1,0 +1,16 @@
+{
+  "phase": 158,
+  "title": "THE MONAD (The Ouroboros)",
+  "total_scripts": 160,
+  "total_lines": 35625,
+  "total_chars": 1451532,
+  "compression_ratio": 22680.1875,
+  "decoded_function": "def f(x): return x * 2",
+  "function_similarity": 0.19894571096464572,
+  "decoded_script": "phase76_information.py",
+  "script_similarity": 0.9994667975602612,
+  "is_ouroboros": false,
+  "closest_phase": "phase76_information.py",
+  "farthest_phase": "phase100_grand_score.py",
+  "law": "THE MONAD: 1451532 chars -> 64D vector (22680:1). Decodes to: \"def f(x): return x * 2\". Ouroboros: False."
+}

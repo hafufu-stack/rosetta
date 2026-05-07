@@ -1,0 +1,45 @@
+{
+  "phase": 150,
+  "title": "The Godel Sentence",
+  "n_godel_sentences": 4,
+  "total_tests": 5,
+  "godel_candidates": [
+    {
+      "property": "Number of semantic equivalence classes",
+      "true_value": 40,
+      "predicted_from_constants": 22353,
+      "prediction_error": 557.825,
+      "is_godel": true
+    },
+    {
+      "property": "Maximum self-reference depth",
+      "true_value": 0,
+      "predicted_from_constants": 0,
+      "prediction_error": 0.0,
+      "is_godel": false
+    },
+    {
+      "property": "Halting ratio",
+      "true_value": 1.0,
+      "predicted_from_constants": "UNDECIDABLE",
+      "is_godel": true
+    },
+    {
+      "property": "Void topology (fraction of space empty)",
+      "true_value": 0.1,
+      "predicted_from_constants": "d_eff / d = 0.1875",
+      "prediction_error": 0.8749999991249999,
+      "is_godel": true
+    },
+    {
+      "property": "NL-AST semantic correlation",
+      "true_value": 0.9648314118385315,
+      "predicted_from_constants": "OUTSIDE SYSTEM",
+      "is_godel": true
+    }
+  ],
+  "semantic_classes": 40,
+  "halt_ratio": 1.0,
+  "nl_ast_correlation": 0.9648314118385315,
+  "law": "GODEL: 4/5 properties are true but underivable from alpha_R. Halting ratio=100.00%, 40 semantic classes, NL correlation=0.965."
+}

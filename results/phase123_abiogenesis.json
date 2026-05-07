@@ -1,0 +1,101 @@
+{
+  "phase": 123,
+  "title": "Abiogenesis in the Void",
+  "n_voids_tested": 10,
+  "n_emerged": 0,
+  "abiogenesis_rate_pct": 0.0,
+  "mean_replication_fitness": 0.0,
+  "genesis_details": [
+    {
+      "void_id": 0,
+      "initial_depth": 1.442395908002677,
+      "final_fitness": 0.5981741993530894,
+      "nearest_distance": 0.6717538153291722,
+      "nearest_function": "x != y",
+      "emerged": false,
+      "generations": 200
+    },
+    {
+      "void_id": 1,
+      "initial_depth": 1.4427790809574086,
+      "final_fitness": 0.5430216118547556,
+      "nearest_distance": 0.8415473310249654,
+      "nearest_function": "x / 2",
+      "emerged": false,
+      "generations": 200
+    },
+    {
+      "void_id": 2,
+      "initial_depth": 1.443753759658954,
+      "final_fitness": 0.643651305315489,
+      "nearest_distance": 0.5536362495370762,
+      "nearest_function": "-x",
+      "emerged": false,
+      "generations": 200
+    },
+    {
+      "void_id": 3,
+      "initial_depth": 1.444196099646654,
+      "final_fitness": 0.6063238033850126,
+      "nearest_distance": 0.6492837563314418,
+      "nearest_function": "x % 2 == 0",
+      "emerged": false,
+      "generations": 200
+    },
+    {
+      "void_id": 4,
+      "initial_depth": 1.4465193742734606,
+      "final_fitness": 0.5804192334626811,
+      "nearest_distance": 0.7228925961570442,
+      "nearest_function": "x > y",
+      "emerged": false,
+      "generations": 200
+    },
+    {
+      "void_id": 5,
+      "initial_depth": 1.4466105184807985,
+      "final_fitness": 0.5969782440390334,
+      "nearest_distance": 0.675102920391543,
+      "nearest_function": "x / 2",
+      "emerged": false,
+      "generations": 200
+    },
+    {
+      "void_id": 6,
+      "initial_depth": 1.4482312322006778,
+      "final_fitness": 0.6155068206569478,
+      "nearest_distance": 0.6246773657726031,
+      "nearest_function": "x / 2",
+      "emerged": false,
+      "generations": 200
+    },
+    {
+      "void_id": 7,
+      "initial_depth": 1.4540534018677647,
+      "final_fitness": 0.611914367018082,
+      "nearest_distance": 0.6342155927357892,
+      "nearest_function": "abs(x / y)",
+      "emerged": false,
+      "generations": 200
+    },
+    {
+      "void_id": 8,
+      "initial_depth": 1.4541488507335234,
+      "final_fitness": 0.5778159216272439,
+      "nearest_distance": 0.7306549760411623,
+      "nearest_function": "x % y",
+      "emerged": false,
+      "generations": 200
+    },
+    {
+      "void_id": 9,
+      "initial_depth": 1.4572499738036744,
+      "final_fitness": 0.6156620990913826,
+      "nearest_distance": 0.6242675998341263,
+      "nearest_function": "not x",
+      "emerged": false,
+      "generations": 200
+    }
+  ],
+  "law": "Abiogenesis rate: 0/10 (0%). Mean replication fitness: 0.0000."
+}

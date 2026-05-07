@@ -1,0 +1,11 @@
+{
+  "phase": 153,
+  "title": "Bell's Inequality Violation",
+  "mean_S": 0.5033898305084745,
+  "max_S": 1.3220338983050848,
+  "optimized_S": 0.6101694915254237,
+  "n_violations": 0,
+  "n_trials": 100,
+  "bell_violated": false,
+  "law": "CHSH S=0.610. Bell violated: False. 0/100 random violations. Hidden variables are local."
+}

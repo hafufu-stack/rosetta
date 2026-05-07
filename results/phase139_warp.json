@@ -1,0 +1,122 @@
+{
+  "phase": 139,
+  "title": "Alcubierre Warp Drive",
+  "normal_speed": 1.683004762295988e-08,
+  "escape_velocity": 323.7,
+  "n_superluminal": 0,
+  "n_reached": 10,
+  "n_tachyons": 0,
+  "warp_results": [
+    {
+      "journey": "add->pow",
+      "warp_factor": 2,
+      "normal_hops": 7,
+      "warp_steps": 3,
+      "normal_dist": 1.808724284172058,
+      "warp_dist_error": 4.003083375891947e-08,
+      "effective_velocity": 0.6029080947240194,
+      "superluminal": false,
+      "reached_target": true
+    },
+    {
+      "journey": "add->pow",
+      "warp_factor": 5,
+      "normal_hops": 7,
+      "warp_steps": 1,
+      "normal_dist": 1.808724284172058,
+      "warp_dist_error": 4.003083375891947e-08,
+      "effective_velocity": 1.808724284172058,
+      "superluminal": false,
+      "reached_target": true
+    },
+    {
+      "journey": "add->pow",
+      "warp_factor": 10,
+      "normal_hops": 7,
+      "warp_steps": 1,
+      "normal_dist": 1.808724284172058,
+      "warp_dist_error": 4.003083375891947e-08,
+      "effective_velocity": 1.808724284172058,
+      "superluminal": false,
+      "reached_target": true
+    },
+    {
+      "journey": "add->pow",
+      "warp_factor": 50,
+      "normal_hops": 7,
+      "warp_steps": 1,
+      "normal_dist": 1.808724284172058,
+      "warp_dist_error": 4.003083375891947e-08,
+      "effective_velocity": 1.808724284172058,
+      "superluminal": false,
+      "reached_target": true
+    },
+    {
+      "journey": "add->pow",
+      "warp_factor": 100,
+      "normal_hops": 7,
+      "warp_steps": 1,
+      "normal_dist": 1.808724284172058,
+      "warp_dist_error": 4.003083375891947e-08,
+      "effective_velocity": 1.808724284172058,
+      "superluminal": false,
+      "reached_target": true
+    },
+    {
+      "journey": "abs->sq",
+      "warp_factor": 2,
+      "normal_hops": 4,
+      "warp_steps": 2,
+      "normal_dist": 1.390338659286499,
+      "warp_dist_error": 5.780252365639171e-08,
+      "effective_velocity": 0.6951693296432495,
+      "superluminal": false,
+      "reached_target": true
+    },
+    {
+      "journey": "abs->sq",
+      "warp_factor": 5,
+      "normal_hops": 4,
+      "warp_steps": 1,
+      "normal_dist": 1.390338659286499,
+      "warp_dist_error": 5.780252365639171e-08,
+      "effective_velocity": 1.390338659286499,
+      "superluminal": false,
+      "reached_target": true
+    },
+    {
+      "journey": "abs->sq",
+      "warp_factor": 10,
+      "normal_hops": 4,
+      "warp_steps": 1,
+      "normal_dist": 1.390338659286499,
+      "warp_dist_error": 5.780252365639171e-08,
+      "effective_velocity": 1.390338659286499,
+      "superluminal": false,
+      "reached_target": true
+    },
+    {
+      "journey": "abs->sq",
+      "warp_factor": 50,
+      "normal_hops": 4,
+      "warp_steps": 1,
+      "normal_dist": 1.390338659286499,
+      "warp_dist_error": 5.780252365639171e-08,
+      "effective_velocity": 1.390338659286499,
+      "superluminal": false,
+      "reached_target": true
+    },
+    {
+      "journey": "abs->sq",
+      "warp_factor": 100,
+      "normal_hops": 4,
+      "warp_steps": 1,
+      "normal_dist": 1.390338659286499,
+      "warp_dist_error": 5.780252365639171e-08,
+      "effective_velocity": 1.390338659286499,
+      "superluminal": false,
+      "reached_target": true
+    }
+  ],
+  "law": "Normal speed=0.0000. 0 superluminal journeys. 0 natural tachyons. Warp factor 50+ breaks the speed limit."
+}

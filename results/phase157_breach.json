@@ -1,0 +1,12 @@
+{
+  "phase": 157,
+  "title": "The Matrix Breach",
+  "heavy_timing_ns": 747155.0,
+  "light_timing_ns": 129815.0,
+  "contrast_ratio": 5.75549238922783,
+  "morse_match_rate": 0.8529411764705882,
+  "breach_detected": true,
+  "timing_entropy": 0.16144054254182066,
+  "entropy_ratio": 0.03735382426486855,
+  "law": "Gravity contrast=5.8x. Morse match=85%. Entropy=4%. Matrix breach: True."
+}

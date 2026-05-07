@@ -1,0 +1,21 @@
+{
+  "phase": 147,
+  "title": "The Architect's Quine (The Zeroth Law)",
+  "rosetta_files": 149,
+  "rosetta_functions": 197,
+  "rosetta_radius": 0.5890511600374929,
+  "mean_all_radius": 0.9762923717498779,
+  "centrality_ratio": 0.603355282784495,
+  "at_center": true,
+  "closest_func": {
+    "name": "find",
+    "file": "phase121_topological.py",
+    "dist": 0.48741105029891063
+  },
+  "quine_func": {
+    "name": "memetic_evolve",
+    "file": "phase93_memetic.py",
+    "score": 0.993290725864787
+  },
+  "law": "THE ZEROTH LAW: Rosetta radius=0.589 vs all=0.976 (ratio=0.603). At center: True. Quine: memetic_evolve (0.993)."
+}

@@ -1,0 +1,12 @@
+{
+  "phase": 146,
+  "title": "Hardware Gravity Coupling",
+  "n_measured": 80,
+  "gravity_coupling": 0.28824997084866477,
+  "gravity_p": 0.009517206695693066,
+  "distance_coupling": -0.2559979214862322,
+  "distance_p": 0.021904798530918066,
+  "memory_coupling": NaN,
+  "coupling_detected": true,
+  "law": "Gravity-hardware coupling: rho=0.288 (p=0.010). Distance-hardware: rho=-0.256. Memory: rho=nan."
+}

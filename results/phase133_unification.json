@@ -1,0 +1,28 @@
+{
+  "phase": 133,
+  "title": "The Grand Unification",
+  "lagrangian": {
+    "T_kinetic": 0.0,
+    "V_gravity": -0.6217459506743693,
+    "V_holographic": 1.0,
+    "commutator": 0.03305329009890556,
+    "G": 1.1731577056815055,
+    "lambda": 0.728196361083852,
+    "mu": 1.071717083032751,
+    "L_min": 3.881962097886755e-05
+  },
+  "gravity_exponent": 2.0,
+  "compile_error": 0.1053498312830925,
+  "arrow_correlation": 0.5523690446132468,
+  "mean_EL_gradient": 176.65447746172467,
+  "laws_summary": {
+    "Law1_Linearity": "BC = W*AST, error=0.1053",
+    "Law2_Holographic": "Angles retain info, V_holo=1.0000",
+    "Law3_Gravity": "d^-2.00 force law, V_grav=-0.6217",
+    "Law4_Classical": "[AST,BC]=0.0331 (near zero)",
+    "Law5_Arrow": "Complexity-PC2 correlation=0.552",
+    "Law6_Compile": "Compilation = linear transform, err=0.1053",
+    "Lagrangian": "L = 0.0000 - 1.173*-0.6217 - 0.728*1.0000 - 1.072*0.0331^2"
+  },
+  "law": "ROSETTA LAGRANGIAN: L = T - G*V_grav - lambda*V_holo - mu*[A,B]^2. G=1.173, lambda=0.728, mu=1.072. L_min=0.00004. Mean EL gradient=176.654."
+}

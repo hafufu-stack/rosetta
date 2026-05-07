@@ -1,0 +1,49 @@
+{
+  "phase": 145,
+  "title": "Imaginary Time & Tachyon Compilation",
+  "n_timelike": 60,
+  "n_spacelike": 1093,
+  "n_lightlike": 72,
+  "tachyon_fraction": 0.8922448979591837,
+  "top_tachyons": [
+    {
+      "a": "x + y",
+      "b": "abs(x + y)",
+      "dx": 0.6362192630767822,
+      "dt": 0.409661203622818,
+      "speed": 1.5530376434326172
+    },
+    {
+      "a": "x + y",
+      "b": "abs(a + b)",
+      "dx": 0.6362192630767822,
+      "dt": 0.409661203622818,
+      "speed": 1.5530376434326172
+    },
+    {
+      "a": "x + y",
+      "b": "abs(m + n)",
+      "dx": 0.6362192630767822,
+      "dt": 0.409661203622818,
+      "speed": 1.5530376434326172
+    },
+    {
+      "a": "x + y",
+      "b": "abs(p + q)",
+      "dx": 0.6362192630767822,
+      "dt": 0.409661203622818,
+      "speed": 1.5530376434326172
+    },
+    {
+      "a": "x + y",
+      "b": "x - y",
+      "dx": 1.76670503616333,
+      "dt": 0.27605924010276794,
+      "speed": 6.399731636047363
+    }
+  ],
+  "retrocausal_ratio": -4.797668933868408,
+  "future_compile_err": 0.6107834577560425,
+  "full_compile_err": 0.1053498312830925,
+  "law": "Causal structure: 1093 spacelike (89% tachyonic). Retrocausal prediction: -480%."
+}

@@ -1,0 +1,25 @@
+{
+  "phase": 124,
+  "title": "Entanglement Entropy",
+  "entropy": {
+    "AST": 2.803854465484619,
+    "BC": 2.398524045944214,
+    "NL": 2.8283274173736572
+  },
+  "joint_entropy": {
+    "AST_BC": 2.7608766555786133,
+    "AST_NL": 2.858503580093384
+  },
+  "mutual_information": {
+    "AST_BC": 2.4415016174316406,
+    "AST_NL": 2.7736785411834717
+  },
+  "purity": {
+    "AST": 0.18060971796512604,
+    "BC": 0.22232943773269653,
+    "NL": 0.17866502702236176
+  },
+  "schmidt_entropy": 4.030299186706543,
+  "effective_schmidt_rank": 17.0,
+  "law": "S(AST)=2.804, S(BC)=2.399. I(AST;BC)=2.442 bits. Schmidt entropy=4.030 bits. Purity: AST=0.1806, BC=0.2223."
+}

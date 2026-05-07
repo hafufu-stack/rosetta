@@ -1,0 +1,75 @@
+{
+  "phase": 134,
+  "title": "Euler-Lagrange Code Synthesis",
+  "el_results": [
+    {
+      "spec": "f(2,3)=5, f(5,7)=12",
+      "target": "x + y",
+      "synthesized": "x - y",
+      "success": false,
+      "dist_to_target": 5375247.190065843,
+      "action_value": -1.3970684802302914e+17
+    },
+    {
+      "spec": "f(2,3)=6, f(5,7)=35",
+      "target": "x * y",
+      "synthesized": "x + 1",
+      "success": false,
+      "dist_to_target": 4070708.1634571915,
+      "action_value": -8.52289953597711e+16
+    },
+    {
+      "spec": "f(2,3)=-1, f(5,7)=-2",
+      "target": "x - y",
+      "synthesized": "x if x >= 0 else 0",
+      "success": false,
+      "dist_to_target": 995612.8927529023,
+      "action_value": -5333367424666542.0
+    },
+    {
+      "spec": "f(3)=9, f(7)=49",
+      "target": "x * x",
+      "synthesized": "x and y",
+      "success": false,
+      "dist_to_target": 1051908.0139113269,
+      "action_value": -5318326437696447.0
+    },
+    {
+      "spec": "f(3)=3, f(-7)=7",
+      "target": "abs(x)",
+      "synthesized": "x % y",
+      "success": false,
+      "dist_to_target": 7382545.182581269,
+      "action_value": -2.8394471934218218e+17
+    }
+  ],
+  "io_results": [
+    {
+      "target": "x + y",
+      "synthesized": "x + y",
+      "success": true,
+      "match_score": 3
+    },
+    {
+      "target": "x * y",
+      "synthesized": "x * y",
+      "success": true,
+      "match_score": 3
+    },
+    {
+      "target": "x - y",
+      "synthesized": "x - y",
+      "success": true,
+      "match_score": 3
+    },
+    {
+      "target": "x * x",
+      "synthesized": "x * x",
+      "success": true,
+      "match_score": 3
+    }
+  ],
+  "el_success": 0,
+  "io_success": 4,
+  "law": "EL geodesic synthesis: 0/5. I/O guided: 4/4. Physics can guide code generation."
+}

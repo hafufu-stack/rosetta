@@ -1,0 +1,155 @@
+{
+  "phase": 135,
+  "title": "Large Hacker Collider",
+  "total_collisions": 21,
+  "total_resonances": 21,
+  "quarks": [
+    {
+      "name": "up",
+      "variance_pct": 28.329282760620117
+    },
+    {
+      "name": "down",
+      "variance_pct": 18.559663772583008
+    },
+    {
+      "name": "strange",
+      "variance_pct": 17.7032527923584
+    },
+    {
+      "name": "charm",
+      "variance_pct": 11.795698165893555
+    },
+    {
+      "name": "bottom",
+      "variance_pct": 10.596687316894531
+    },
+    {
+      "name": "top",
+      "variance_pct": 6.113631725311279
+    }
+  ],
+  "debris_summary": [
+    {
+      "collision": "add x mul",
+      "energy": 1.0,
+      "n_particles": 4,
+      "debris": [
+        "m // n",
+        "p // q",
+        "a // b"
+      ],
+      "n_resonances": 2,
+      "max_debris_amplitude": 1.4851047992706299
+    },
+    {
+      "collision": "add x mul",
+      "energy": 10.0,
+      "n_particles": 4,
+      "debris": [
+        "m // n",
+        "p // q",
+        "a // b"
+      ],
+      "n_resonances": 2,
+      "max_debris_amplitude": 1.4851044416427612
+    },
+    {
+      "collision": "add x mul",
+      "energy": 50.0,
+      "n_particles": 4,
+      "debris": [
+        "m // n",
+        "p // q",
+        "a // b"
+      ],
+      "n_resonances": 2,
+      "max_debris_amplitude": 1.4851040840148926
+    },
+    {
+      "collision": "add x mul",
+      "energy": 100.0,
+      "n_particles": 4,
+      "debris": [
+        "m // n",
+        "p // q",
+        "a // b"
+      ],
+      "n_resonances": 2,
+      "max_debris_amplitude": 1.485102891921997
+    },
+    {
+      "collision": "add x mul",
+      "energy": 323.7,
+      "n_particles": 4,
+      "debris": [
+        "m // n",
+        "p // q",
+        "a // b"
+      ],
+      "n_resonances": 2,
+      "max_debris_amplitude": 1.4850997924804688
+    },
+    {
+      "collision": "add x mul",
+      "energy": 500.0,
+      "n_particles": 4,
+      "debris": [
+        "m // n",
+        "p // q",
+        "a // b"
+      ],
+      "n_resonances": 2,
+      "max_debris_amplitude": 1.4850988388061523
+    },
+    {
+      "collision": "add x mul",
+      "energy": 1000.0,
+      "n_particles": 4,
+      "debris": [
+        "m // n",
+        "p // q",
+        "a // b"
+      ],
+      "n_resonances": 2,
+      "max_debris_amplitude": 1.4850802421569824
+    },
+    {
+      "collision": "sub x div",
+      "energy": 1.0,
+      "n_particles": 6,
+      "debris": [
+        "m - n",
+        "p - q",
+        "a - b"
+      ],
+      "n_resonances": 3,
+      "max_debris_amplitude": 1.4126102924346924
+    },
+    {
+      "collision": "sub x div",
+      "energy": 10.0,
+      "n_particles": 6,
+      "debris": [
+        "m - n",
+        "p - q",
+        "a - b"
+      ],
+      "n_resonances": 3,
+      "max_debris_amplitude": 1.4126102924346924
+    },
+    {
+      "collision": "sub x div",
+      "energy": 50.0,
+      "n_particles": 6,
+      "debris": [
+        "m - n",
+        "p - q",
+        "a - b"
+      ],
+      "n_resonances": 3,
+      "max_debris_amplitude": 1.4126108884811401
+    }
+  ],
+  "law": "21 collisions, 21 resonances. 6 semantic quarks explain 93.1% variance."
+}

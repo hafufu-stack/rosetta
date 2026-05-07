@@ -1,0 +1,34 @@
+{
+  "phase": 119,
+  "title": "Quantum Code Dynamics",
+  "classical_commutator": 0.03305329009890556,
+  "commutator_vs_noise": {
+    "0.0": 0.033053290418888305,
+    "0.01": 0.0331510534334009,
+    "0.05": 0.03487035901169082,
+    "0.1": 0.03871179168697216,
+    "0.2": 0.046739378558905295,
+    "0.5": 0.09479690038333012,
+    "1.0": 0.32161330870044547
+  },
+  "superposition": [
+    {
+      "state_a": "x + y",
+      "state_b": "x - y",
+      "collapsed_to": "(x - y) + x",
+      "prob_a": 0.3391161262989044,
+      "prob_b": 0.33911624550819397
+    },
+    {
+      "state_a": "x * y",
+      "state_b": "x + y",
+      "collapsed_to": "x // y",
+      "prob_a": 0.7506207823753357,
+      "prob_b": 0.7506208419799805
+    }
+  ],
+  "min_uncertainty": 0.0029946959111839533,
+  "mean_uncertainty": 0.014801924116909504,
+  "mean_decoherence": 0.0,
+  "law": "Classical [AST,BC]=0.033053. Noise breaks it: at noise=0.5, [AST,BC]=0.095. Uncertainty product min=0.0030."
+}

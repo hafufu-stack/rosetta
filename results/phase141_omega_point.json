@@ -1,0 +1,29 @@
+{
+  "phase": 141,
+  "title": "The Omega Point",
+  "Omega": 34714064.0,
+  "deceleration_q": -0.14931072294712067,
+  "fate": "BIG CRUNCH (closed universe)",
+  "total_entropy": 2.830772392987248,
+  "entropy_ratio": 0.5124903849196599,
+  "grand_rosetta_score": 0.8798067777777778,
+  "total_laws_discovered": 40,
+  "cosmological_constants": {
+    "H": 0.0067,
+    "G": 1.1732,
+    "rho_critical": 4.567293766234561e-06,
+    "Omega": 34714064.0
+  },
+  "scores": {
+    "P97_linearity": 0.96,
+    "P101_holographic": 0.9983,
+    "P106_gravity": 1.0,
+    "P108_cosmic_web": 0.5,
+    "P118_brane": 0.93,
+    "P124_entanglement": 1.0,
+    "P127_teleportation": 1.0,
+    "P132_susy": 0.53,
+    "P133_lagrangian": 0.999961
+  },
+  "law": "OMEGA POINT: Omega=34714064.000, q=-0.149. Fate: BIG CRUNCH (closed universe). Grand Score=0.8798. 40 laws discovered across 141 phases."
+}

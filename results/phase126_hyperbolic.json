@@ -1,0 +1,30 @@
+{
+  "phase": 126,
+  "title": "Hyperbolic Holography & AdS/CFT",
+  "results": {
+    "euclidean": {
+      "full": -0.00915322063798496,
+      "erased_50pct": -0.00916032784323817
+    },
+    "poincare_c0.5": {
+      "full": -0.009164941593628573,
+      "erased_50pct": -0.009168249335313128
+    },
+    "poincare_c1.0": {
+      "full": -0.009158287569807744,
+      "erased_50pct": -0.009165134711705658
+    },
+    "poincare_c2.0": {
+      "full": -0.00915344132364626,
+      "erased_50pct": -0.009160805346553724
+    },
+    "poincare_c5.0": {
+      "full": -0.009152661977055221,
+      "erased_50pct": -0.00916055509305358
+    }
+  },
+  "best_curvature": 5.0,
+  "dist_correlation": 0.8958176819704418,
+  "boundary_fraction": 1.0,
+  "law": "Best curvature c=5.0. Euclidean erased=-0.0092. Poincare erased=-0.0092. Boundary fraction=100.00%."
+}

@@ -1,0 +1,13 @@
+{
+  "phase": 154,
+  "title": "The Calabi-Yau Bulk",
+  "d_eff": 12,
+  "n_hidden": 52,
+  "hidden_entropy_bits": 3.3249478340148926,
+  "target_bits": 30.6,
+  "match_30_6": false,
+  "topological_info": 5.643856189774724,
+  "hidden_compile_contribution_pct": 99.99985237179403,
+  "n_cy_modes": 34,
+  "law": "Hidden entropy=3.3 bits (target=30.6). 34 CY modes. Hidden contribute 100.0% to compilation. 30.6-bit match: False."
+}

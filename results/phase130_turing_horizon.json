@@ -1,0 +1,12 @@
+{
+  "phase": 130,
+  "title": "The Turing Horizon",
+  "classifications": {
+    "halts": 236
+  },
+  "horizon_distance": 0.7376590371131897,
+  "near_horizon_count": 0,
+  "mean_escape_velocity": 323.7366402808236,
+  "schwarzschild_radius": 132.2186048139207,
+  "law": "Turing horizon at distance 0.738. 0 functions near boundary. Escape velocity=323.737. Schwarzschild radius=132.219."
+}

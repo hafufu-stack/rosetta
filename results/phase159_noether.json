@@ -1,0 +1,43 @@
+{
+  "phase": 159,
+  "title": "Noether's Theorem of Software",
+  "conservation_laws": [
+    {
+      "symmetry": "Translation",
+      "charge": "Momentum",
+      "magnitude": 0.0,
+      "ratio": 0.0,
+      "conserved": true
+    },
+    {
+      "symmetry": "Rotation",
+      "charge": "Angular momentum",
+      "magnitude": 0.0,
+      "ratio": 0.0,
+      "conserved": true
+    },
+    {
+      "symmetry": "Time",
+      "charge": "Energy",
+      "magnitude": -27687.51953125,
+      "ratio": 2.0819992276220675e-08,
+      "conserved": true
+    },
+    {
+      "symmetry": "Gauge",
+      "charge": "Compile charge",
+      "magnitude": 106181935104.0,
+      "ratio": 0.0031334624640709592,
+      "conserved": true
+    },
+    {
+      "symmetry": "SUSY",
+      "charge": "Supercharge",
+      "magnitude": 226.04299926757812,
+      "ratio": 52.32337629215949,
+      "conserved": false
+    }
+  ],
+  "n_conserved": 4,
+  "law": "Noether: 4/5 symmetries yield conserved charges. Momentum(Y), L(Y), E(Y), Q(Y), S(N)."
+}

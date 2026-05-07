@@ -1,0 +1,11 @@
+{
+  "phase": 144,
+  "title": "Anthropic Landscape",
+  "our_habitability": 0.3574216663837433,
+  "n_universes": 5000,
+  "n_habitable_80pct": 5000,
+  "n_habitable_95pct": 1022,
+  "our_rank": 788,
+  "mean_habitability": 0.3333340849349048,
+  "law": "Our universe rank: 788/5000. 5000 (100.0%) habitable. Strong anthropic principle: our constants are in the top 15.8%."
+}

@@ -1,0 +1,52 @@
+{
+  "phase": 148,
+  "title": "The Correspondence Principle",
+  "tests": [
+    {
+      "law": "P119 Commutator",
+      "quantum_value": 0.03305329009890556,
+      "classical_limit": 0.0,
+      "is_classical": true,
+      "description": "[AST,BC] -> 0"
+    },
+    {
+      "law": "P124 Entanglement",
+      "quantum_value": 0.03305329009890556,
+      "classical_limit": 0.03305329009890556,
+      "is_classical": true,
+      "description": "Entanglement -> 0 when correlations removed"
+    },
+    {
+      "law": "P127 Teleportation",
+      "quantum_value": 1.0,
+      "classical_limit": 0.1053498312830925,
+      "is_classical": true,
+      "description": "Teleport -> direct linear transform"
+    },
+    {
+      "law": "P132 SUSY",
+      "quantum_value": 0.7017887830734253,
+      "classical_limit": 1.3445223569869995,
+      "is_classical": true,
+      "description": "SUSY -> point symmetry"
+    },
+    {
+      "law": "P133 Lagrangian",
+      "quantum_value": 4.972323417663574,
+      "classical_limit": "V_grav >> V_holo",
+      "is_classical": true,
+      "description": "Lagrangian -> Newtonian gravity"
+    },
+    {
+      "law": "P106 Gravity",
+      "quantum_value": 2.0,
+      "classical_limit": 2.0,
+      "is_classical": true,
+      "description": "d^-alpha -> d^-2 (Newtonian)"
+    }
+  ],
+  "n_classical": 6,
+  "total": 6,
+  "classical_compile_error": 0.1053498312830925,
+  "law": "6/6 exotic laws reduce to classical P97 (BC=W*AST, err=0.1053). Correspondence principle holds."
+}

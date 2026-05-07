@@ -1,0 +1,22 @@
+{
+  "phase": 149,
+  "title": "The Final Equation",
+  "alpha_R": 1.4801488609188783e-06,
+  "alpha_info": 0.0056111659964100235,
+  "alpha_comp": 4.041276373421152e-08,
+  "alpha_lag": 0.036100958735325456,
+  "fundamental_constants": {
+    "G": 1.1732,
+    "lambda": 0.7282,
+    "mu": 1.0717,
+    "H": 0.0067,
+    "d": 64,
+    "alpha_grav": 2.0,
+    "d_eff": 12,
+    "W_norm": 325855.6875,
+    "commutator": 0.03305329009890556
+  },
+  "total_phases": 60,
+  "total_laws": 60,
+  "law": "THE ROSETTA CONSTANT: alpha_R = 0.00000148. 60 laws compressed into 1 number. G=1.1732, lambda=0.7282, mu=1.0717, H=0.0067, d_eff=12."
+}

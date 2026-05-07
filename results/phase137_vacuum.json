@@ -1,0 +1,47 @@
+{
+  "phase": 137,
+  "title": "False Vacuum Decay",
+  "V_current": -1.2045056819915771,
+  "V_true": -19.651691436767578,
+  "vacuum_gap": 18.447185516357422,
+  "is_false_vacuum": true,
+  "true_vacuum_func": "abs(x)",
+  "decay_results": [
+    {
+      "sigma": 0.01,
+      "decay_rate": 0.0,
+      "mean_V_after": -1.1921317495800188
+    },
+    {
+      "sigma": 0.05,
+      "decay_rate": 0.0,
+      "mean_V_after": -0.9082180240901877
+    },
+    {
+      "sigma": 0.1,
+      "decay_rate": 0.0,
+      "mean_V_after": -0.2520796560476724
+    },
+    {
+      "sigma": 0.5,
+      "decay_rate": 0.0,
+      "mean_V_after": 11.740745628950233
+    },
+    {
+      "sigma": 1.0,
+      "decay_rate": 0.0,
+      "mean_V_after": 43.545481204786846
+    },
+    {
+      "sigma": 2.0,
+      "decay_rate": 0.0,
+      "mean_V_after": 185.77591122800936
+    },
+    {
+      "sigma": 5.0,
+      "decay_rate": 0.0,
+      "mean_V_after": 1199.524118295763
+    }
+  ],
+  "law": "V_false=-1.2045, V_true=-19.6517, gap=18.4472. FALSE VACUUM confirmed. True vacuum near: abs(x)."
+}

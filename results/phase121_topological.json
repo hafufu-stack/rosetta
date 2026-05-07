@@ -1,0 +1,45 @@
+{
+  "phase": 121,
+  "title": "Topological Bug Repair",
+  "max_betti_1": 0,
+  "max_betti_1_threshold": 0.1,
+  "repair_results": [
+    {
+      "bug": "add->sub",
+      "direct_dist": 1.8814889192581177,
+      "knn_path_length": -1,
+      "knn_success": false,
+      "tunnel_midpoint": "x if x > y else"
+    },
+    {
+      "bug": "mul->div",
+      "direct_dist": 1.6711156368255615,
+      "knn_path_length": 9,
+      "knn_success": true,
+      "tunnel_midpoint": "x / 2"
+    },
+    {
+      "bug": "gt->lt",
+      "direct_dist": 1.8149648904800415,
+      "knn_path_length": -1,
+      "knn_success": false,
+      "tunnel_midpoint": "x ** y"
+    },
+    {
+      "bug": "eq->neq",
+      "direct_dist": 1.0262800455093384,
+      "knn_path_length": -1,
+      "knn_success": false,
+      "tunnel_midpoint": "x != y"
+    },
+    {
+      "bug": "abs->neg",
+      "direct_dist": 1.1226677894592285,
+      "knn_path_length": -1,
+      "knn_success": false,
+      "tunnel_midpoint": "-x"
+    }
+  ],
+  "repair_rate_pct": 20.0,
+  "law": "Max Betti-1=0 loops at threshold=0.10. k-NN topological repair: 1/5 (20%)."
+}

@@ -1,0 +1,22 @@
+{
+  "phase": 151,
+  "title": "The Bootstrap Paradox",
+  "original": {
+    "compile_err": 0.1053498312830925,
+    "spread": 0.06828422099351883,
+    "comm": 0.03305329009890556
+  },
+  "warped": {
+    "compile_err": 0.09414487332105637,
+    "spread": 0.05713573470711708,
+    "comm": 0.02133815549314022
+  },
+  "changes_pct": {
+    "compile": -10.635952450580152,
+    "spread": -16.326592182196677,
+    "comm": -35.44317232949247
+  },
+  "verdict": "UNIVERSE RESISTS (partial deformation)",
+  "gauge_variance": 1.0204664933654938e-19,
+  "law": "Bootstrap: compile -10.6%, spread -16.3%, comm -35.4%. UNIVERSE RESISTS (partial deformation). Gauge variance=0.00000."
+}

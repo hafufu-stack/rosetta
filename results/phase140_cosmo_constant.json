@@ -1,0 +1,15 @@
+{
+  "phase": 140,
+  "title": "The Cosmological Constant Problem",
+  "L_total": 5.104159355163574,
+  "components": {
+    "T": 0.0,
+    "GV_g": -5.833529949188232,
+    "lamV_h": 0.7282000184059143,
+    "muC2": 0.0011708536185324192
+  },
+  "quantum_correction": 45.60070037841797,
+  "zero_point_energy": 0.002035655314102769,
+  "running_rate": -8.11238548813114,
+  "law": "L = 5.10415936. Quantum correction = 45.600700. Zero-point = 0.002036. Running rate = -8.112385."
+}

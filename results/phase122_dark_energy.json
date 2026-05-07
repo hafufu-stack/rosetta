@@ -1,0 +1,37 @@
+{
+  "phase": 122,
+  "title": "Semantic Dark Energy",
+  "hubble_constant": 0.006692688955980181,
+  "hubble_r_squared": 0.006829379354258874,
+  "mean_acceleration": -0.14382916688919067,
+  "mean_red_shift": 0.8768808492703979,
+  "cmb_temperature": 0.015178808942437172,
+  "expansion_data": [
+    {
+      "complexity_bin": 7.555555555555555,
+      "n_funcs": 8,
+      "mean_pairwise_dist": 0.7333499193191528
+    },
+    {
+      "complexity_bin": 9.444444444444445,
+      "n_funcs": 80,
+      "mean_pairwise_dist": 0.9882791638374329
+    },
+    {
+      "complexity_bin": 11.333333333333332,
+      "n_funcs": 76,
+      "mean_pairwise_dist": 1.3563454151153564
+    },
+    {
+      "complexity_bin": 13.222222222222221,
+      "n_funcs": 36,
+      "mean_pairwise_dist": 0.9781709909439087
+    },
+    {
+      "complexity_bin": 15.11111111111111,
+      "n_funcs": 24,
+      "mean_pairwise_dist": 0.8016127347946167
+    }
+  ],
+  "law": "H_0=0.0067 (R2=0.007). Accel=-0.1438. Red-shift z=0.877. CMB temp=0.01518."
+}

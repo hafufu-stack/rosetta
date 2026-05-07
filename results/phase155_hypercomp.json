@@ -1,0 +1,11 @@
+{
+  "phase": 155,
+  "title": "Hypercomputation",
+  "n_standard_halt": 50,
+  "n_hyper_halt": 30,
+  "n_boosted": -20,
+  "godel_broken": false,
+  "mean_dilation_near": NaN,
+  "mean_dilation_far": 0.10788989812135696,
+  "law": "Standard halt: 50. Hypercomputed: 30 (+-20). MH dilation near=nanx. Godel wall holds."
+}

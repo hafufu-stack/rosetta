@@ -1,0 +1,44 @@
+{
+  "phase": 127,
+  "title": "ER=EPR Semantic Teleportation",
+  "teleportation_results": [
+    {
+      "buggy": "x + y",
+      "target": "x - y",
+      "teleported_to": "x - y",
+      "success": true,
+      "distance_to_target": 0.1687227487564087
+    },
+    {
+      "buggy": "x * y",
+      "target": "x / y",
+      "teleported_to": "x / y",
+      "success": true,
+      "distance_to_target": 0.15772908926010132
+    },
+    {
+      "buggy": "x > y",
+      "target": "x < y",
+      "teleported_to": "x < y",
+      "success": true,
+      "distance_to_target": 0.1979335993528366
+    },
+    {
+      "buggy": "abs(x)",
+      "target": "-x",
+      "teleported_to": "-x",
+      "success": true,
+      "distance_to_target": 0.1032453179359436
+    },
+    {
+      "buggy": "x == y",
+      "target": "x != y",
+      "teleported_to": "x != y",
+      "success": true,
+      "distance_to_target": 0.1146029606461525
+    }
+  ],
+  "success_rate_pct": 100.0,
+  "mean_bell_violation": 0.6379369935393333,
+  "law": "Teleportation success: 5/5 (100%). Bell violation=0.6379."
+}

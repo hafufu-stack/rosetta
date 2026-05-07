@@ -1,0 +1,10 @@
+{
+  "phase": 136,
+  "title": "Bekenstein-Hawking Area Law",
+  "bh_slope": -0.004855258923740728,
+  "bh_intercept": 3.802998430877809,
+  "bh_r2": 0.9999999999999996,
+  "paradox_resolved": true,
+  "n_data_points": 50,
+  "law": "S = -0.0049*A + 3.80, R2=1.000. Paradox resolved."
+}

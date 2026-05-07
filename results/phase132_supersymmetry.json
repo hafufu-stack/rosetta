@@ -1,0 +1,44 @@
+{
+  "phase": 132,
+  "title": "Supersymmetry",
+  "n_bidirectional": 22,
+  "total": 236,
+  "susy_breaking_energy": 0.7017887569349236,
+  "random_baseline": 1.327480435371399,
+  "susy_ratio": 0.5286622222334892,
+  "optimal_cost": 1.0062911857652197,
+  "semantic_anti_pairs": 0,
+  "top_pairs": [
+    {
+      "func": "abs(x ** y)",
+      "partner": "x + 1",
+      "distance": 0.5564877380371283,
+      "bidirectional": true
+    },
+    {
+      "func": "abs(a ** b)",
+      "partner": "x + 1",
+      "distance": 0.5564877380371283,
+      "bidirectional": false
+    },
+    {
+      "func": "abs(m ** n)",
+      "partner": "x + 1",
+      "distance": 0.5564877380371283,
+      "bidirectional": false
+    },
+    {
+      "func": "abs(p ** q)",
+      "partner": "x + 1",
+      "distance": 0.5564877380371283,
+      "bidirectional": false
+    },
+    {
+      "func": "x + 1",
+      "partner": "abs(x ** y)",
+      "distance": 0.5564877391308329,
+      "bidirectional": true
+    }
+  ],
+  "law": "SUSY pairs: 22/236 bidirectional. Breaking energy=0.702 vs random=1.327 (ratio=0.529). Semantic anti-pairs: 0."
+}

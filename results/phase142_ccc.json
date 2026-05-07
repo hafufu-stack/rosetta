@@ -1,0 +1,12 @@
+{
+  "phase": 142,
+  "title": "Conformal Cyclic Cosmology",
+  "old_spread": 0.9762923717498779,
+  "new_spread": 1.0289922952651978,
+  "expansion_ratio": 1.0539796352386475,
+  "nn_preservation": 0.84,
+  "angle_preservation": 0.9988195724241602,
+  "old_compile_error": 0.1053498312830925,
+  "new_compile_error": 0.10952430218458176,
+  "law": "Conformal bounce: 1.1x expansion. Angles preserved at 0.999. NN overlap=84.00%. New Aeon compile error=0.1095."
+}

@@ -1,0 +1,94 @@
+{
+  "phase": 128,
+  "title": "Hawking Radiation",
+  "singularity": "abs(x)",
+  "n_recovered": 0,
+  "total": 10,
+  "recovery_rate_pct": 0.0,
+  "mean_info_retention": 0.0010469507426023484,
+  "mean_radiation_magnitude": 4.634417933857549e-08,
+  "paradox_resolved": false,
+  "details": [
+    {
+      "particle": "a and b",
+      "radiation_magnitude": 4.7526032886935354e-08,
+      "reconstructed_to": "abs(x)",
+      "recovered": false,
+      "info_retention": -0.6509413123130798,
+      "steps_to_horizon": 42
+    },
+    {
+      "particle": "t.swapcase()",
+      "radiation_magnitude": 5.105548339656707e-08,
+      "reconstructed_to": "abs(x)",
+      "recovered": false,
+      "info_retention": 0.5111867785453796,
+      "steps_to_horizon": 40
+    },
+    {
+      "particle": "x * y",
+      "radiation_magnitude": 4.6168686651526514e-08,
+      "reconstructed_to": "abs(x)",
+      "recovered": false,
+      "info_retention": 0.35921788215637207,
+      "steps_to_horizon": 43
+    },
+    {
+      "particle": "p >= q",
+      "radiation_magnitude": 3.838120932186939e-08,
+      "reconstructed_to": "abs(x)",
+      "recovered": false,
+      "info_retention": 0.057977307587862015,
+      "steps_to_horizon": 40
+    },
+    {
+      "particle": "(x - y) + x",
+      "radiation_magnitude": 4.667688813242421e-08,
+      "reconstructed_to": "abs(x)",
+      "recovered": false,
+      "info_retention": 0.4346678853034973,
+      "steps_to_horizon": 42
+    },
+    {
+      "particle": "n - 1",
+      "radiation_magnitude": 4.456721214296522e-08,
+      "reconstructed_to": "abs(x)",
+      "recovered": false,
+      "info_retention": -0.6965082287788391,
+      "steps_to_horizon": 43
+    },
+    {
+      "particle": "a != b",
+      "radiation_magnitude": 4.5377781532351946e-08,
+      "reconstructed_to": "abs(x)",
+      "recovered": false,
+      "info_retention": 0.10596328973770142,
+      "steps_to_horizon": 38
+    },
+    {
+      "particle": "abs(p ** q)",
+      "radiation_magnitude": 4.3072027722246276e-08,
+      "reconstructed_to": "abs(x)",
+      "recovered": false,
+      "info_retention": 0.0916619524359703,
+      "steps_to_horizon": 40
+    },
+    {
+      "particle": "a * b",
+      "radiation_magnitude": 4.6168686651526514e-08,
+      "reconstructed_to": "abs(x)",
+      "recovered": false,
+      "info_retention": 0.35921788215637207,
+      "steps_to_horizon": 43
+    },
+    {
+      "particle": "(a / b) - a",
+      "radiation_magnitude": 5.444778494734237e-08,
+      "reconstructed_to": "abs(x)",
+      "recovered": false,
+      "info_retention": -0.5619739294052124,
+      "steps_to_horizon": 43
+    }
+  ],
+  "law": "Singularity=abs(x). Recovery=0/10 (0%). Info retention=0.001. Paradox unresolved."
+}

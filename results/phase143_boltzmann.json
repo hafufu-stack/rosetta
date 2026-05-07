@@ -1,0 +1,62 @@
+{
+  "phase": 143,
+  "title": "Software Boltzmann Brains",
+  "results": {
+    "scale_0.002": {
+      "scale": 0.002,
+      "n_brains": 0,
+      "n_samples": 10000,
+      "brain_rate": 0.0,
+      "closest_dist": 0.990845828703795,
+      "closest_func": "abs(x // y)",
+      "complexity": 15
+    },
+    "scale_0.01": {
+      "scale": 0.01,
+      "n_brains": 0,
+      "n_samples": 10000,
+      "brain_rate": 0.0,
+      "closest_dist": 0.9561730975725109,
+      "closest_func": "abs(x // y)",
+      "complexity": 15
+    },
+    "scale_0.05": {
+      "scale": 0.05,
+      "n_brains": 0,
+      "n_samples": 10000,
+      "brain_rate": 0.0,
+      "closest_dist": 0.840288551161515,
+      "closest_func": "abs(x // y)",
+      "complexity": 15
+    },
+    "scale_0.1": {
+      "scale": 0.1,
+      "n_brains": 0,
+      "n_samples": 10000,
+      "brain_rate": 0.0,
+      "closest_dist": 0.8654739055177463,
+      "closest_func": "abs(x // y)",
+      "complexity": 15
+    },
+    "scale_0.5": {
+      "scale": 0.5,
+      "n_brains": 0,
+      "n_samples": 10000,
+      "brain_rate": 0.0,
+      "closest_dist": 2.6360978303280693,
+      "closest_func": "x if x < y else",
+      "complexity": 17
+    },
+    "scale_1.0": {
+      "scale": 1.0,
+      "n_brains": 0,
+      "n_samples": 10000,
+      "brain_rate": 0.0,
+      "closest_dist": 5.281027873959218,
+      "closest_func": "x if x < y else",
+      "complexity": 17
+    }
+  },
+  "activation_energy": -0.0,
+  "law": "Boltzmann brain rate at zero-point: 0.0000%. Activation energy=-0.000."
+}
