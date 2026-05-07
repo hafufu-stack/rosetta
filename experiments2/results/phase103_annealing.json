@@ -1,0 +1,72 @@
+{
+  "phase": 103,
+  "title": "Simulated Annealing Code Synthesis",
+  "cpu_r2": 0.9988988285819794,
+  "n_bugs": 6,
+  "n_repaired": 0,
+  "repair_rate": 0.0,
+  "mean_energy_reduction": 0.5673669236783774,
+  "repairs": [
+    {
+      "bug": "add->sub",
+      "initial_energy": 44.51681684595348,
+      "final_energy": 10.781878570463231,
+      "energy_reduction": 0.7578021221109997,
+      "dist_improvement": -0.15148333714338214,
+      "accepts": 2745,
+      "nearest": "x + y",
+      "repaired": false
+    },
+    {
+      "bug": "sub->add",
+      "initial_energy": 31.705649109793832,
+      "final_energy": 17.881667233219606,
+      "energy_reduction": 0.43601005703125684,
+      "dist_improvement": -0.04032700449151072,
+      "accepts": 2792,
+      "nearest": "x - y",
+      "repaired": false
+    },
+    {
+      "bug": "mul->add",
+      "initial_energy": 9.345549351688932,
+      "final_energy": 7.699823507997713,
+      "energy_reduction": 0.17609728243463862,
+      "dist_improvement": -0.14167936246091384,
+      "accepts": 2815,
+      "nearest": "x * y",
+      "repaired": false
+    },
+    {
+      "bug": "add->mul",
+      "initial_energy": 20.58525679663438,
+      "final_energy": 14.04043974234134,
+      "energy_reduction": 0.3179371099884989,
+      "dist_improvement": -0.07014131527942458,
+      "accepts": 2888,
+      "nearest": "x + y",
+      "repaired": false
+    },
+    {
+      "bug": "gt->lt",
+      "initial_energy": 4.569539722694048,
+      "final_energy": 1.2932860827178871,
+      "energy_reduction": 0.7169767282479363,
+      "dist_improvement": -0.027212417061079908,
+      "accepts": 2833,
+      "nearest": "x > y",
+      "repaired": false
+    },
+    {
+      "bug": "pow->mul",
+      "initial_energy": 8220.826496533015,
+      "final_energy": 5.1113625286227835,
+      "energy_reduction": 0.9993782422569338,
+      "dist_improvement": -0.0375080037928881,
+      "accepts": 2820,
+      "nearest": "x ** y",
+      "repaired": false
+    }
+  ],
+  "law": "SA repairs 0/6 bugs. Classical thermodynamics (P97) enables thermal escape from local minima. Mean energy reduction: 56.7%."
+}

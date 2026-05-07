@@ -1,0 +1,21 @@
+{
+  "phase": 102,
+  "title": "The Golden AST Structure",
+  "n_asts": 236,
+  "mean_branching_ratio": 1.2144409937888196,
+  "median_branching_ratio": 1.0,
+  "golden_ratio": 1.618033988749895,
+  "deviation_from_phi": 0.40359299496107526,
+  "fibonacci_rate": 0.0,
+  "mean_total_nodes": 12.40677966101695,
+  "mean_max_depth": 5.4576271186440675,
+  "branching_by_depth": {
+    "0": 1.0,
+    "1": 2.0,
+    "2": 1.2542372881355932,
+    "3": 1.0112994350282485,
+    "4": 1.1384180790960452,
+    "5": 0.4895061728395062
+  },
+  "law": "AST mean branching ratio = 1.214 (phi=1.618, dev=0.404). 0% of ASTs are Fibonacci-like."
+}

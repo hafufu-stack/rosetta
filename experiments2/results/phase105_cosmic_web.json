@@ -1,0 +1,20 @@
+{
+  "phase": 105,
+  "title": "The Cosmic Web of Programs",
+  "n_functions": 236,
+  "mst_edges": 235,
+  "mean_edge": 0.7492585460015904,
+  "leaves": 194,
+  "filaments": 4,
+  "hubs": 38,
+  "diameter": 23,
+  "clustering_coefficient": 0.72346528973035,
+  "hub_programs": [
+    "x + y",
+    "abs(x + y)",
+    "abs(x - y)",
+    "x * y",
+    "abs(x * y)"
+  ],
+  "law": "Cosmic web: 194 leaves (82%), 4 filaments (2%), 38 hubs (16%). Diameter=23. Clustering=0.723."
+}

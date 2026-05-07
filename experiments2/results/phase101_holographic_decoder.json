@@ -1,0 +1,12 @@
+{
+  "phase": 101,
+  "title": "The Holographic Decoder",
+  "r2_full": 0.9988988285819794,
+  "r2_holographic": 0.9982899775125302,
+  "cpu_retention_pct": 99.93904777420617,
+  "nn_acc_full": 0.48148148148148145,
+  "nn_acc_holo": 0.5185185185185185,
+  "classify_retention_pct": 107.6923076923077,
+  "holographic_success": true,
+  "law": "Holographic Decoder: angles-only CPU retains 99.9% of R2 (0.9983 vs 0.9989). The boundary encodes the volume!"
+}
