@@ -1,0 +1,55 @@
+{
+  "phase": 93,
+  "title": "Memetic Singularity Engine (GA + GD)",
+  "cpu_r2": 0.9988988285819794,
+  "n_targets": 7,
+  "n_discovered": 2,
+  "discovery_rate": 0.2857142857142857,
+  "p89_rate": 0.0,
+  "p91_rate": 0.143,
+  "targets": [
+    {
+      "target": "x+y",
+      "discovered": "abs(x // y)",
+      "accuracy": 0.0,
+      "final_fitness": -0.08330580832940133
+    },
+    {
+      "target": "x-y",
+      "discovered": "x - y",
+      "accuracy": 1.0,
+      "final_fitness": -5.995946030416745
+    },
+    {
+      "target": "x*y",
+      "discovered": "x * y",
+      "accuracy": 1.0,
+      "final_fitness": -0.18311058817722248
+    },
+    {
+      "target": "max(x,y)",
+      "discovered": "x if x >= 0 else 0",
+      "accuracy": 0.6,
+      "final_fitness": -0.014611520765668112
+    },
+    {
+      "target": "abs(x-y)",
+      "discovered": "not x",
+      "accuracy": 0.2,
+      "final_fitness": -1.7029687665357898
+    },
+    {
+      "target": "x//y",
+      "discovered": "x if x >= 0 else 0",
+      "accuracy": 0.2,
+      "final_fitness": -0.01360383983163419
+    },
+    {
+      "target": "x%y",
+      "discovered": "(x / y) + x",
+      "accuracy": 0.0,
+      "final_fitness": -0.07072837626502368
+    }
+  ],
+  "law": "Memetic (GA+GD) discovers 2/7 vs GA-only 1/7. Lamarckian evolution in latent space."
+}

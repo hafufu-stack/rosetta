@@ -1,0 +1,91 @@
+{
+  "phase": 94,
+  "title": "Dual-Space Navigation (5D Warp + 64D Landing)",
+  "cpu_r2": 0.9988988285819794,
+  "n_bugs": 7,
+  "n_repaired": 0,
+  "repair_rate": 0.0,
+  "mean_improvement": 0.07361946787152972,
+  "p88_rate": 0.0,
+  "p92_rate": 0.0,
+  "repairs": [
+    {
+      "bug": "add->sub",
+      "initial_dist": 1.8814889192581177,
+      "after_warp_dist": 1.8005141019821167,
+      "final_dist": 1.7911666631698608,
+      "improvement": 0.048005759716033936,
+      "initial_energy": 22.629148654912854,
+      "final_energy": 21.083667385279586,
+      "nearest": "x + 1",
+      "repaired": false
+    },
+    {
+      "bug": "sub->add",
+      "initial_dist": 1.8814889192581177,
+      "after_warp_dist": 1.9116582870483398,
+      "final_dist": 1.8988550901412964,
+      "improvement": -0.00923001766204834,
+      "initial_energy": 27.104230840567215,
+      "final_energy": 23.869052758805136,
+      "nearest": "x / y",
+      "repaired": false
+    },
+    {
+      "bug": "mul->add",
+      "initial_dist": 1.3214665651321411,
+      "after_warp_dist": 1.3214665651321411,
+      "final_dist": 1.3168957233428955,
+      "improvement": 0.0034589171409606934,
+      "initial_energy": 9.345549351688932,
+      "final_energy": 8.21507495156833,
+      "nearest": "x * y",
+      "repaired": false
+    },
+    {
+      "bug": "add->mul",
+      "initial_dist": 1.3214665651321411,
+      "after_warp_dist": 1.3214665651321411,
+      "final_dist": 1.328305959701538,
+      "improvement": -0.005175590515136719,
+      "initial_energy": 20.58525679663438,
+      "final_energy": 19.209668780553688,
+      "nearest": "x + y",
+      "repaired": false
+    },
+    {
+      "bug": "gt->lt",
+      "initial_dist": 1.8149648904800415,
+      "after_warp_dist": 1.5158007144927979,
+      "final_dist": 1.5116673707962036,
+      "improvement": 0.16710931062698364,
+      "initial_energy": 2.0625245404310566,
+      "final_energy": 1.8785323663407614,
+      "nearest": "x - y",
+      "repaired": false
+    },
+    {
+      "bug": "pow->mul",
+      "initial_dist": 1.31984543800354,
+      "after_warp_dist": 0.9143909215927124,
+      "final_dist": 0.9158605933189392,
+      "improvement": 0.3060849905014038,
+      "initial_energy": 42.81324161113811,
+      "final_energy": 34.47419663832375,
+      "nearest": "x % y",
+      "repaired": false
+    },
+    {
+      "bug": "div->mod",
+      "initial_dist": 1.286210298538208,
+      "after_warp_dist": 1.2855007648468018,
+      "final_dist": 1.279672622680664,
+      "improvement": 0.005082905292510986,
+      "initial_energy": 2.7878556528608667,
+      "final_energy": 2.640390869821314,
+      "nearest": "x >= y",
+      "repaired": false
+    }
+  ],
+  "law": "Dual-space navigation: 5D semantic warp + 64D computational landing repairs 0/7 bugs."
+}

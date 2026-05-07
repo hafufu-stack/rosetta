@@ -1,0 +1,35 @@
+{
+  "phase": 96,
+  "title": "The Rosetta Constants",
+  "constants": {
+    "alpha_mass": {
+      "value": 1.0,
+      "cv": 6.010764508346256e-08,
+      "description": "AST/Bytecode mass ratio"
+    },
+    "theta_duality": {
+      "value": 26.48775291442871,
+      "std": 4.711753845214844,
+      "description": "AST-Bytecode duality angle (degrees)"
+    },
+    "rho_packing": {
+      "value": 0.8550615310668945,
+      "description": "Packing fraction of program hypersphere"
+    },
+    "lambda_spectral": {
+      "value": 0.28329282999038696,
+      "description": "PC1 dominance ratio"
+    },
+    "phi_golden": {
+      "value": 1.621238350868225,
+      "gap_position": 10,
+      "deviation": 0.003204362118330195,
+      "description": "Nearest eigenvalue ratio to golden ratio"
+    },
+    "F_fisher": {
+      "value": 1.6510579586029053,
+      "description": "Fisher separability of operation types"
+    }
+  },
+  "law": "Six universal constants of the software universe: alpha_mass=1.000, theta_duality=26.5 deg, rho_packing=0.855, lambda_spectral=0.283, phi_golden=1.621, F_fisher=1.651"
+}
